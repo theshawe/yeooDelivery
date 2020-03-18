@@ -1,0 +1,10 @@
+# Site settings
+title: Yeooo Delivery
+shortTitle: yeooo
+description: Find out where you can order and get deliveries in and around Northern Ireland
+url:
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css

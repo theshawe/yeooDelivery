@@ -1,0 +1,209 @@
+html,
+body {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+
+
+.bg-dark {
+  background-color: #01194a !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(245, 248, 252);
+  font-family: ibm-plex-sans, sans-serif;
+}
+
+.maxWidth {
+  max-width: 1666px;
+}
+
+.nav-item {
+  font-size: 22px;
+}
+
+.homeLogo {
+  padding-top: 125px;
+}
+
+.homeLogo img {
+  padding-bottom: 25px;
+  width: 200px;
+}
+
+.yeoLogo h1 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #af1594;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    font-size: 160px;
+    letter-spacing: 16px;
+}
+
+.yeoLogo h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #131003;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+  font-size: 61px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-left: 4px;
+}
+
+.yeoLogo p {
+  font-family: ibm-plex-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.featuredHomeImg {
+  height: 100%;
+  width: auto;
+  background-image: url(../images/ha-leslie-team-belfast.png);
+  opacity: 0.5;
+  margin-right: -15px; // Remove right gap
+  margin-left: -15px; // Remove left gap
+  padding-bottom: 62.5%; // ratio is 16:10
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeFeaturedText p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 1em;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  max-width: 85%;
+  text-align: left;
+  color: black;
+}
+
+.homeFeaturedText a {
+  font-size: 50px;
+  padding: 10px 35px;
+  margin: 0px 35px 0px 0px;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.policiesFeaturedText p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 85%;
+  text-align: left;
+  color: black;
+}
+
+.shortNav {
+  height: 100vh;
+}
+
+.shortNav a {
+  margin-top: 0.5em;
+}
+
+.text-muted {
+  color: #ab972a !important;
+}
+
+div#policies {
+  padding-top: 100px !important;
+}
+
+a.btn.btn-primary {
+    margin: .5em 1em;
+}
+
+button.btn.btn-primary {
+  margin: .5em 1em;
+}
+
+/* Submit */
+.btn-submit {
+  font-size: 60px;
+}
+
+
+/* Airtable */
+
+iframe.airtable-embed {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100%;
+}
+
+h1.formName {
+    display: none !important;
+}
+
+
+/* Jumbotron */
+.jumbotron{
+margin: 100px 20px 100px 20px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)), url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white !important;
+    height: auto;
+}
+
+.page-scroll{
+  height:200px;
+}
+
+.btn-outline-danger{
+  color:white;
+  border-color:white;
+  border-radius:0px;
+  font-weight:100;
+  margin-top:20px;
+}
+.lead{
+  font-family:raleway;
+  font-weight:100;
+  margin-top:-10px;
+}
+
+.yeoIntro p {
+  font-size: 1.5em;
+}
+
+button.btn.btn-primary.btn-light {
+    font-size: 2em;
+}
+
+/* buy me a coffee */
+
+.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#000000 !important;background-color:#FFFFFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 20px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Arial', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#000000 !important;}
+
+
+
+/* footer */
+
+.bg-footer {
+    bottom: 0;
+    background-color: #dfe8f9 !important;
+}
