@@ -8,16 +8,35 @@
           </div>
         <div class="card-body">
           <h5 class="card-title">{{ service.name }}</h5>
+            
+{% if service.delivery contains "✅" %}
+               <h5 style="color:#00b400; font-size: 1.25em;" class="card-title">{{ service.delivery }}</h5>
+{% elsif service.delivery  contains "📮" %}
+  <h5 style="color:#E63541; font-size: 1.25em;" class="card-title">{{ service.delivery }}</h5>
+{% endif %}
 
           <p class="card-text">
-              <small class="text-muted"></small>
-             <strong>{{ site.cuisine }}</strong><br />
-              <a href="{{ site.website }}">{{ service.website }}</a> <br />
-              <strong>{{ service.location }}</strong>
-            </small>
-            <p> {{ service.phoneNumber }} </p>
+             <strong class="text-muted">{{ service.cuisine }}</strong>
+            <p>📱 {{ service.phoneNumber }} </p>
+
+            	<a class="mt-5" style="font-size: 1.2em;" target="_blank" href="{{ service.website }}">
+{% if service.website contains "facebook" %}
+
+			🔗 Facebook
+{% else  %}
+
+	🔗 Website
+
+{% endif %}
+		</a> 
           </p>
         </div>
+
+<div class="card-footer text-muted">
+
+         <strong>📍 {{ service.location }}</strong>
+  </div>
+
       </div>
 </li>
 {% endfor %}
