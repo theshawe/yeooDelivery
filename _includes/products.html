@@ -1,28 +1,28 @@
-<div class="card-deck">
+<ul class="card-deck">
 
 {% for service in site.data.deliveryServices %}
-
+<li class="list-group-item border-0">
       <div class="card">
           <div class="hovereffect">
         <img src="{{ service.mainPicture}}" class="card-img-top" alt="{{ service.name }}" />
           </div>
         <div class="card-body">
-          <h5 class="card-title">{{ service.location }}</h5>
+          <h5 class="card-title">{{ service.name }}</h5>
 
           <p class="card-text">
               <small class="text-muted"></small>
              <strong>{{ site.cuisine }}</strong><br />
               <a href="{{ site.website }}">{{ service.website }}</a> <br />
-              <strong>{{ service.phoneNumber }}</strong>
+              <strong>{{ service.location }}</strong>
             </small>
             <p> {{ service.phoneNumber }} </p>
           </p>
         </div>
       </div>
-
+</li>
 {% endfor %}
          
 
-    </div>
+    </ul>
 
 
