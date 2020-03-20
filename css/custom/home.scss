@@ -187,18 +187,32 @@ button.btn.btn-primary {
 
 /* Submit */
 .btn-submit {
-  font-size: 60px;
-      padding: 1em;
-    background: #46a064;
-    border: 20px solid #2fe866d1;
+    text-transform: uppercase;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+    box-shadow: 12px 9px 22px #9600a9;
+    text-shadow: 2px 2px 2px #591a8a;
+    text-align: left;
+    padding-left: 35px;
+    font-size: 2em;
+    letter-spacing: 8px;
+    color: #6024bb;
+
+    padding: 1em;
+    background: #1eda5db8;
+    border: none;
     border-radius: 0px;
     color: #fff;
-    font-size: 2em;
-    font-style: italic;
-    margin-bottom: 80px;
-    width: 80%;
+    width: 100%
 }
 
+
+.btn-submit:hover {
+    background: #28f51ad1;
+    color: #fff;
+    text-shadow: none;
+}
 
 /* Airtable */
 
@@ -264,19 +278,6 @@ button.btn.btn-primary.btn-light {
     max-width: 100%;
     }
 
-.btn-submit {
-font-size: 60px;
-    padding: 1em;
-    background: #1eda5db8;
-    border: none;
-    border-radius: 0px;
-    color: #fff;
-    font-size: 2em;
-    font-style: italic;
-    margin-bottom: 80px;
-    width: 80%;
-    margin-bottom: 50px !important;
-}    
 
 
 /* footer */
@@ -284,4 +285,28 @@ font-size: 60px;
 .bg-footer {
     bottom: 0;
     background-color: #dfe8f9 !important;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+.yeoLogo h1 {
+      font-size: 72px;
+}
+
+.yeoLogo h2 {
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.btn-submit {
+    font-size: 17px;
+    line-height: 6em;
+}
+
+.btnSubmit i {
+    padding-right: 8px;
+}
+
 }
