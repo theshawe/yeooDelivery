@@ -35,20 +35,19 @@ body {
 }
 
 .yeoLogo {
-    padding-bottom: 50px;
-    margin-top: 0px;
+margin-top: 0px;
     background-repeat: no-repeat;
     margin: 0 !important;
     font-style: italic;
     color: white;
     padding: 1em;
-    background: #6e54a0c9;
+    background: #643e82cf;
     padding-bottom: 70px;
-    box-shadow: 32px 25px 2px #2bb93d9c;
-
-     -webkit-animation:spin .5s linear ;
-    -moz-animation:spin .5s linear ;
-    animation:spin .5s linear ;
+    -webkit-animation: spin 0.5s linear;
+    -moz-animation: spin 0.5s linear;
+    animation: spin 0.5s linear;
+    border-left: 90px solid #3621758c;
+    padding-left: 42px;
 
 
 }
@@ -65,31 +64,27 @@ font-family: futura-pt, sans-serif;
     padding: 0;
     margin: 0;
     font-size: 160px;
-    letter-spacing: 16px;
-    color: #c52be0;
+    letter-spacing: -12px;
+    color: #45a5d4cf;
     font-weight: 600;
     text-shadow: 2px 2px 2px #160f7dad;
-
-
-
+    text-align: left;
 
 }
 
 .yeoLogo h2 {
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-
-  line-height: 1em;
-  padding: 0;
-  margin: 0;
-
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  padding-left: 4px;
-
-      font-size: 50px;
-    color: #19fff6;
+   font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 0em;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 44px;
+    font-size: 50px;
+    color: #092a8cc9;
+    text-align: left;
 }
 
 .yeoLogo p {
@@ -109,11 +104,13 @@ font-size: 1.5em;
 
 .introText {
 
-  margin-top: 50px;
-    font-style: italic;
-    color: white;
-    padding: 1em;
-    background: #532aa2c9;
+font-style: italic;
+    color: #fff;
+    background: #ac50b7c4;
+    font-size: 2.22em;
+    padding: 1em 0em 1em 0em;
+    text-align: left;
+    border-left: 90px solid #21468891;
 
 }
 
@@ -191,6 +188,15 @@ button.btn.btn-primary {
 /* Submit */
 .btn-submit {
   font-size: 60px;
+      padding: 1em;
+    background: #46a064;
+    border: 20px solid #2fe866d1;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 80px;
+    width: 80%;
 }
 
 
@@ -238,7 +244,12 @@ margin: 100px 20px 100px 20px;
 }
 
 .yeoIntro p {
-  font-size: 1.5em;
+    font-size: 2.2em;
+    background: #1631af;
+    box-shadow: -18px 10px 2px #240c4a;
+    border-left: 90px solid #3752d8b0;
+    text-align: left;
+    padding-left: 31px !important;
 }
 
 button.btn.btn-primary.btn-light {
@@ -254,7 +265,17 @@ button.btn.btn-primary.btn-light {
     }
 
 .btn-submit {
-  margin-bottom: 80px;
+font-size: 60px;
+    padding: 1em;
+    background: #1eda5db8;
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 80px;
+    width: 80%;
+    margin-bottom: 50px !important;
 }    
 
 
