@@ -39,7 +39,24 @@ body {
     margin-top: 0px;
     background-repeat: no-repeat;
     margin: 0 !important;
+    font-style: italic;
+    color: white;
+    padding: 1em;
+    background: #6e54a0c9;
+    padding-bottom: 70px;
+    box-shadow: 32px 25px 2px #2bb93d9c;
+
+     -webkit-animation:spin .5s linear ;
+    -moz-animation:spin .5s linear ;
+    animation:spin .5s linear ;
+
+
 }
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .yeoLogo h1 {
 font-family: futura-pt, sans-serif;
@@ -49,9 +66,11 @@ font-family: futura-pt, sans-serif;
     margin: 0;
     font-size: 160px;
     letter-spacing: 16px;
-    color: #ff3098;
+    color: #c52be0;
     font-weight: 600;
     text-shadow: 2px 2px 2px #160f7dad;
+
+
 
 
 }
@@ -75,9 +94,27 @@ font-family: futura-pt, sans-serif;
 
 .yeoLogo p {
   font-family: ibm-plex-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
+font-size: 1.5em;
+    background: #1d9c62e3;
+    margin-left: -55px !important;
+    border: 18px solid #247077f2;
+    margin-top: 0 !important;
+    border-left: 0;
+    text-transform: uppercase;
+    font-style: normal !important;
+    box-shadow: 12px 12px 2px #550b63;
+    border-radius: 0;
+    border-right: 200px solid #47d07e52;
+}
+
+.introText {
+
+  margin-top: 50px;
+    font-style: italic;
+    color: white;
+    padding: 1em;
+    background: #532aa2c9;
+
 }
 
 .featuredHomeImg {

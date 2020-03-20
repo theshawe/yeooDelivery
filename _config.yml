@@ -4,12 +4,6 @@ shortTitle: yeooo
 description: Find out where you can order and get deliveries in and around Northern Ireland
 url:
 
-airtable_data:
-  api_key: [keyfpRrp5betNVKW9] # Airtable API key available in the API documentation for your base
-  app_id: [appkcC4ha4tlxX2z5] # Airtable app ID found in the API documentation for your base
-  tables:
-    - [FOOD TABLE]
-    - [HYGINE TABLE]
 
 # Build settings
 permalink: :title/
