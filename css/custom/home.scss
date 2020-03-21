@@ -291,6 +291,11 @@ button.btn.btn-primary.btn-light {
 
 @media screen and (max-width: 600px) {
 
+.yeoLogo {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
 .yeoLogo h1 {
       font-size: 72px;
 }
@@ -298,6 +303,10 @@ button.btn.btn-primary.btn-light {
 .yeoLogo h2 {
     font-size: 21px;
     letter-spacing: 1px;
+}
+
+.introText {
+  font-size:2em;
 }
 
 .btn-submit {
