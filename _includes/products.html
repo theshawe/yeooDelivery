@@ -1,10 +1,10 @@
-<ul class="card-deck">
+<ul class="card-deck p-0 m-0 px-5">
 
 {% for service in site.data.deliveryServices %}
-<li class="list-group-item border-0">
-      <div class="card">
+<li class="list-group-item border-0 p-0 m-0 py-5 ">
+      <div class="card p-0 m-0 ">
           <div class="hovereffect">
-        <img src="{{ service.mainPicture}}" class="card-img-top" alt="{{ service.name }}" />
+        <img src="{{ service.mainPicture}}" class="card-img-top p-0 m-0" alt="{{ service.name }}" />
           </div>
         <div class="card-body">
           <h5 class="card-title">{{ service.name }}</h5>
