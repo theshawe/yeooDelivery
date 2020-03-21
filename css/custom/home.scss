@@ -43,9 +43,13 @@ margin-top: 0px;
     padding: 1em;
     background: #643e82cf;
     padding-bottom: 70px;
+    
+/*    
     -webkit-animation: spin 0.5s linear;
     -moz-animation: spin 0.5s linear;
-    animation: spin 0.5s linear;
+    animation: spin 0.5s linear;  
+*/
+    
     border-left: 90px solid #3621758c;
     padding-left: 42px;
 
@@ -278,7 +282,20 @@ button.btn.btn-primary.btn-light {
     max-width: 100%;
     }
 
+/* nav switch */
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #9c57b1eb;
+}
+
+a.nav-item.nav-link {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
 
 /* footer */
 
