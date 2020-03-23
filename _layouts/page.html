@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+
+{%include introPage.html %}
+{%include switch.html %}
+
+
+
+<div class="container-fluid p-0 m-0">
+<div class="parallax featuredHeader text-center" style="background-image: url('{{ page.cover }}'); height: 30vh">
+<div class="bgGradient">
+<div class="container-fluid">
+<h2 style="height: 30vh; height: 30vh;padding-top: 13vh !important;font-size: 50px;color: #73115e;" class="page-head-title p-5 text-center">{{ page.name }}</h2>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<section class="container p-5">
+
+<div class="row">
+
+<div class="col pt-5 mt-5">	
+<img src="{{ page.mainPicture}}" class="card-img-top p-0 m-0" alt="{{ page.name }}" />
+</div>
+
+<div class="col text-center p-5 m-5">
+<h1 class=" {{ page.class | downcase }}">{{ page.name }}</h1>
+<h2 class=" {{ page.class | downcase }}">{{ page.cuisine }}</h2>
+<p class=" {{ page.class | downcase }}">{{ page.location }}</p>
+<p class=" {{ page.class | downcase }}">{{ page.phoneNumber }}</p>
+<a href="{{ page.website }}" class="{{ page.family | downcase }}">{{ page.website }}</a>
+<a style="background: #f7f7f7;color: #47d953bd;border: solid #47d9531f;text-transform: uppercase;font-size: 1.85em;letter-spacing: 3px;font-weight: 900;" href="{{ page.website | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100" role="button" aria-pressed="true">Visit Website</a>
+</div>
+
+</div>	
+
+<div class="row">
+<div class="col">
+
+</div>
+</div>
+
+</section>
+
+</div>
+
+
+
+{{ content }}
+  
+
+{%include footer.html %}
+
+{%include submissionForm.html %}
+
+
+</body>
+
+{% include scripts.html %}
+
+</html>

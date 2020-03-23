@@ -9,3 +9,13 @@ url:
 permalink: :title/
 sass:
   sass_dir: css
+
+plugins:
+  - pagemaster
+
+collections:
+  services:
+    output: true
+    source: deliveryServices.csv
+    id_key: name
+    layout: page

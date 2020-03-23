@@ -34,6 +34,14 @@ body {
   width: 200px;
 }
 
+.yeoLogo a:hover {
+  text-decoration: none;
+}
+
+.yeoLogoTwo a:hover {
+  text-decoration: none;
+}
+
 .yeoLogo {
 margin-top: 0px;
     background-repeat: no-repeat;
@@ -354,6 +362,26 @@ a.nav-item.nav-link {
 }
 
 
+.introPage .introTextTwo {
+    font-style: italic;
+    color: #fff;
+    background: #92289ec4;
+    font-size: 1em;
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+    box-shadow: none !important;
+    margin-top: 40px !important;
+}
+
+.introPage .browseText {
+    font-size: 1em;
+    background: #b962bddb;
+    text-align: center;
+    box-shadow: none;
+    border: none;
+}
+
+
 }
 
 
@@ -383,3 +411,100 @@ a.nav-item.nav-link {
     margin: 5px 1% !important;
   }
 }
+
+.bgGradient {
+    background: rgb(40, 185, 175);
+    /* background: linear-gradient(135deg, rgba(65, 44, 208, 0.2), rgba(196, 83, 122, 0.23) 50%, rgba(208, 148, 85, 0.38)); */
+    background: linear-gradient(135deg,rgba(236, 236, 236, 0.84),rgba(255, 255, 255, 0.59) 50%,rgba(240, 238, 249, 0.38));
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* height: 55vh; */
+}
+
+
+.parallax {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* height: 55vh; */
+}
+
+
+
+.introPage .yeoLogoTwo {
+      background-repeat: no-repeat;
+    margin: 0 !important;
+    font-style: italic;
+    color: white;
+    background: #ef19be7d;
+    padding-left: 0px;
+    height: 100%;
+    min-height: 200px;
+}
+
+.introPage .yeoLogoTwo h1 {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    line-height: 1.2455em;
+    padding: 0;
+    margin: 0;
+    font-size: 109px;
+    letter-spacing: -3px;
+    color: #9dcae0cf;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #4b0792ad;
+    text-align: center;
+    margin-left: -62px;
+    box-shadow: none !important;
+}
+
+.introPage .yeoLogoTwo h2 {
+   font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 0em;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 44px;
+    font-size: 50px;
+    color: #092a8cc9;
+    text-align: center;
+
+}
+
+.introPage .introTextTwo {
+    font-style: italic;
+    color: #fff;
+    background: #92289ec4;
+    font-size: 2em;
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+    box-shadow: none !important;
+}
+
+.introPage .browseText {
+    font-size: 2.2em;
+    background: #b962bddb;
+    text-align: center;
+    box-shadow: none;
+    border: none;
+}
+
+

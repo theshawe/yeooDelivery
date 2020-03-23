@@ -1,13 +1,11 @@
 <nav class="nav nav-pills nav-fill">
 
-
 {% if page.type == "delivery" %}
-    <a class="nav-item nav-link active" href="/delivery">Delivery ✅</a>
-  <a class="nav-item nav-link disabled" href="/Collection">Collection Only 📮</a>
+<a class="nav-item nav-link active" href="/delivery">Delivery ✅</a>
+<a class="nav-item nav-link disabled" href="/Collection">Collection Only 📮</a>
 {% elsif page.type == "collection" %}
-    <a class="nav-item nav-link disabled" href="/delivery">Delivery ✅</a>
-  <a class="nav-item nav-link active" href="/Collection">Collection Only 📮</a>
+<a class="nav-item nav-link disabled" href="/delivery">Delivery ✅</a>
+<a class="nav-item nav-link active" href="/Collection">Collection Only 📮</a>
 {% endif %}
-
 
 </nav>
