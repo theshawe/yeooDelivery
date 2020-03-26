@@ -5,7 +5,13 @@
 <div class="card p-0 m-0 ">
 
 <div class="card-header">
-<a class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
+
+    <div style="display: flex; justify-content: space-between;">
+        <a style="text-align: left;margin-left: -18px; color: #96433fba; font-weight: 100; letter-spacing: 2px; text-transform: lowercase;" class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
+        <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}">    <strong> {{ service.emoji }}</strong></a>
+    </div>
+
+
 </div>
 
 <div class="hovereffect">

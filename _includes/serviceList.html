@@ -1,15 +1,35 @@
-<div id="parallax" class="pt-5 mt-5 pb-5 mb-5">
-
-
-<div id="experience" class="parallax-two pb-5 mb-5">
-
+<div id="parallax" class="p-0 m-0">
+<div id="experience" class="parallax-two pb-0 mb-0">
 {% if page.type == "delivery" %}
-<h2>Delivery  ✅ Services</h2>
+<h2>Delivery Services 🚚</h2>
 {% elsif page.type == "collection" %}
-<h2>Collection Only 📮 Services</h2>
+<h2>Collection Services 📮</h2>
+{% elsif page.type == "fruit-and-veg" %}
+<h2>FRUIT AND VEG 🥦</h2>
+{% elsif page.type == "butchers" %}
+<h2>BUTCHERS 🐮</h2>
+{% elsif page.type == "farm-shop" %}
+<h2>FARM SHOP 🧺</h2>
+{% elsif page.type == "pre-made-meals" %}
+<h2>PRE MADE MEALS 🍴</h2>
+{% elsif page.type == "milk" %}
+<h2>MILK 🥛</h2>
+{% elsif page.type == "bakery" %}
+<h2>BAKERY 🍞</h2>
+{% elsif page.type == "fish" %}
+<h2>FISH 🍣</h2>
+{% elsif page.type == "potatos" %}
+<h2>POTATOS 🥔</h2>
+{% elsif page.type == "bread" %}
+<h2>BREAD 🍞</h2>
+{% elsif page.type == "pharmacy" %}
+<h2>PHARMACY 🚛</h2>
+{% elsif page.type == "coffee" %}
+<h2>COFFEE ☕</h2>
+{% elsif page.type == "booze" %}
+<h2>BOOZE 🍺</h2>
 {% endif %}
 
-<h3>We're currently building a list and confirming our sources, view a service or submit an entry above</h3>
 
 </div>
 
@@ -19,5 +39,29 @@
 {%include deliveryServices.html %}
 {% elsif page.type == "collection" %}
 {%include collectionServices.html %}
+{% elsif page.type == "fruit-and-veg" %}
+{%include fruitAndVegServices.html %}
+{% elsif page.type == "butchers" %}
+{%include butcherServices.html %}
+{% elsif page.type == "farm-shop" %}
+{%include farmShopServices.html %}
+{% elsif page.type == "pre-made-meals" %}
+{%include preMadeMealServices.html %}
+{% elsif page.type == "milk" %}
+{%include milkServices.html %}
+{% elsif page.type == "bakery" %}
+{%include bakeryServices.html %}
+{% elsif page.type == "fish" %}
+{%include fishServices.html %}
+{% elsif page.type == "potatos" %}
+{%include potatoServices.html %}
+{% elsif page.type == "bread" %}
+{%include breadServices.html %}
+{% elsif page.type == "pharmacy" %}
+{%include pharmacyServices.html %}
+{% elsif page.type == "coffee" %}
+{%include coffeeServices.html %}
+{% elsif page.type == "booze" %}
+{%include boozeServices.html %}
 {% endif %}
 </div>

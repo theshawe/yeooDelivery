@@ -1,0 +1,40 @@
+<ul class="card-deck p-0 m-0 px-3">
+    {% for service in site.data.deliveryServices %}
+    {% if service.cuisine contains "🧺" %}
+    <li class="list-group-item border-0 p-0 m-0 py-5 ">
+    <div class="card p-0 m-0 ">
+    
+        <div style="display: flex; justify-content: space-between;">
+            <a style="text-align: left;margin-left: -18px; color: #96433fba; font-weight: 100; letter-spacing: 2px; text-transform: lowercase;" class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
+            <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}">    <strong> {{ service.emoji }}</strong></a>
+        </div>
+    
+    <div class="hovereffect">
+    <img src="{{ service.mainPicture }}" class="card-img-top p-0 m-0" alt="{{ service.name }}" />
+    </div>
+    
+    <div class="card-body">
+    <a style="background: #e6e6e652;color: #202716bd;border: none;text-transform: uppercase;font-size: 1em;letter-spacing: 5px;font-weight: 400;box-shadow: none;margin-left: -4px !important; white-space: normal;" href="/services/{{ service.name | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100 m-0" role="button" aria-pressed="true">{{ service.name }} </a>
+    </div>
+    
+    <div class="card-footer text-muted">
+    <div class="d-flex bd-highlight">
+    <a style="background: #f7f7f7;color: #47d953bd;border: solid #47d9531f;text-transform: uppercase;font-size: 1em;letter-spacing: 3px;font-weight: 900; white-space: normal;" href="/services/{{ service.name | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100" role="button" aria-pressed="true">{{ service.delivery }}</a>
+    </div>
+    
+    
+    <div class="d-flex bd-highlight">
+    <a style="text-transform: uppercase;font-size: 2em;background: #46cb7f;border: 2px solid #7fa57db0;box-shadow: 2px 2px #34900fc9;" href="/services/{{ service.name | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100" role="button" aria-pressed="true">More Info</a>
+    </div>
+    
+    
+    </div>
+    
+    </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    
+    
+    

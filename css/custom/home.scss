@@ -51,17 +51,6 @@ margin-top: 0px;
     padding: 1em;
     background: #643e82cf;
     padding-bottom: 70px;
-    
-/*    
-    -webkit-animation: spin 0.5s linear;
-    -moz-animation: spin 0.5s linear;
-    animation: spin 0.5s linear;  
-*/
-    
-    border-left: 90px solid #3621758c;
-    padding-left: 42px;
-
-
 }
 
 
@@ -80,7 +69,7 @@ font-family: futura-pt, sans-serif;
     color: #45a5d4cf;
     font-weight: 600;
     text-shadow: 2px 2px 2px #160f7dad;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -96,7 +85,7 @@ font-family: futura-pt, sans-serif;
     padding-left: 44px;
     font-size: 50px;
     color: #092a8cc9;
-    text-align: left;
+    text-align: center;
 }
 
 .yeoLogo p {
@@ -121,9 +110,7 @@ font-style: italic;
     background: #ac50b7c4;
     font-size: 2.22em;
     padding: 1em 0em 1em 0em;
-    text-align: left;
-    border-left: 90px solid #21468891;
-
+    text-align: center;
 }
 
 .featuredHomeImg {
@@ -273,9 +260,7 @@ margin: 100px 20px 100px 20px;
     font-size: 2.2em;
     background: #1631af;
     box-shadow: -18px 10px 2px #240c4a;
-    border-left: 90px solid #3752d8b0;
-    text-align: left;
-    padding-left: 31px !important;
+    text-align: center;
 }
 
 button.btn.btn-primary.btn-light {
@@ -292,17 +277,39 @@ button.btn.btn-primary.btn-light {
 
 /* nav switch */
 
+.nav {
+  background: #a954d28f;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: #9c57b1eb;
+    background-color: #591f7db3;
+    border-radius: 0px;
 }
 
 a.nav-item.nav-link {
     font-size: 2em;
     text-transform: uppercase;
-    font-style: italic;
     font-weight: 900;
     letter-spacing: 5px;
+    border-radius: 0px;
+}
+
+a.nav-item.nav-link.disabled {
+  background: #246698a8;
+  color: #fff;
+}
+
+/* areaSwitch */
+
+a.nav-item.nav-link.cuisine {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 2em 0em;
 }
 
 /* footer */
@@ -430,6 +437,11 @@ a.nav-item.nav-link {
     /* height: 55vh; */
 }
 
+#experience {
+  padding-top: 2.5%;
+  padding-bottom: 2.5% !important;
+  margin-top: 2.5%;
+}
 
 .parallax {
     overflow: hidden;
@@ -444,7 +456,12 @@ a.nav-item.nav-link {
     /* height: 55vh; */
 }
 
-
+#parallax h2 {
+  padding-bottom: 0em !important;
+}
+#parallax .parallax-two {
+  background: #ccc6e430;
+}
 
 .introPage .yeoLogoTwo {
       background-repeat: no-repeat;
