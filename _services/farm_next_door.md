@@ -5,6 +5,7 @@ name: Farm Next Door
 location: Northern Ireland
 cuisine: Farm Shop
 website: https://farmnextdoor.uk/
+mainPicture: https://farmnextdoor.uk/media/logo-colour.svg
 delivery: Delivery ✅
 permalink: "/services/farm_next_door.html"
 layout: page
