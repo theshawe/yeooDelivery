@@ -1,7 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
-  <body>
-    {{ content }}
-  </body>
-</html>
+
+<!-- Create Variables the today and the blog post date -->
+
+
+{% assign today_date = 'now' | date: '%B %d, %Y' %}
+{% assign post_date = page.date | date: '%B %d, %Y' %}
+
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  
+  {% if today_date >= post_date %}
+  
+  <!-- If today's date is greater than or equal
+  to the blog post date, show the article -->
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.lead }}</p>
+  </header>
+  
+  {{ content }}
+  
+  {% else %}
+  
+  <!-- else, show coming soon -->
+  
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="lead">
+      This article will be published on {{ page.date | date: '%F' }}.
+      Please check back then to read it.
+    </p>
+  </header>
+  
+  {%- endif -%}
+  
+</article>

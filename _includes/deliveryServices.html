@@ -2,7 +2,7 @@
 {% for service in site.data.deliveryServices %}
 {% if service.delivery  contains "✅" %}
 <li class="list-group-item border-0 p-0 m-0 py-5 ">
-<div class="card p-0 m-0 ">
+<div class="card p-0 m-0">
 
 <div class="card-header">
 
@@ -15,7 +15,7 @@
 </div>
 
 <div class="hovereffect">
-<img src="{{ service.mainPicture }}" class="card-img-top p-0 m-0" alt="{{ service.name }}" />
+<img src="/images/pink.png" data-echo="{{ service.mainPicture }}" class="card-img-top p-0 m-0" alt="{{ service.name }}" />
 </div>
 
 <div class="card-body">

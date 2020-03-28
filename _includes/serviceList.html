@@ -8,6 +8,8 @@
 <h2>FRUIT AND VEG 🥦</h2>
 {% elsif page.type == "butchers" %}
 <h2>BUTCHERS 🐮</h2>
+{% elsif page.type == "groceries" %}
+<h2>GROCERIES 🥫</h2>
 {% elsif page.type == "farm-shop" %}
 <h2>FARM SHOP 🧺</h2>
 {% elsif page.type == "pre-made-meals" %}
@@ -45,6 +47,8 @@
 {%include butcherServices.html %}
 {% elsif page.type == "farm-shop" %}
 {%include farmShopServices.html %}
+{% elsif page.type == "groceries" %}
+{%include groceryServices.html %}
 {% elsif page.type == "pre-made-meals" %}
 {%include preMadeMealServices.html %}
 {% elsif page.type == "milk" %}
