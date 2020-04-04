@@ -436,6 +436,10 @@ body > button > i {
   display: none;
 }
 
+.logoArea {
+  padding-bottom: 20px !important;
+}
+
 .logoAreaText {
   display: none;
 }
@@ -447,15 +451,48 @@ body > button > i {
 .headline {
   padding-top: 60px;
   padding-bottom: 10px;
+  font-size: 22px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
+body > div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center > div > div.col-md-2.sm-12.p-0.m-0.logoArea > a:nth-child(3) {
+
+  color: #fff;
+    text-decoration: underline;
+    line-height: 2em;
+    font-size: .8em;
+    position: fixed;
+    top: 94.5vh;
+    background: #48ff00ed;
+    width: 100%;
+    left: 0;
+    text-transform: uppercase;
 }
 
+body > button {
+  position: fixed;
+  bottom: 31px;
+  z-index: 1000;
+  text-align: center;
+  background: #46cb7ff2;
+  text-shadow: none;
+  letter-spacing: 3px;
+  box-shadow: 0px -18px 30px #12224a52;
+}
 
 
 .list-group-item {
   width: 95%;
   margin: 1% !important;
+  padding-top: 0px !important;
+}
+div#experience {
+  margin-bottom: 10px !important;
+}
+
 }
 
 @media (min-width: 576px) {
@@ -470,6 +507,9 @@ body > button > i {
     width: 31.333%;
     margin: 5px 1% !important;
   }
+  
+
+
 }
 
 @media (min-width: 992px) {
@@ -499,7 +539,7 @@ body > button > i {
 
 #experience {
   padding-top: 2.5%;
-  padding-bottom: 2.5% !important;
+  padding-bottom: 2.5%;
   margin-top: 2.5%;
 }
 
