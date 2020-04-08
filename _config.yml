@@ -13,6 +13,7 @@ sass:
 plugins:
   - pagemaster
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   services:

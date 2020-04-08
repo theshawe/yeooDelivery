@@ -75,6 +75,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8)
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.5)
   pagemaster
