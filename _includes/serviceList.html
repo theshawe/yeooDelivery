@@ -1,5 +1,5 @@
 <div id="parallax" class="p-0 m-0">
-<div id="experience" class="parallax-two pb-0 mb-0">
+<div id="experience" class="parallax-two p-0 m-0">
 {% if page.type == "delivery" %}
 <h2>Delivery Services 🚚</h2>
 {% elsif page.type == "collection" %}
@@ -42,30 +42,30 @@
 {% elsif page.type == "collection" %}
 {%include collectionServices.html %}
 {% elsif page.type == "fruit-and-veg" %}
-{%include fruitAndVegServices.html %}
+{%include services/fruitAndVegServices.html %}
 {% elsif page.type == "butchers" %}
-{%include butcherServices.html %}
+{%include services/butcherServices.html %}
 {% elsif page.type == "farm-shop" %}
-{%include farmShopServices.html %}
+{%include services/farmShopServices.html %}
 {% elsif page.type == "groceries" %}
-{%include groceryServices.html %}
+{%include services/groceryServices.html %}
 {% elsif page.type == "pre-made-meals" %}
-{%include preMadeMealServices.html %}
+{%include services/preMadeMealServices.html %}
 {% elsif page.type == "milk" %}
-{%include milkServices.html %}
+{%include services/milkServices.html %}
 {% elsif page.type == "bakery" %}
-{%include bakeryServices.html %}
+{%include services/bakeryServices.html %}
 {% elsif page.type == "fish" %}
-{%include fishServices.html %}
+{%include services/fishServices.html %}
 {% elsif page.type == "potatos" %}
-{%include potatoServices.html %}
+{%include services/potatoServices.html %}
 {% elsif page.type == "bread" %}
-{%include breadServices.html %}
+{%include services/breadServices.html %}
 {% elsif page.type == "pharmacy" %}
-{%include pharmacyServices.html %}
+{%include services/pharmacyServices.html %}
 {% elsif page.type == "coffee" %}
-{%include coffeeServices.html %}
+{%include services/coffeeServices.html %}
 {% elsif page.type == "booze" %}
-{%include boozeServices.html %}
+{%include services/boozeServices.html %}
 {% endif %}
 </div>

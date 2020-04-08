@@ -19,15 +19,11 @@
   font-family: ibm-plex-sans, sans-serif;
 }
 #parallax h2 {
-  font-size: 50px;
   letter-spacing: 1px;
   text-align: center;
-  color: #052261;
-  font-weight: 800;
   z-index: 10;
   opacity: 1;
-  line-height: 1em;
-  padding-bottom: .5em;
+  line-height: 2em;
 }
 #parallax h3 {
   text-align: center;
@@ -161,8 +157,10 @@
 }
 
 #parallax .parallax-two h2 {
-    color: #2bbdce;
-    font-weight: 100;
+  color: #2bbdce;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
 }
 
 #parallax .parallax-three {

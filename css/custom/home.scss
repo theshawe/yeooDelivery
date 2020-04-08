@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   scroll-behavior: smooth;
@@ -89,7 +89,7 @@ margin-top: 0px;
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .yeoLogo h1 {
-font-family: futura-pt, sans-serif;
+font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
     font-style: normal;
     line-height: 1em;
     padding: 0;
@@ -104,7 +104,7 @@ font-family: futura-pt, sans-serif;
 }
 
 .yeoLogo h2 {
-   font-family: futura-pt, sans-serif;
+   font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
     line-height: 0em;
@@ -157,7 +157,7 @@ font-style: italic;
 }
 
 .homeFeaturedText p {
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 100;
   font-style: italic;
   font-size: 36px;
@@ -178,7 +178,7 @@ font-style: italic;
 }
 
 .policiesFeaturedText p {
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 100;
   font-style: italic;
   font-size: 32px;
@@ -259,6 +259,7 @@ h1.formName {
 
 .headline {
   padding-top: 155px;
+  font-size: 42px;
 }
 
 /* Jumbotron */
@@ -537,11 +538,6 @@ div#experience {
     /* height: 55vh; */
 }
 
-#experience {
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  margin-top: 2.5%;
-}
 
 .parallax {
     overflow: hidden;
@@ -556,9 +552,7 @@ div#experience {
     /* height: 55vh; */
 }
 
-#parallax h2 {
-  padding-bottom: 1em !important;
-}
+
 #parallax .parallax-two {
   background: #ccc6e430;
 }
@@ -575,7 +569,7 @@ div#experience {
 }
 
 .introPage .yeoLogoTwo h1 {
-    font-family: futura-pt, sans-serif;
+    font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
     font-style: normal;
     line-height: 1.2455em;
     padding: 0;
@@ -591,7 +585,7 @@ div#experience {
 }
 
 .introPage .yeoLogoTwo h2 {
-   font-family: futura-pt, sans-serif;
+   font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
     line-height: 0em;

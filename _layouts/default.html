@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-
 <body>
-
 {%include intro.html %}
-
 {% if page.type == "blog" %}
-
 <!-- empty -->
-
-    {% else %}
-    <div class="container text-center pt-5">
-        <h1 class="display-4 headline"><strong style="padding-left: 5px;font-style: italic;">yeooo.delivery is a curation of the best services that deliver in Northern Ireland.</strong></h1>
-        </div>
-        
+{% else %}
+<div class="container text-center py-5">
+<h1 class="display-4 headline"><strong style="padding-left: 5px;font-style: italic;">{{site.description}}</strong></h1>
+</div> 
 {% endif %}
-
 
 {{ content }}
 
 {% include footer.html %}
-
 {%include submissionForm.html %}
-
 {% include lazyload.html %}
-
-
 </body>
 
 {% include scripts.html %}

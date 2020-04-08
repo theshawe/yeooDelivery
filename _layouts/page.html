@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-
 <body>
-
-    {%include intro.html %}
-
-    <div class="container text-center pt-5">
-        <h1 class="display-4 headline"><strong style="padding-left: 5px;font-style: italic;">Yeooo are currating a list of delivery services within Northern Ireland.</strong></h1>
-    </div>
-
-
-
-
-
-
+{%include intro.html %}
 <div class="container-fluid p-0 m-0">
-<div class="parallax featuredHeader text-center" style="background-image: url('{{ page.mainPicture }}'); height: 30vh">
-<div class="bgGradient">
+<div class="parallax featuredHeader text-center" style="background-image: url('{{ page.mainPicture }}');  height: 25vh; background-position: bottom;">
+<div class="bgGradient" style="height: 25vh; background-position: bottom;">
 <div class="container-fluid">
-<h2 style="height: 30vh; height: 30vh;padding-top: 13vh !important;font-size: 50px;color: #73115e;" class="page-head-title p-5 text-center">{{ page.name }}</h2>
+<div class="container text-center py-5">
+ <h1 class="display-4 headline" style="font-size: 36px;"><strong style="padding-left: 5px;font-style: italic;">{{ page.name }} is operating a {{page.type}} delivery servivce in Northern Ireland. </strong></h1>
+        </div>
+    
 </div>
 </div>
 </div>
