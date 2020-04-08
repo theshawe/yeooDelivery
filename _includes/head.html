@@ -3,25 +3,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<!-- COMMON TAGS -->
-<meta charset="utf-8">
-<title>yeooo.delivery is a curation of the best services that deliver in Northern Ireland.</title>
 
-<!-- Search Engine -->
-<meta name="description" content="yeooo.delivery is a curation of the best services that deliver in Northern Ireland.">
-<meta name="image" content="https://yeooo.delivery/images/yeooo-delivery-northern-ireland.png">
-<!-- Schema.org for Google -->
-<meta itemprop="name" content="yeooo.delivery is a curation of the best services that deliver in Northern Ireland.">
-<meta itemprop="description" content="yeooo.delivery is a curation of the best services that deliver in Northern Ireland.">
-<meta itemprop="image" content="https://yeooo.delivery/images/yeooo-delivery-northern-ireland.png">
-<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-<meta name="og:title" content="yeooo.delivery is a curation of the best services that deliver in Northern Ireland.">
-<meta name="og:description" content="yeooo.delivery is a curation of the best services that deliver in Northern Ireland.">
-<meta name="og:image" content="https://yeooo.delivery/images/yeooo-delivery-northern-ireland.png">
-<meta name="og:url" content="https://yeooo.delivery">
-<meta name="og:site_name" content="yeooo.delivery is a curation of the best services that deliver in Northern Ireland.">
-<meta name="og:locale" content="en_UK">
-<meta name="og:type" content="website">
+{% if page.type == "delivery" %}
+{%include meta.html %}
+{% elsif page.type == "collection" %}
+{%include metaCusine.html %}
+{% elsif page.type == "fruit-and-veg" %}
+{%include metaCusine.html %}
+{% elsif page.type == "butchers" %}
+{%include metaCusine.html %}
+{% elsif page.type == "groceries" %}
+{%include metaCusine.html %}
+{% elsif page.type == "farm-shop" %}
+{%include metaCusine.html %}
+{% elsif page.type == "pre-made-meals" %}
+{%include metaCusine.html %}
+{% elsif page.type == "milk" %}
+{%include metaCusine.html %}
+{% elsif page.type == "bakery" %}
+{%include metaCusine.html %}
+{% elsif page.type == "fish" %}
+{%include metaCusine.html %}
+{% elsif page.type == "potatos" %}
+{%include metaCusine.html %}
+{% elsif page.type == "bread" %}
+{%include metaCusine.html %}
+{% elsif page.type == "pharmacy" %}
+{%include metaCusine.html %}
+{% elsif page.type == "coffee" %}
+{%include metaCusine.html %}
+{% elsif page.type == "booze" %}
+{%include metaCusine.html %}
+{% else %}
+{%include metaPage.html %}
+{% endif %}
 
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
