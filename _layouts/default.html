@@ -2,16 +2,13 @@
 <html lang="en">
 {% include head.html %}
 <body>
-
-
-
 {%include intro.html %}
 {% if page.type == "blog" %}
 <!-- empty -->
 {% elsif page.category == "cuisine" %}
 <div class="container text-center">
-    <h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
-    </div> 
+<h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
+</div> 
 {% else %}
 <div class="container text-center">
 <h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
@@ -21,31 +18,24 @@
 {{ content }}
 
 {% include footer.html %}
-
 {% include lazyload.html %}
 
 <style>
-
 html,body {
-    background: #41ce7d;
+background: #41ce7d;
 color: #fff;
 animation: fade .5s;
 }
-
-
-    a.nav-item.nav-link.cuisine.{{ page.type }} {
-    background: #302d56;
-    color: #3cc1d2;
-    font-weight: 100;
-    letter-spacing: 2px;
-    animation: fade .5s;
-    }
-    
-
+a.nav-item.nav-link.cuisine.{{ page.type }} {
+background: #302d56;
+color: #3cc1d2;
+font-weight: 100;
+letter-spacing: 2px;
+animation: fade .5s;
 }
+}
+</style>
 
-
-        </style>
 </body>
 
 {% include scripts.html %}

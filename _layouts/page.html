@@ -3,21 +3,15 @@
 {% include head.html %}
 <body>
 {%include intro.html %}
-<div class="container-fluid p-0 m-0">
-
+<div class="container-fluid p-0 m-0 text-center">
 <div class="container-fluid">
 <div class="container text-center pt-5 pb-5">
  <h1 class="display-4 headline" style="font-size: 36px;"><strong style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce in Northern Ireland. </strong></h1>
-        </div>
-    
 </div>
 </div>
-
-
+</div>
 <section class="container px-5">
-
 <div class="row mb-5 pb-5">
-
 <div class="col pt-2 mt-2">	
 <img src="{{ page.mainPicture }}" class="card-img-top p-0 m-0" alt="{{ page.name }}" />
 </div>
@@ -44,14 +38,8 @@
 
 </div>
 
-
-
 {{ content }}
   
-
-
-
-
 <div class="parallax featuredHeader text-center" style="background-image: url('{{ page.mainPicture }}');  height: 50vh; background-position: bottom;">
     <div class="bgGradient" style="height: 50vh; background-position: bottom;">
        
