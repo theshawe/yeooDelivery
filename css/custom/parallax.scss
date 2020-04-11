@@ -141,18 +141,17 @@
 }
 
 #parallax .parallax-two {
-
-
   overflow: hidden;
   position: relative;
-  width: 100%;
-  background-image: url(../images/our-experience-02.jpg);
+  width: 96.5%;
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 5px;
+  margin: 0 auto !important;
 
 }
 

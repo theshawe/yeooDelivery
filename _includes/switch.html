@@ -1,8 +1,7 @@
 <nav class="nav nav-pills nav-fill">
-
 {% if page.type == "delivery" %}
-<a class="nav-item nav-link active" href="/delivery">Delivery 🚚</a>
-<a class="nav-item nav-link disabled" href="/collection">Collection 🧰</a>
+<a class="nav-item nav-link active" href="/delivery">Home Delivery 🚚</a>
+<a class="nav-item nav-link disabled" href="/collection">Click and Collect 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
     background: #5d646bab;
     font-weight: 100;
@@ -11,8 +10,8 @@
     border-left: 1px solid #18035d52;
 ">About / Blog 🤔</a>
 {% elsif page.type == "collection" %}
-<a class="nav-item nav-link disabled" href="/delivery">Home 🚚</a>
-<a class="nav-item nav-link active" href="/collection">Collection 🧰</a>
+<a class="nav-item nav-link disabled" href="/delivery">Home Delivery 🚚</a>
+<a class="nav-item nav-link active" href="/collection">Click and Collect 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
     background: #5d646bab;
     font-weight: 100;
@@ -22,6 +21,17 @@
 ">About / Blog 🤔</a>
 
 {% elsif page.category == "cuisine" %}
+<a class="nav-item nav-link disabled" href="/delivery">Home Delivery 🚚</a>
+<a class="nav-item nav-link active" href="/collection">Click and Collect 🧰</a>
+<a class="nav-item nav-link disabled" href="/blog" style="
+    background: #5d646bab;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border-right: 1px solid #18035d52;
+    border-left: 1px solid #18035d52;
+">About / Blog 🤔</a>
+
+{% elsif page.type == "blog" %}
 <a class="nav-item nav-link disabled" href="/delivery">Home 🚚</a>
 <a class="nav-item nav-link active" href="/collection">Collection 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
@@ -32,7 +42,7 @@
     border-left: 1px solid #18035d52;
 ">About / Blog 🤔</a>
 
-{% elsif page.type == "blog" %}
+{% else %}
 <a class="nav-item nav-link disabled" href="/delivery">Home 🚚</a>
 <a class="nav-item nav-link active" href="/collection">Collection 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
