@@ -365,6 +365,20 @@ a.btn.btn-primary.btn-lg.active.w-100.m-0.serviceNameTag {
   background: #e6e6e652;color: #202716bd;border: none;text-transform: uppercase;font-size: 1em;letter-spacing: 2px;font-weight: 400;box-shadow: none;margin-left: -4px !important; white-space: normal;
 }
 
+.submitEntryBtn {
+  position: fixed;
+bottom: 0;
+z-index: 1000;
+text-align: center;
+background: #46cb7f;
+letter-spacing: 0px;
+box-shadow: 0px -18px 30px #12224a52;
+font-weight: 900;
+color: #d7ece8;
+text-shadow: 1px 1px 3px #4b6351;
+text-transform: none;
+}
+
 /* areaSwitch */
 
 a.nav-item.nav-link.cuisine {
