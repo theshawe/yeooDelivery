@@ -1,42 +1,35 @@
-<div id="parallax" class="p-0 m-0">
-<div id="experience" class="parallax-two p-0 m-0">
 {% if page.type == "delivery" %}
-<h2>Delivery Services 🚚</h2>
+<h2 class="pageTitle">Delivery Services 🚚</h2>
 {% elsif page.type == "collection" %}
-<h2>Collection Services 📮</h2>
+<h2 class="pageTitle">Collection Services 📮</h2>
 {% elsif page.type == "fruit-and-veg" %}
-<h2>FRUIT AND VEG 🥦</h2>
+<h2 class="pageTitle">FRUIT AND VEG 🥦</h2>
 {% elsif page.type == "butchers" %}
-<h2>BUTCHERS 🐮</h2>
+<h2 class="pageTitle">BUTCHERS 🐮</h2>
 {% elsif page.type == "groceries" %}
-<h2>GROCERIES 🥫</h2>
+<h2 class="pageTitle">GROCERIES 🥫</h2>
 {% elsif page.type == "farm-shop" %}
-<h2>FARM SHOP 🧺</h2>
+<h2 class="pageTitle">FARM SHOP 🧺</h2>
 {% elsif page.type == "pre-made-meals" %}
-<h2>PRE MADE MEALS 🍴</h2>
+<h2 class="pageTitle">PRE MADE MEALS 🍴</h2>
 {% elsif page.type == "milk" %}
-<h2>MILK 🥛</h2>
+<h2 class="pageTitle">MILK 🥛</h2>
 {% elsif page.type == "bakery" %}
-<h2>BAKERY 🍞</h2>
+<h2 class="pageTitle">BAKERY 🍞</h2>
 {% elsif page.type == "fish" %}
-<h2>FISH 🍣</h2>
+<h2 class="pageTitle">FISH 🍣</h2>
 {% elsif page.type == "potatos" %}
-<h2>POTATOS 🥔</h2>
+<h2 class="pageTitle">POTATOS 🥔</h2>
 {% elsif page.type == "bread" %}
-<h2>BREAD 🍞</h2>
+<h2 class="pageTitle">BREAD 🍞</h2>
 {% elsif page.type == "pharmacy" %}
-<h2>PHARMACY 🚛</h2>
+<h2 class="pageTitle">PHARMACY 🚛</h2>
 {% elsif page.type == "coffee" %}
-<h2>COFFEE ☕</h2>
+<h2 class="pageTitle">COFFEE ☕</h2>
 {% elsif page.type == "booze" %}
-<h2>BOOZE 🍺</h2>
+<h2 class="pageTitle">BOOZE 🍺</h2>
 {% endif %}
 
-
-</div>
-
-
-<div class="container-fluid about p-0 m-0 ">
 {% if page.type == "delivery" %}
 {%include deliveryServices.html %}
 {% elsif page.type == "collection" %}
@@ -68,4 +61,4 @@
 {% elsif page.type == "booze" %}
 {%include services/boozeServices.html %}
 {% endif %}
-</div>
+

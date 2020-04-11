@@ -134,8 +134,7 @@ font-size: 1.5em;
 }
 
 .introText {
-
-font-style: italic;
+    font-style: italic;
     color: #fff;
     background: #ac50b7c4;
     font-size: 2.22em;
@@ -143,17 +142,10 @@ font-style: italic;
     text-align: center;
 }
 
-.featuredHomeImg {
-  height: 100%;
-  width: auto;
-  background-image: url(../images/ha-leslie-team-belfast.png);
-  opacity: 0.5;
-  margin-right: -15px; // Remove right gap
-  margin-left: -15px; // Remove left gap
-  padding-bottom: 62.5%; // ratio is 16:10
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+.pageTitle {
+  padding: .5em 0em;
+  background: #0d6d2314;
+  margin: 0em 0em 1.5em 0em;
 }
 
 .homeFeaturedText p {
@@ -392,8 +384,7 @@ a.nav-item.nav-link.cuisine {
   background: #441d9e87;
   border-right: 1px solid #29066363;
   border-left: 1px solid #29066363;
-  padding-left: 25px;
-  padding-right: 25px;
+
 }
 
 /* footer */
@@ -598,9 +589,7 @@ div#experience {
 }
 
 
-#parallax .parallax-two {
-  background: #ccc6e430;
-}
+
 
 .introPage .yeoLogoTwo {
       background-repeat: no-repeat;
@@ -677,4 +666,14 @@ div#experience {
 
   margin-left: 15px;
 
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
