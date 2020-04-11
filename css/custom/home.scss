@@ -346,10 +346,29 @@ a.nav-item.nav-link.disabled {
   border-left: 1px solid #18035d52;
 }
 
+a.btn.btn-primary.btn-lg.active.w-100.deliveryTag {
+  background: #f7f7f7;
+  color: #47d953;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  font-weight: 100;
+  white-space: normal;
+  text-align: right;
+  box-shadow: none;
+  padding: 0;
+}
+
+
+a.btn.btn-primary.btn-lg.active.w-100.m-0.serviceNameTag {
+  background: #e6e6e652;color: #202716bd;border: none;text-transform: uppercase;font-size: 1em;letter-spacing: 2px;font-weight: 400;box-shadow: none;margin-left: -4px !important; white-space: normal;
+}
+
 /* areaSwitch */
 
 a.nav-item.nav-link.cuisine {
-  font-size: 1em;
+  font-size: .85em;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0px;
