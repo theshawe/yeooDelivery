@@ -1,8 +1,8 @@
 <ul class="card-deck p-0 m-0 p-0">
 {% for service in site.data.deliveryServices %}
 {% if service.delivery  contains "✅" %}
-<li class="list-group-item border-0 p-0 m-0 ">
-<div class="card p-0 m-0">
+<li class="list-group-item border-0 p-0 m-5">
+<div class="card p-0 m-0 ">
 
 <div class="card-header">
 
@@ -23,9 +23,7 @@
 </div>
 
 <div class="card-footer text-muted">
-<div class="d-flex bd-highlight">
-<a style="" href="/services/{{ service.name | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100 deliveryTag" role="button" aria-pressed="true">{{ service.delivery }}</a>
-</div>
+
 
 
 <div class="d-flex bd-highlight">
