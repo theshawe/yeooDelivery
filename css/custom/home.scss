@@ -207,24 +207,12 @@ button.btn.btn-primary {
 
 /* Submit */
 .btn-submit {
-    text-transform: uppercase;
-    padding: 1em;
-    margin: 0;
-    width: 100%;
-    box-shadow: 12px 9px 22px #9600a9;
-    text-shadow: 2px 2px 2px #591a8a;
-    text-align: left;
-    padding-left: 35px;
-    font-size: 2em;
-    letter-spacing: 8px;
-    color: #6024bb;
-
-    padding: 1em;
-    background: #1eda5db8;
-    border: none;
-    border-radius: 0px;
-    color: #fff;
-    width: 100%
+  padding: 1em;
+  text-align: left;
+  padding-left: 35px;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
 }
 
 
@@ -232,6 +220,19 @@ button.btn.btn-primary {
     background: #28f51ad1;
     color: #fff;
     text-shadow: none;
+}
+
+ul.card-deck.p-0.m-0.p-0 {
+  margin-bottom: 200px !important;
+}
+
+footer {
+  width: 100%;
+  background: #5f3c96;
+  width: 100%;
+  background: #5f3c96;
+  position: fixed;
+  bottom: 0;
 }
 
 /* Airtable */
@@ -371,9 +372,7 @@ a.nav-
     text-align: center;
 }
 
-button.btn.btn-primary.btn-light {
-    font-size: 2em;
-}
+
 
 /* buy me a coffee */
 
@@ -436,17 +435,11 @@ a.btn.btn-primary.btn-lg.active.w-100.m-0.serviceNameTag {
 }
 
 .submitEntryBtn {
-  position: fixed;
-bottom: 0;
-z-index: 1000;
-text-align: center;
-background: #46cb7f;
-letter-spacing: 0px;
-box-shadow: 0px -18px 30px #12224a52;
-font-weight: 900;
-color: #d7ece8;
-text-shadow: 1px 1px 3px #4b6351;
-text-transform: none;
+  background: #46cb7f;
+  letter-spacing: 0px;
+  box-shadow: 0px -18px 30px #12224a52;
+  font-weight: 900;
+  text-shadow: 1px 1px 3px #4b6351
 }
 
 /* areaSwitch */
@@ -503,11 +496,14 @@ a.nav-item.nav-link.cuisine {
 }
 
 button.btn.btn-primary.btn-light {
-   font-size: 1.5em;
-    letter-spacing: 0px;
-    line-height: 2em;
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
 }
-
+footer.footer.mt-auto.p-0 {
+  z-index: 1000;
+}
 .card-deck .card {
   border-bottom: 50px solid #41ce7d !important;
 }

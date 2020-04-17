@@ -11,12 +11,36 @@
 
 
 <!-- <br>
-<span style="font-size: .8em;color: #115f23 !important;">(📱{{ service.phoneNumber }})</span>
+<span style="font-size: .8em;color: #115f23 !important;">(📱{{ <div class="card-header">
+    <div style="display: flex; justify-content: space-between;">
+        <a style="text-align: left;margin-left: -10px; color: #96433fba; font-weight: 100; letter-spacing: 2px; " class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
+        <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}"> <strong>{{ service.emoji }}</strong> </a>
+    </div>
+</div>
+<div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
+{{ service.emoji }}
+</div>phoneNumber }})</span>
 <br>
-<a class="mt-5" style="font-size: 1.2em;" target="_blank" href="{{ service.website }}">
+<a class="mt-5" style="font-size: 1.2em;" target="_blank" href="{{ <div class="card-header">
+    <div style="display: flex; justify-content: space-between;">
+        <a style="text-align: left;margin-left: -10px; color: #96433fba; font-weight: 100; letter-spacing: 2px; " class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
+        <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}"> <strong>{{ service.emoji }}</strong> </a>
+    </div>
+</div>
+<div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
+{{ service.emoji }}
+</div>website }}">
 
 
-{% if service.website contains "facebook" %}
+{% if <div class="card-header">
+    <div style="display: flex; justify-content: space-between;">
+        <a style="text-align: left;margin-left: -10px; color: #96433fba; font-weight: 100; letter-spacing: 2px; " class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
+        <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}"> <strong>{{ service.emoji }}</strong> </a>
+    </div>
+</div>
+<div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
+{{ service.emoji }}
+</div>website contains "facebook" %}
 🔗 Facebook
 {% else  %}
 🔗 Website
