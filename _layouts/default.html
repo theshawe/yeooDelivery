@@ -3,6 +3,13 @@
 {% include head.html %}
 <body>
 {%include intro.html %}
+
+{% if page.tag == "services" %}
+
+{% include breadcrumbs.html %}
+{% endif %}
+
+
 {% if page.type == "blog" %}
 <!-- empty -->
 {% elsif page.category == "cuisine" %}

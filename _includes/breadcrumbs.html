@@ -1,0 +1,25 @@
+
+ <div class="container-fluid" style="    text-align: center;font-size: 1.5em;line-height: 2em;background: #75cfef;">
+
+
+    {% if page.tag == "services" %}
+
+
+    {% else %}
+    <h1 class="display-4 headline" style="    padding: 30px 0px 0px 0px;"><strong style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce in {{ page.location }}, Northern Ireland. </strong></h1>
+    {% endif %}
+
+
+    <div id="breadcrumbs">
+    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+    <a style="color: #fff;" href="/">Home</a>
+    {% for crumb in crumbs offset: 1 %}
+      {% if forloop.last %}
+        / {{ page.title }}
+      {% else %}
+        / <a style="color: #fff;" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+ </div>
