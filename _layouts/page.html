@@ -3,103 +3,130 @@
 {% include head.html %}
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-crossorigin=""/>
- <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin=""></script>
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
 
 <body>
-{%include intro.html %}
+    {%include intro.html %}
 
-{% include breadcrumbs.html %}
-
-
-<div class="container-fluid m-0 p-0">
-
-    <div id="mapid"></div>
-
-</div>
-
-<div class="container">
-<div class="container">
-<div class="container text-center pt-5 pb-5">
- <h1 class="display-4 headline" style="font-size: 36px;"><strong style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce in {{ page.location }}, Northern Ireland. </strong></h1>
+    {% include breadcrumbs.html %}
 
 
- <script>
-     var mymap = L.map('mapid').setView([54.5,  -6.94], 8);
-     var marker = L.marker([{{ page.Y }}, {{ page.X }}]).addTo(mymap);
-     marker.bindPopup("<b>{{ page.name }}</b> | <i>{{ page.cuisine }}</i> <br>{{ page.location }}").openPopup();
+    <div class="container-fluid m-0 p-0">
 
-    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoidGhlc2hhd2UiLCJhIjoiY2s5NGc5aHIwMDUwZzNmb2JvajVhZnp5ciJ9.Luckw7X9TU9n99kMR7QUFw'
+        <div id="mapid"></div>
 
+    </div>
 
-}).addTo(mymap);
- </script>
+    <div class="container">
+        <div class="container">
+            <div class="container text-center pt-5 pb-5">
+                <h1 class="display-4 headline" style="font-size: 36px;"><strong
+                        style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce
+                        in {{ page.location }}, Northern Ireland. </strong></h1>
 
 
-</div>
-</div>
-</div>
-<section class="container px-5">
-<div class="row mb-5 pb-5">
-<div class="col pt-2 mt-2">	
-<img src="{{ page.mainPicture }}" class="card-img-top p-0 m-0" alt="{{ page.name }}" />
-</div>
+                <script>
+                    var mymap = L.map('mapid').setView([54.5, -6.94], 8);
+                    var marker = L.marker([{
+                        {
+                            page.Y
+                        }
+                    }, {
+                        {
+                            page.X
+                        }
+                    }]).addTo(mymap);
+                    marker.bindPopup("<b>{{ page.name }}</b> | <i>{{ page.cuisine }}</i> <br>{{ page.location }}")
+                        .openPopup();
 
-<div class="col pt-5 mt-5"">
+                    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                        maxZoom: 18,
+                        id: 'mapbox/streets-v11',
+                        tileSize: 512,
+                        zoomOffset: -1,
+                        accessToken: 'pk.eyJ1IjoidGhlc2hhd2UiLCJhIjoiY2s5NGc5aHIwMDUwZzNmb2JvajVhZnp5ciJ9.Luckw7X9TU9n99kMR7QUFw'
+
+
+                    }).addTo(mymap);
+                </script>
+
+
+            </div>
+        </div>
+    </div>
+    <section class="container px-5">
+        <div class="row mb-5 pb-5">
+            <div class="col pt-2 mt-2">
+                <img src="{{ page.mainPicture }}" class="card-img-top p-0 m-0" alt="{{ page.name }}" />
+            </div>
+
+            <div class="col pt-5 mt-5"">
 <h1 class=" {{ page.class | downcase }}">{{ page.name }}</h1>
-<h2 class=" {{ page.class | downcase }}">{{ page.cuisine }}</h2>
-<hr>
-<h3 class=" {{ page.class | downcase }}">{{ page.location }}</h3>
-<p class=" {{ page.class | downcase }}">{{ page.phoneNumber }}</p>
-<a href="{{ page.website }}" class="{{ page.family | downcase }}"></a>
-<a style="background: #f7f7f7;color: #47d953bd;border: solid #47d9531f;text-transform: uppercase;font-size: 1.85em;letter-spacing: 3px;font-weight: 900;" href="{{ page.website | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100 m-0" role="button" aria-pressed="true">Visit Website</a>
-</div>
+                <h2 class=" {{ page.class | downcase }}">{{ page.cuisine }}</h2>
+                <hr>
+                <h3 class=" {{ page.class | downcase }}">{{ page.location }}</h3>
+                <p class=" {{ page.class | downcase }}">{{ page.phoneNumber }}</p>
+                <a href="{{ page.website }}" class="{{ page.family | downcase }}"></a>
+                <a style="background: #f7f7f7;color: #47d953bd;border: solid #47d9531f;text-transform: uppercase;font-size: 1.85em;letter-spacing: 3px;font-weight: 900;"
+                    href="{{ page.website | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100 m-0"
+                    role="button" aria-pressed="true">Visit Website</a>
+            </div>
 
-</div>	
+        </div>
 
-<div class="row">
-<div class="col">
+        <div class="row">
+            <div class="col">
 
-</div>
-</div>
+            </div>
+        </div>
 
-</section>
+    </section>
 
-</div>
+    </div>
 
-{{ content }}
-  
-<div class="parallax featuredHeader text-center" style="background-image: url('{{ page.mainPicture }}');  height: 50vh; background-position: bottom;">
-    <div class="bgGradient" style="height: 50vh; background-position: bottom;">
-       
+    {{ content }}
+
+    <div class="parallax featuredHeader text-center"
+        style="background-image: url('{{ page.mainPicture }}');  height: 50vh; background-position: bottom;">
+        <div class="bgGradient" style="height: 50vh; background-position: bottom;">
+
         </div>
     </div>
 
     {%include footer.html %}
 
-<style>
+    <style>
+        html,
+        body {
+            background: #30163cf5;
+            color: #fff;
+            animation: fade .5s;
+        }
+    </style>
 
-    html,body {
-        background: #30163cf5;
-    color: #fff;
-    animation: fade .5s;
-    }
+    {% include randomize.html %}
 
-</style>
 </body>
 
 {% include scripts.html %}
 
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"61cb867bb4af1432782e78131","lid":"623b66bd1e","uniqueMethods":true}) })</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+    window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+            "baseUrl": "mc.us4.list-manage.com",
+            "uuid": "61cb867bb4af1432782e78131",
+            "lid": "623b66bd1e",
+            "uniqueMethods": true
+        })
+    })
+</script>
 
 </html>

@@ -1,40 +1,45 @@
-<ul class="card-deck p-0 m-0 p-0">
-{% for service in site.data.deliveryServices %}
-{% if service.delivery  contains "✅" %}
-<li class="list-group-item border-0 p-0 m-5">
-<div class="card p-0 m-0 ">
+<ul class="card-deck p-0 m-0 p-0 randomize">
+    {% for service in site.data.deliveryServices %}
+    {% if service.delivery  contains "✅" %}
+    <li class="list-group-item border-0 p-0 m-5">
+        <div class="card p-0 m-0 ">
 
-<div class="card-header">
-    <div style="display: flex; justify-content: space-between;">
-        <a style="text-align: left;margin-left: -10px; color: #96433fba; font-weight: 100; letter-spacing: 2px; " class="nav-link " href="#">    <strong>📍 {{ service.location  }}</strong></a>
-        <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}"> <strong>{{ service.emoji }}</strong> </a>
-    </div>
-</div>
-<div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
-{{ service.emoji }}
-</div>
+            <div class="card-header">
+                <div style="display: flex; justify-content: space-between;">
+                    <a style="text-align: left;margin-left: -10px; color: #96433fba; font-weight: 100; letter-spacing: 2px; "
+                        class="nav-link " href="#"> <strong>📍 {{ service.location  }}</strong></a>
+                    <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}">
+                        <strong>{{ service.emoji }}</strong> </a>
+                </div>
+            </div>
+            <div class="hovereffect {{ service.emoji }}"
+                style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
+                {{ service.emoji }}
+            </div>
 
-<div class="card-body">
-<a style="" href="/services/{{ service.name | replace: " ", "_" }}"  class="btn btn-primary btn-lg active w-100 m-0 serviceNameTag" role="button" aria-pressed="true">{{ service.name }} </a>
-</div>
+            <div class="card-body">
+                <a style="" href="/services/{{ service.name | replace: " ", "_" }}"
+                    class="btn btn-primary btn-lg active w-100 m-0 serviceNameTag" role="button"
+                    aria-pressed="true">{{ service.name }} </a>
+            </div>
 
-<div class="card-footer text-muted">
-
-
-
-<div class="d-flex bd-highlight">
-<a  href="/services/{{ service.name | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100 moreinfo-btn " role="button" aria-pressed="true">More</a>
-</div>
+            <div class="card-footer text-muted">
 
 
-</div>
 
-</div>
-</li>
-{% elsif service.delivery  contains "📮" %}
-<!-- none -->
-{% endif %}
-{% endfor %}
+                <div class="d-flex bd-highlight">
+                    <a href="/services/{{ service.name | replace: " ", "_" }}"
+                        class="btn btn-primary btn-lg active w-100 moreinfo-btn " role="button"
+                        aria-pressed="true">More</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </li>
+    {% elsif service.delivery  contains "📮" %}
+    <!-- none -->
+    {% endif %}
+    {% endfor %}
 </ul>
-
-

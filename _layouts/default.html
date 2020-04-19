@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
+
 <body>
-{%include intro.html %}
+    {%include intro.html %}
 
-{% if page.tag == "services" %}
+    {% if page.tag == "services" %}
 
-{% include breadcrumbs.html %}
-{% endif %}
+    {% include breadcrumbs.html %}
+    {% endif %}
 
 
-{% if page.type == "blog" %}
-<!-- empty -->
-{% elsif page.category == "cuisine" %}
-<div class="container text-center">
-<h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
-</div> 
-{% else %}
-<div class="container text-center">
-<h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
-</div> 
-{% endif %}
 
-{{ content }}
+    {% if page.type == "blog" %}
+    <!-- empty -->
+    {% elsif page.category == "cuisine" %}
+    <div class="container text-center">
+        <h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in
+                Northern Ireland and what services are offering click and collection.</strong></h1>
+    </div>
+    {% else %}
+    <div class="container text-center">
+        <h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
 
-{% include footer.html %}
-{% include lazyload.html %}
 
-<style>
-html,body {
-background: #41ce7d;
-color: #fff;
-animation: fade .5s;
-}
-a.nav-item.nav-link.cuisine.{{ page.type }} {
-background: #302d56;
-color: #3cc1d2;
-font-weight: 100;
-letter-spacing: 2px;
-animation: fade .5s;
-}
-}
-</style>
+    </div>
+    {% endif %}
+
+    {{ content }}
+
+    {% include footer.html %}
+    {% include lazyload.html %}
+
+    <style>
+        html,
+        body {
+            background: #41ce7d;
+            color: #fff;
+            animation: fade .5s;
+        }
+
+        a.nav-item.nav-link.cuisine. {
+                {
+                page.type
+            }
+        }
+
+            {
+            background: #302d56;
+            color: #3cc1d2;
+            font-weight: 100;
+            letter-spacing: 2px;
+            animation: fade .5s;
+        }
+        }
+    </style>
+
+    {% include randomize.html %}
 
 </body>
 
 {% include scripts.html %}
 
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"61cb867bb4af1432782e78131","lid":"623b66bd1e","uniqueMethods":true}) })</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+    window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+            "baseUrl": "mc.us4.list-manage.com",
+            "uuid": "61cb867bb4af1432782e78131",
+            "lid": "623b66bd1e",
+            "uniqueMethods": true
+        })
+    })
+</script>
 
 </html>

@@ -43,14 +43,14 @@ body {
 }
 
 .yeoLogo {
-margin-top: 0px;
-    background-repeat: no-repeat;
-    margin: 0 !important;
-    font-style: italic;
-    color: white;
-    padding: 1em;
-    background: #643e82cf;
-    padding-bottom: 70px;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  margin: 0 !important;
+  font-style: italic;
+  color: white;
+  padding: 1em;
+  background: #643e82cf;
+  padding-bottom: 70px;
 }
 
 .logoArea {
@@ -65,8 +65,7 @@ margin-top: 0px;
   text-transform: lowercase;
 }
 
-.yeoooDelivery
-{
+.yeoooDelivery {
   color: #fbbfff;
   margin-top: 27px !important;
   display: block;
@@ -84,61 +83,76 @@ margin-top: 0px;
   margin-right: 20px !important;
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 .yeoLogo h1 {
-font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
-    font-style: normal;
-    line-height: 1em;
-    padding: 0;
-    margin: 0;
-    font-size: 160px;
-    letter-spacing: -12px;
-    color: #45a5d4cf;
-    font-weight: 600;
-    text-shadow: 2px 2px 2px #160f7dad;
-    text-align: center;
+  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+  font-size: 160px;
+  letter-spacing: -12px;
+  color: #45a5d4cf;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #160f7dad;
+  text-align: center;
 
 }
 
 .yeoLogo h2 {
-   font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 0em;
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    padding-left: 44px;
-    font-size: 50px;
-    color: #092a8cc9;
-    text-align: center;
+  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 0em;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-left: 44px;
+  font-size: 50px;
+  color: #092a8cc9;
+  text-align: center;
 }
 
 .yeoLogo p {
   font-family: ibm-plex-sans, sans-serif;
-font-size: 1.5em;
-    background: #1d9c62e3;
-    margin-left: -55px !important;
-    border: 18px solid #247077f2;
-    margin-top: 0 !important;
-    border-left: 0;
-    text-transform: uppercase;
-    font-style: normal !important;
-    box-shadow: 12px 12px 2px #550b63;
-    border-radius: 0;
+  font-size: 1.5em;
+  background: #1d9c62e3;
+  margin-left: -55px !important;
+  border: 18px solid #247077f2;
+  margin-top: 0 !important;
+  border-left: 0;
+  text-transform: uppercase;
+  font-style: normal !important;
+  box-shadow: 12px 12px 2px #550b63;
+  border-radius: 0;
 }
 
 .introText {
-    font-style: italic;
-    color: #fff;
-    background: #ac50b7c4;
-    font-size: 2.22em;
-    padding: 1em 0em 1em 0em;
-    text-align: center;
+  font-style: italic;
+  color: #fff;
+  background: #ac50b7c4;
+  font-size: 2.22em;
+  padding: 1em 0em 1em 0em;
+  text-align: center;
 }
 
 .pageTitle text-center {
@@ -198,7 +212,7 @@ div#policies {
 }
 
 a.btn.btn-primary {
-    margin: .5em 1em;
+  margin: .5em 1em;
 }
 
 button.btn.btn-primary {
@@ -217,9 +231,9 @@ button.btn.btn-primary {
 
 
 .btn-submit:hover {
-    background: #28f51ad1;
-    color: #fff;
-    text-shadow: none;
+  background: #28f51ad1;
+  color: #fff;
+  text-shadow: none;
 }
 
 ul.card-deck.p-0.m-0.p-0 {
@@ -238,21 +252,26 @@ footer {
 /* Airtable */
 
 iframe.airtable-embed {
-    display: block;       /* iframes are inline by default */
-    background: #000;
-    border: none;         /* Reset default border */
-    height: 50vh;        /* Viewport-relative units */
-    width: 100%;
+  display: block;
+  /* iframes are inline by default */
+  background: #000;
+  border: none;
+  /* Reset default border */
+  height: 50vh;
+  /* Viewport-relative units */
+  width: 100%;
 }
 
 h1.formName {
-    display: none !important;
+  display: none !important;
 }
 
 .headline {
-  font-size: 42px;
-  padding: 80px 80px;
+  font-size: 1.5em !important;
+  padding: 40px 0px !important;
+  margin: 0;
 }
+
 
 
 .nav {
@@ -271,41 +290,49 @@ a.nav-item.nav-link.cuisine {
   background: #630e9842;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.fruit-and-veg:hover {
   background: #0c541c85;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.butchers:hover {
   background: #dc6cc994;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.farm-shop:hover {
   background: #a06060a6;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.groceries:hover {
   background: #c73535b5;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.pre-made-meals:hover {
   background: #c1bdbd75;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.milk:hover {
   background: #ffffff6b;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.bakery:hover {
   background: #e4e46a7d;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.fish:hover {
   background: #fcb1625e;
   animation: fade .5s;
@@ -317,6 +344,7 @@ a.nav-item.nav-link.cuisine.potatos:hover {
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.pharmacy:hover {
   background: #0080008c;
   animation: fade .5s;
@@ -328,6 +356,7 @@ a.nav-item.nav-link.cuisine.coffee:hover {
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 a.nav-item.nav-link.cuisine.booze:hover {
   background: #ffa5004d;
   animation: fade .5s;
@@ -335,8 +364,9 @@ a.nav-item.nav-link.cuisine.booze:hover {
 }
 
 a.nav-
+
 /* Jumbotron */
-.jumbotron{
+.jumbotron {
   background: linear-gradient(rgba(190, 34, 216, 0.23), rgba(125, 250, 250, 0.45)), url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -348,39 +378,84 @@ a.nav-
   top: 0;
 }
 
-.page-scroll{
-  height:200px;
+.page-scroll {
+  height: 200px;
 }
 
-.btn-outline-danger{
-  color:white;
-  border-color:white;
-  border-radius:0px;
-  font-weight:100;
-  margin-top:20px;
+.btn-outline-danger {
+  color: white;
+  border-color: white;
+  border-radius: 0px;
+  font-weight: 100;
+  margin-top: 20px;
 }
-.lead{
-  font-family:raleway;
-  font-weight:100;
-  margin-top:-10px;
+
+.lead {
+  font-family: raleway;
+  font-weight: 100;
+  margin-top: -10px;
 }
 
 .yeoIntro p {
-    font-size: 2.2em;
-    background: #1631af;
-    box-shadow: -18px 10px 2px #240c4a;
-    text-align: center;
+  font-size: 2.2em;
+  background: #1631af;
+  box-shadow: -18px 10px 2px #240c4a;
+  text-align: center;
 }
 
 
 
 /* buy me a coffee */
 
-.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#000000 !important;background-color:#FFFFFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 20px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Arial', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#000000 !important;}
+.bmc-button img {
+  height: 34px !important;
+  width: 35px !important;
+  margin-bottom: 1px !important;
+  box-shadow: none !important;
+  border: none !important;
+  vertical-align: middle !important;
+}
+
+.bmc-button {
+  padding: 7px 10px 7px 10px !important;
+  line-height: 35px !important;
+  height: 51px !important;
+  min-width: 217px !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  color: #000000 !important;
+  background-color: #FFFFFF !important;
+  border-radius: 5px !important;
+  border: 1px solid transparent !important;
+  padding: 7px 10px 7px 10px !important;
+  font-size: 20px !important;
+  letter-spacing: 0.6px !important;
+  box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  margin: 0 auto !important;
+  font-family: 'Arial', cursive !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  -o-transition: 0.3s all linear !important;
+  -webkit-transition: 0.3s all linear !important;
+  -moz-transition: 0.3s all linear !important;
+  -ms-transition: 0.3s all linear !important;
+  transition: 0.3s all linear !important;
+}
+
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  text-decoration: none !important;
+  box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  opacity: 0.85 !important;
+  color: #000000 !important;
+}
 
 .modal-dialog {
-    max-width: 100%;
-    }
+  max-width: 100%;
+}
 
 /* nav switch */
 
@@ -388,18 +463,19 @@ a.nav-
   background: #e697ff6b;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
-    background-color: #591f7db3;
-    border-radius: 0px;
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #591f7db3;
+  border-radius: 0px;
 }
 
 a.nav-item.nav-link {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-    border-radius: 0px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  border-radius: 0px;
 }
 
 a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn {
@@ -431,7 +507,16 @@ a.btn.btn-primary.btn-lg.active.w-100.deliveryTag {
 
 
 a.btn.btn-primary.btn-lg.active.w-100.m-0.serviceNameTag {
-  background: #e6e6e652;color: #202716bd;border: none;text-transform: uppercase;font-size: 1em;letter-spacing: 2px;font-weight: 400;box-shadow: none;margin-left: -4px !important; white-space: normal;
+  background: #e6e6e652;
+  color: #202716bd;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-weight: 400;
+  box-shadow: none;
+  margin-left: -4px !important;
+  white-space: normal;
 }
 
 .submitEntryBtn {
@@ -459,71 +544,56 @@ a.nav-item.nav-link.cuisine {
 /* footer */
 
 .bg-footer {
-    bottom: 0;
-    background-color: #dfe8f9 !important;
+  bottom: 0;
+  background-color: #dfe8f9 !important;
 }
 
 
 
 @media screen and (max-width: 600px) {
 
-.yeoLogo {
-  padding-left: 20px;
-  padding-top: 40px;
-}
 
-.yeoLogo h1 {
-      font-size: 72px;
-      letter-spacing: -3px;
-}
 
-.yeoLogo h2 {
-    font-size: 21px;
-    letter-spacing: 1px;
-}
+  .introText {
+    font-size: 2em;
+  }
 
-.introText {
-  font-size:2em;
-}
-
-.btn-submit {
+  .btn-submit {
     font-size: 14px;
     line-height: 6em;
-}
+  }
 
-.btnSubmit i {
+  .btnSubmit i {
     padding-right: 8px;
-}
+  }
 
-button.btn.btn-primary.btn-light {
-  font-size: 1em;
-  padding: 1em;
-  width: 100%;
-  text-align: center;
-}
-footer.footer.mt-auto.p-0 {
-  z-index: 1000;
-}
-.card-deck .card {
-  border-bottom: 50px solid #41ce7d !important;
-}
+  button.btn.btn-primary.btn-light {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+  }
 
-.list-group-item {
-    margin: 1% !important;
-    background: transparent !important;
+  footer.footer.mt-auto.p-0 {
+    z-index: 1000;
+  }
+
+  .card-deck .card {
     border-bottom: 50px solid #41ce7d !important;
-}
+  }
 
-a.nav-item.nav-link {
+
+
+  a.nav-item.nav-link {
     font-size: 1.5em;
-}
+  }
 
 
-.card-deck .card {
-  border-bottom: 50px solid #41ce7d !important;
-}
+  .card-deck .card {
+    border-bottom: 50px solid #41ce7d !important;
+  }
 
-.introPage .introTextTwo {
+  .introPage .introTextTwo {
     font-style: italic;
     color: #fff;
     background: #92289ec4;
@@ -532,43 +602,43 @@ a.nav-item.nav-link {
     text-align: center;
     box-shadow: none !important;
     margin-top: 40px !important;
-}
+  }
 
-.introPage .browseText {
+  .introPage .browseText {
     font-size: 1em;
     background: #b962bddb;
     text-align: center;
     box-shadow: none;
     border: none;
-}
+  }
 
 
-body > button > i {
-  padding-right:0px !important;
-}
+  body>button>i {
+    padding-right: 0px !important;
+  }
 
-.nav {
-  background: #e697ff6b;
-  display: none;
-}
+  .nav {
+    background: #e697ff6b;
+    display: none;
+  }
 
-.logoArea {
-  padding-bottom: 20px !important;
-}
+  .logoArea {
+    padding-bottom: 20px !important;
+  }
 
-.logoAreaText {
-  display: none;
-}
+  .logoAreaText {
+    display: none;
+  }
 
-.yeoooDelivery {
-  font-size: 45px;
-}
+  .yeoooDelivery {
+    font-size: 45px;
+  }
 
 
 
-body > div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center > div > div.col-md-2.sm-12.p-0.m-0.logoArea > a:nth-child(3) {
+  body>div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>div>div.col-md-2.sm-12.p-0.m-0.logoArea>a:nth-child(3) {
 
-  color: #fff;
+    color: #fff;
     text-decoration: underline;
     line-height: 2em;
     font-size: .8em;
@@ -578,28 +648,25 @@ body > div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center > di
     width: 100%;
     left: 0;
     text-transform: uppercase;
-}
+  }
 
-body > button {
-  position: fixed;
-  bottom: 31px;
-  z-index: 1000;
-  text-align: center;
-  background: #46cb7ff2;
-  text-shadow: none;
-  letter-spacing: 3px;
-  box-shadow: 0px -18px 30px #12224a52;
-}
+  body>button {
+    position: fixed;
+    bottom: 31px;
+    z-index: 1000;
+    text-align: center;
+    background: #46cb7ff2;
+    text-shadow: none;
+    letter-spacing: 3px;
+    box-shadow: 0px -18px 30px #12224a52;
+  }
 
 
-.list-group-item {
-  width: 100%;
-  margin: 0% !important;
-  padding-top: 0px !important;
-}
-div#experience {
-  margin-bottom: 10px !important;
-}
+
+  div#experience {
+    margin-bottom: 10px !important;
+  }
+
 
 }
 
@@ -615,121 +682,118 @@ div#experience {
     width: 31.333%;
     margin: 5px 1% !important;
   }
-  
+
 
 
 }
 
-@media (min-width: 992px) {
-  .list-group-item {
-    margin: 0 auto !important;
-  }
-}
+@media (min-width: 992px) {}
 
 .bgGradient {
-    background: rgb(40, 185, 175);
-    /* background: linear-gradient(135deg, rgba(65, 44, 208, 0.2), rgba(196, 83, 122, 0.23) 50%, rgba(208, 148, 85, 0.38)); */
-    background: linear-gradient(135deg,rgba(236, 236, 236, 0.84),rgba(255, 255, 255, 0.59) 50%,rgba(240, 238, 249, 0.38));
-    padding-top: 0px;
-    padding-bottom: 0px;
-    overflow: auto;
-    position: relative;
-    width: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    /* height: 55vh; */
+  background: rgb(40, 185, 175);
+  /* background: linear-gradient(135deg, rgba(65, 44, 208, 0.2), rgba(196, 83, 122, 0.23) 50%, rgba(208, 148, 85, 0.38)); */
+  background: linear-gradient(135deg, rgba(236, 236, 236, 0.84), rgba(255, 255, 255, 0.59) 50%, rgba(240, 238, 249, 0.38));
+  padding-top: 0px;
+  padding-bottom: 0px;
+  overflow: auto;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* height: 55vh; */
 }
 
 
 .parallax {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    /* height: 55vh; */
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* height: 55vh; */
 }
 
 
 
 
 .introPage .yeoLogoTwo {
-      background-repeat: no-repeat;
-    margin: 0 !important;
-    font-style: italic;
-    color: white;
-    background: #ef19be7d;
-    padding-left: 0px;
-    height: 100%;
-    min-height: 200px;
+  background-repeat: no-repeat;
+  margin: 0 !important;
+  font-style: italic;
+  color: white;
+  background: #ef19be7d;
+  padding-left: 0px;
+  height: 100%;
+  min-height: 200px;
 }
 
 .introPage .yeoLogoTwo h1 {
-    font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
-    font-style: normal;
-    line-height: 1.2455em;
-    padding: 0;
-    margin: 0;
-    font-size: 109px;
-    letter-spacing: -3px;
-    color: #9dcae0cf;
-    font-weight: 600;
-    text-shadow: 2px 2px 2px #4b0792ad;
-    text-align: center;
-    margin-left: -62px;
-    box-shadow: none !important;
+  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  line-height: 1.2455em;
+  padding: 0;
+  margin: 0;
+  font-size: 109px;
+  letter-spacing: -3px;
+  color: #9dcae0cf;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #4b0792ad;
+  text-align: center;
+  margin-left: -62px;
+  box-shadow: none !important;
 }
 
 .introPage .yeoLogoTwo h2 {
-   font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 0em;
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    padding-left: 44px;
-    font-size: 50px;
-    color: #092a8cc9;
-    text-align: center;
+  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 0em;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-left: 44px;
+  font-size: 50px;
+  color: #092a8cc9;
+  text-align: center;
 
 }
 
 .introPage .introTextTwo {
-    font-style: italic;
-    color: #fff;
-    background: #92289ec4;
-    font-size: 2em;
-    padding: 1em 0em 1em 0em;
-    text-align: center;
-    box-shadow: none !important;
+  font-style: italic;
+  color: #fff;
+  background: #92289ec4;
+  font-size: 2em;
+  padding: 1em 0em 1em 0em;
+  text-align: center;
+  box-shadow: none !important;
 }
 
 .introPage .browseText {
-    font-size: 2.2em;
-    background: #b962bddb;
-    text-align: center;
-    box-shadow: none;
-    border: none;
+  font-size: 2.2em;
+  background: #b962bddb;
+  text-align: center;
+  box-shadow: none;
+  border: none;
 }
 
 
 .align-items-center {
-  -ms-flex-align: center!important;
-  align-items: center!important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
 }
+
 .d-flex {
-  display: -ms-flexbox!important;
-  display: flex!important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 
 
@@ -738,6 +802,7 @@ div#experience {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -762,36 +827,43 @@ div#experience {
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🐮 {
   background: #dc6cc994;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🧺 {
   background: #a06060a6;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🥫 {
   background: #c73535b5;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🍴 {
   background: #c1bdbd75;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🥛 {
   background: #ffffff6b;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🍞 {
   background: #e4e46a7d;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🍣 {
   background: #fcb1625e;
   animation: fade .5s;
@@ -803,6 +875,7 @@ div#experience {
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🚛 {
   background: #0080008c;
   animation: fade .5s;
@@ -814,10 +887,13 @@ div#experience {
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
+
 .🍺 {
   background: #ffa5004d;
   animation: fade .5s;
   text-shadow: 2px 2px #000;
 }
 
-#mapid { height: 50vh; }
+#mapid {
+  height: 50vh;
+}
