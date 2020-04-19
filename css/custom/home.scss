@@ -480,10 +480,10 @@ a.nav-item.nav-link {
 
 a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn {
   text-transform: uppercase;
-  font-size: 1em;
-  background: #46cb7f;
-  border: 2px solid #7fa57db0;
-  box-shadow: 2px 2px #34900fc9;
+  font-size: 1.75em;
+  background: #5f3b96;
+  border: none;
+  box-shadow: none;
 }
 
 a.nav-item.nav-link.disabled {
@@ -579,7 +579,7 @@ a.nav-item.nav-link.cuisine {
   }
 
   .card-deck .card {
-    border-bottom: 50px solid #41ce7d !important;
+
   }
 
 
@@ -590,7 +590,7 @@ a.nav-item.nav-link.cuisine {
 
 
   .card-deck .card {
-    border-bottom: 50px solid #41ce7d !important;
+
   }
 
   .introPage .introTextTwo {
@@ -619,7 +619,19 @@ a.nav-item.nav-link.cuisine {
 
   .nav {
     background: #e697ff6b;
+  }
+
+  a.nav-item.nav-link.cuisine {
     display: none;
+}
+
+  body > div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center > nav:nth-child(2) > a:nth-child(2) 
+  {
+    display: none;
+  }
+
+  body > div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center > nav:nth-child(2) > a:nth-child(3) {
+    display:none;
   }
 
   .logoArea {
@@ -634,7 +646,11 @@ a.nav-item.nav-link.cuisine {
     font-size: 45px;
   }
 
-
+  .headline {
+    font-size: 1.5em !important;
+    padding: 45px 0px 0px 0px !important;
+    margin: 0;
+}
 
   body>div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>div>div.col-md-2.sm-12.p-0.m-0.logoArea>a:nth-child(3) {
 
