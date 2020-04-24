@@ -1,0 +1,4 @@
+{% capture filtered_titles_array %}{% for service in site.data.deliveryServices %}{{  service.location }}|{% endfor %}{% endcapture %}{% for service in site.data.deliveryServices %}
+{% assign filtered_title = service.location | append: '|' %}{% if filtered_titles_array contains filtered_title %}'{{ service.location }}',{% endif %}{% assign filtered_titles_array = filtered_titles_array | remove: filtered_title %}{% endfor %}
+    
+    

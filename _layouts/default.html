@@ -6,28 +6,28 @@
     {%include intro.html %}
 
     {% if page.tag == "services" %}
-
     {% include breadcrumbs.html %}
     {% endif %}
-
-
 
     {% if page.type == "blog" %}
     <!-- empty -->
     {% elsif page.category == "cuisine" %}
-    <div class="container text-center">
-        <h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in
-                Northern Ireland and what services are offering click and collection.</strong></h1>
+    <div style="display: none;" class="container-fluid text-center p-0 m-0">
+        <h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
     </div>
     {% else %}
-    <div class="container text-center">
-        <h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
-
-
+    <div style="display: none;" class="container-fluid text-center p-0 m-0">
+    <h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
     </div>
     {% endif %}
 
-    {{ content }}
+  <div class="row">
+    <div class="col-lg-2 col-sm-12 m-0 p-0 text-center locationListBg">
+       {%include locationList.html %}
+    </div>
+    <div class="col-lg-10 col-sm-12 m-0 p-0" style="background: #479a6c;"> {{ content }}</div>
+  </div>
+
 
     {% include footer.html %}
     {% include lazyload.html %}

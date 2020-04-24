@@ -12,94 +12,49 @@
 
 <body>
     {%include intro.html %}
-
     {% include breadcrumbs.html %}
+    
+<div class="container-fluid p-0 m-0">
 
 
-    <div class="container-fluid m-0 p-0">
+<div class="row m-0 p-0" style="background: #354a8f;">
+<div class="col m-0 p-2 text-center">
+<h1 class="pt-5 {{ page.class | downcase }}">{{ page.name }}</h1>
+<h2 class=" {{ page.class | downcase }}">{{ page.cuisine }} |  {{ page.emoji }} </h2>
+<h3 class=" {{ page.class | downcase }}">{{ page.location }}</h3>
+<p class=" {{ page.class | downcase }}">{{ page.phoneNumber }}</p>
+<a href="{{ page.website }}" class="{{ page.family | downcase }}"></a>
+<a style="background: #47d953bd;color: #fff;border: solid #47d9531f;text-transform: uppercase;font-size: 1.5em;letter-spacing: 3px;font-weight: 100;border-radius: 25px;padding: 1em 1.5em;"
+                href="{{ page.website | replace: " ", "_" }}" class="btn btn-primary btn-lg active m-0 pt-4 pb-5"
+                role="button" aria-pressed="true">Order</a>
+</div>
 
-        <div id="mapid"></div>
-
-    </div>
-
-    <div class="container">
-        <div class="container">
-            <div class="container text-center pt-5 pb-5">
-                <h1 class="display-4 headline" style="font-size: 36px;"><strong
-                        style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce
-                        in {{ page.location }}, Northern Ireland. </strong></h1>
-
-
-                <script>
-                    var mymap = L.map('mapid').setView([54.5, -6.94], 8);
-                    var marker = L.marker([{
-                        {
-                            page.Y
-                        }
-                    }, {
-                        {
-                            page.X
-                        }
-                    }]).addTo(mymap);
-                    marker.bindPopup("<b>{{ page.name }}</b> | <i>{{ page.cuisine }}</i> <br>{{ page.location }}")
-                        .openPopup();
-
-                    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-                        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                        maxZoom: 18,
-                        id: 'mapbox/streets-v11',
-                        tileSize: 512,
-                        zoomOffset: -1,
-                        accessToken: 'pk.eyJ1IjoidGhlc2hhd2UiLCJhIjoiY2s5NGc5aHIwMDUwZzNmb2JvajVhZnp5ciJ9.Luckw7X9TU9n99kMR7QUFw'
+<div id="mapid" class="col m-0 p-0">
+</div>
+</div>
 
 
-                    }).addTo(mymap);
-                </script>
 
 
-            </div>
-        </div>
-    </div>
-    <section class="container px-5">
-        <div class="row mb-5 pb-5">
-            <div class="col pt-2 mt-2">
-                <img src="{{ page.mainPicture }}" class="card-img-top p-0 m-0" alt="{{ page.name }}" />
-            </div>
-
-            <div class="col pt-5 mt-5"">
-<h1 class=" {{ page.class | downcase }}">{{ page.name }}</h1>
-                <h2 class=" {{ page.class | downcase }}">{{ page.cuisine }}</h2>
-                <hr>
-                <h3 class=" {{ page.class | downcase }}">{{ page.location }}</h3>
-                <p class=" {{ page.class | downcase }}">{{ page.phoneNumber }}</p>
-                <a href="{{ page.website }}" class="{{ page.family | downcase }}"></a>
-                <a style="background: #f7f7f7;color: #47d953bd;border: solid #47d9531f;text-transform: uppercase;font-size: 1.85em;letter-spacing: 3px;font-weight: 900;"
-                    href="{{ page.website | replace: " ", "_" }}" class="btn btn-primary btn-lg active w-100 m-0"
-                    role="button" aria-pressed="true">Visit Website</a>
-            </div>
-
+<div class="container-fluid m-0 p-5">
+        <h1 class="display-4 headline servicePage text-center p-5 m-5" style="font-size: 36px;"><strong  class="p-5 m-5" style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce in {{ page.location }}, Northern Ireland. </strong></h1>
+        {{ content }}
         </div>
 
-        <div class="row">
-            <div class="col">
 
-            </div>
-        </div>
 
-    </section>
+</div>
+    
 
-    </div>
+<div class="parallax featuredHeader text-center"
+style="background-image: url('{{ page.mainPicture }}');  height: 50vh; background-position: bottom;">
+<div class="bgGradient" style="height: 50vh; background-position: bottom;">
 
-    {{ content }}
+</div>
+</div>
 
-    <div class="parallax featuredHeader text-center"
-        style="background-image: url('{{ page.mainPicture }}');  height: 50vh; background-position: bottom;">
-        <div class="bgGradient" style="height: 50vh; background-position: bottom;">
 
-        </div>
-    </div>
-
-    {%include footer.html %}
+{%include footer.html %}
 
     <style>
         html,
@@ -115,6 +70,26 @@
 </body>
 
 {% include scripts.html %}
+
+<script>
+    var mymap = L.map('mapid').setView([54.5, -6.94], 8);
+    var marker = L.marker([{{ page.Y }}, {{ page.X }}]).addTo(mymap);
+    marker.bindPopup("<b>{{ page.name }}</b> | <i>{{ page.cuisine }}</i> <br>{{ page.location }}")
+        .openPopup();
+
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoidGhlc2hhd2UiLCJhIjoiY2s5NGc5aHIwMDUwZzNmb2JvajVhZnp5ciJ9.Luckw7X9TU9n99kMR7QUFw'
+
+
+    }).addTo(mymap);
+</script>
+
+
 
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
     data-dojo-config="usePlainJson: true, isDebug: false"></script>

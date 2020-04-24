@@ -1,12 +1,12 @@
 
- <div class="container-fluid" style="    text-align: center;font-size: 1.5em;line-height: 2em;background: #75cfef;">
+ <div class="container-fluid p-0 m-0"" style="    text-align: center;font-size: 1.5em;line-height: 2em;background: #ba76dc;">
 
 
-    {% if page.tag == "services" %}
-
+    {% if page.layout == "location" %}
+    <h1 class="display-4 headline pageTop" style=""><strong style="font-style: italic;"> {{ page.location }} Delivery Services, Northern Ireland. </strong></h1>
 
     {% else %}
-    <h1 class="display-4 headline" style="    padding: 30px 0px 0px 0px;"><strong style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce in {{ page.location }}, Northern Ireland. </strong></h1>
+    <h1 class="display-4 headline pageTop" style=""><strong style="font-style: italic;">{{ page.name }} is operating a {{ page.cuisine }} delivery servivce in {{ page.location }}, Northern Ireland. </strong></h1>
     {% endif %}
 
 

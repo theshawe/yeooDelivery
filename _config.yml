@@ -25,4 +25,9 @@ collections:
     source: deliveryServices.csv
     id_key: name
     layout: page
+  locations:
+    output: true
+    source: deliveryServiceLocation.csv
+    id_key: location
+    layout: location
 
