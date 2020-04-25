@@ -566,6 +566,9 @@ a.nav-item.nav-link.cuisine {
 @media screen and (max-width: 600px) {
 
 
+  .locationList {
+    display: none;
+  }
 
   .introText {
     font-size: 2em;
@@ -630,9 +633,10 @@ a.nav-item.nav-link.cuisine {
     padding-right: 0px !important;
   }
 
-  .nav {
+/*  .nav {
     background: linear-gradient(90deg, #ffcfd5c7 0%, rgba(243, 243, 243, 0.88) 35%, rgba(221, 132, 247, 0.46) 100%);
   }
+*/
 
 
 
@@ -702,6 +706,9 @@ a.nav-item.nav-link.cuisine {
     width: 47%;
     margin: 5px 1.5% !important;
   }
+  .locationList {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -717,6 +724,8 @@ a.nav-item.nav-link.cuisine {
 }
 
 @media (min-width: 992px) {}
+
+
 
 .bgGradient {
   background: rgb(40, 185, 175);
@@ -957,7 +966,7 @@ div#breadcrumbs {
 
 
 a.nav-item.nav-link.cuisine.yeoooLogo {
-  padding-left: 25px;
+  padding-left: 0px;
   font-weight: 900;
   color: #65d84a;
   text-shadow: 2px 2px 2px #000;
@@ -966,10 +975,9 @@ a.nav-item.nav-link.cuisine.yeoooLogo {
   font-style: normal;
   line-height: 1.5em;
   padding-bottom: 15px;
-  font-size: 45px;
+  font-size: 55px;
   padding-top: 15px;
   padding-right: 24px;
-
 }
 
 a.nav-item.nav-link.cuisine.yeoooLogo strong {
