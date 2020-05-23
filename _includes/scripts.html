@@ -14,6 +14,13 @@
     crossorigin="anonymous"
   ></script>
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin="" />
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,5 +31,39 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-161398717-1');
+</script>
+
+<!-- Map Box-->
+<script>
+  var mymap = L.map('mapid').setView([54.5, -6.94], 8);
+  var marker = L.marker([{{ page.Y }}, {{ page.X }}]).addTo(mymap);
+  marker.bindPopup("<b>{{ page.name }}</b> | <i>{{ page.cuisine }}</i> <br>{{ page.location }}")
+      .openPopup();
+
+  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoidGhlc2hhd2UiLCJhIjoiY2s5NGc5aHIwMDUwZzNmb2JvajVhZnp5ciJ9.Luckw7X9TU9n99kMR7QUFw'
+
+
+  }).addTo(mymap);
+</script>
+
+
+<!-- Mailchimp -->
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+  data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+  window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+      L.start({
+          "baseUrl": "mc.us4.list-manage.com",
+          "uuid": "61cb867bb4af1432782e78131",
+          "lid": "623b66bd1e",
+          "uniqueMethods": true
+      })
+  })
 </script>
 

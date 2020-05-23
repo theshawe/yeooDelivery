@@ -3,7 +3,7 @@
 {% include head.html %}
 
 <body>
-    {%include intro.html %}
+    {%include cuisineSwitch.html %}
 
     {% if page.tag == "services" %}
     {% include breadcrumbs.html %}
@@ -12,67 +12,24 @@
     {% if page.type == "blog" %}
     <!-- empty -->
     {% elsif page.category == "cuisine" %}
-    <div style="display: none;" class="container-fluid text-center p-0 m-0">
-        <h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
-    </div>
+    <h1 style="display: none;" class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
     {% else %}
-    <div style="display: none;" class="container-fluid text-center p-0 m-0">
-    <h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
-    </div>
+    <h1  style="display: none;" class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
     {% endif %}
 
-  <div class="row">
-    <div class="col-lg-2 col-sm-12 m-0 p-0 text-center locationListBg">
-       {%include locationList.html %}
-    </div>
-    <div class="col-lg-10 col-sm-12 m-0 p-0" style="background: #479a6c;"> {{ content }}</div>
-  </div>
+  
+    <div class="col-lg-12 col-sm-12 m-0 p-0" style="background: #479a6c;"> {{ content }}</div>
 
 
-    {% include footer.html %}
-    {% include lazyload.html %}
 
-    <style>
-        html,
-        body {
-            background: #41ce7d;
-            color: #fff;
-            animation: fade .5s;
-        }
-
-        a.nav-item.nav-link.cuisine. {
-                {
-                page.type
-            }
-        }
-
-            {
-            background: #302d56;
-            color: #3cc1d2;
-            font-weight: 100;
-            letter-spacing: 2px;
-            animation: fade .5s;
-        }
-        }
-    </style>
-
-    {% include randomize.html %}
+{% include footer.html %}
+{% include lazyload.html %}
+{% include randomize.html %}
 
 </body>
 
 {% include scripts.html %}
 
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
-    data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script type="text/javascript">
-    window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
-        L.start({
-            "baseUrl": "mc.us4.list-manage.com",
-            "uuid": "61cb867bb4af1432782e78131",
-            "lid": "623b66bd1e",
-            "uniqueMethods": true
-        })
-    })
-</script>
+
 
 </html>

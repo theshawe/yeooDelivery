@@ -244,16 +244,7 @@ ul.card-deck.p-0.m-0.p-0 {
   margin-bottom: 200px !important;
 }
 
-footer {
-  width: 100%;
-  background: #5f3c96;
-  width: 100%;
-  background: #5f3c96;
-  position: fixed;
-  bottom: 0;
-  z-index: 1000;
-  height: 80px;
-}
+
 
 a.btn.btn-lg.active.w-100 {
   font-size: 40px;
@@ -528,6 +519,7 @@ a.btn.btn-primary.btn-lg.active.w-100.m-0.serviceNameTag {
   box-shadow: none;
   margin-left: -4px !important;
   white-space: normal;
+  height: 50px;
 }
 
 .submitEntryBtn {
@@ -1016,4 +1008,79 @@ display: block;
   font-size: 25px;
   box-shadow: 2px 2px 2px #215463;     
 
+}
+
+
+
+html,
+body {
+    background: #30163cf5;
+    color: #fff;
+    animation: fade .5s;
+}
+
+
+
+
+
+
+
+/* Page Design */
+
+.pageBg {
+  background: linear-gradient(45deg, #2cbd31, #55ad19, #62c555);
+}
+
+
+.orderBtn {
+    background: #37c316;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 2em;
+    width: 33.3%;
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 8px 8px 12px #06190333;
+}
+
+/* Footer */
+
+.fixedFooter {
+  width: 100%;
+  background: #3e1798;
+  height: 80px;
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+}
+
+.microMenu {
+  position: absolute;
+  left: 50px;
+  background: #4c2e91;
+  width: auto;
+}
+
+.updateButton {
+  position: absolute;
+  background: #35f308d6;
+  right: 74px;
+  bottom: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 38px;
+  line-height: 80px;
+  width: 33.3%;
+  text-transform: uppercase;
+  box-shadow: 8px 8px 12px #06190333;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* Submission Form */
+#submissionForm .modal-content {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  background: #71d265;
 }
