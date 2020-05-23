@@ -556,6 +556,9 @@ a.nav-item.nav-link.cuisine {
 
 @media screen and (max-width: 600px) {
 
+  .updateButton {
+    display: none !important;
+  }
 
   .locationList {
     display: none;
