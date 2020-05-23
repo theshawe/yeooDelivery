@@ -26,40 +26,50 @@
 <h2 class="pageTitle text-center">PHARMACY 🚛</h2>
 {% elsif page.type == "coffee" %}
 <h2 class="pageTitle text-center">COFFEE ☕</h2>
-{% elsif page.type == "booze" %}
-<h2 class="pageTitle text-center">BOOZE 🍺</h2>
+{% elsif page.type == "beer" %}
+<h2 class="pageTitle text-center">beer 🍺</h2>
 {% endif %}
 --> 
 
 {% if page.type == "delivery" %}
 {%include deliveryServices.html %}
-{% elsif page.type == "collection" %}
-{%include collectionServices.html %}
-{% elsif page.type == "fruit-and-veg" %}
-{%include services/fruitAndVegServices.html %}
-{% elsif page.type == "butchers" %}
-{%include services/butcherServices.html %}
-{% elsif page.type == "farm-shop" %}
-{%include services/farmShopServices.html %}
-{% elsif page.type == "groceries" %}
-{%include services/groceryServices.html %}
-{% elsif page.type == "pre-made-meals" %}
-{%include services/preMadeMealServices.html %}
-{% elsif page.type == "milk" %}
-{%include services/milkServices.html %}
+{% elsif page.type == "asian" %}
+{%include services/asianServices.html %}
 {% elsif page.type == "bakery" %}
 {%include services/bakeryServices.html %}
-{% elsif page.type == "fish" %}
-{%include services/fishServices.html %}
-{% elsif page.type == "potatos" %}
-{%include services/potatoServices.html %}
+{% elsif page.type == "beer" %}
+{%include services/beerServices.html %}
 {% elsif page.type == "bread" %}
 {%include services/breadServices.html %}
-{% elsif page.type == "pharmacy" %}
-{%include services/pharmacyServices.html %}
 {% elsif page.type == "coffee" %}
 {%include services/coffeeServices.html %}
-{% elsif page.type == "booze" %}
-{%include services/boozeServices.html %}
+{% elsif page.type == "farm-shop" %}
+{%include services/farmShopServices.html %}
+{% elsif page.type == "fashion" %}
+{%include services/fashionServices.html %}
+{% elsif page.type == "fruit-and-veg" %}
+{%include services/fruitAndVegServices.html %}
+{% elsif page.type == "fish" %}
+{%include services/fishServices.html %}
+{% elsif page.type == "groceries" %}
+{%include services/groceryServices.html %}
+{% elsif page.type == "indian" %}
+{%include services/indianServices.html %}
+{% elsif page.type == "milk" %}
+{%include services/milkServices.html %}
+{% elsif page.type == "potatos" %}
+{%include services/potatoServices.html %}
+{% elsif page.type == "ppe" %}
+{%include services/ppeServices.html %}
+{% elsif page.type == "pharmacy" %}
+{%include services/pharmacyServices.html %}
+{% elsif page.type == "resturants" %}
+{%include services/resturantServices.html %}
+{% elsif page.type == "sports" %}
+{%include services/sportServices.html %}
+{% elsif page.type == "vegan" %}
+{%include services/veganServices.html %}
+{% elsif page.type == "wine" %}
+{%include services/wineServices.html %}
 {% endif %}
 

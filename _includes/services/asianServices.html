@@ -1,6 +1,6 @@
-<ul class="card-deck p-0 m-0 p-0">
+<ul class="card-deck p-0 m-0">
     {% for service in site.data.deliveryServices %}
-    {% if service.cuisine contains "🐮" %}
+    {% if service.cuisine contains "🏮" %}
     <li class="list-group-item border-0 p-0 m-5 ">
     <div class="card p-0 m-0 ">
     
@@ -13,6 +13,7 @@
         <div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
         {{ service.emoji }}
         </div>
+        
     <div class="card-body">
     <a style="" href="/services/{{ service.name | replace: " ", "_" }}"  class="btn btn-primary btn-lg active w-100 m-0 serviceNameTag" role="button" aria-pressed="true">{{ service.name }} </a>
     </div>
