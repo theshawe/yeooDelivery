@@ -4,7 +4,7 @@
 <body>
 
 {%include cuisineSwitch.html %}
-<div class="container-fluid text-center pageBg"><h1 class="text-center container text-center p-5" style="font-size: 36px;"><strong>{{ page.name }}</strong> is operating a <strong>{{ page.cuisine }} {{ page.emoji }}</strong> delivery servivce in <strong>{{ page.location }}</strong>, Northern Ireland. </strong></h1><a href="{{ page.website }}" class="text-center btn mb-5 orderBtn" role="button" aria-pressed="true">Order</a></div>
+<div class="container-fluid text-center pageBg"><h1 class="text-center container text-center p-5 mb-0" style="font-size: 36px;"><strong>{{ page.name }}</strong> is operating a <strong>{{ page.cuisine }} {{ page.emoji }}</strong> delivery servivce in <strong>{{ page.location }}</strong>, Northern Ireland. </strong></h1><a href="{{ page.website }}" class="text-center btn mb-5 orderBtn" role="button" aria-pressed="true">Order</a></div>
 <h2 class="p-5 m-0 text-center">Recent Public Reviews at {{ page.name }}</h2>
 {%include footer.html %}
 </body>
