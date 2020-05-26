@@ -236,8 +236,8 @@ a.nav-item.nav-link.cuisine {
 
 /* Cards */
 ul.card-deck.p-0.m-0.p-0 {
-  margin-top: 134px !important;
-  background: #dadeefb8;
+  margin-top: 150px !important;
+  background: #efb6ef;
 }
 
 /* Submit */
@@ -275,6 +275,19 @@ ul.card-deck.p-0.m-0.p-0 {
 
 
 @media screen and (max-width: 600px) {
+  .microMenu {
+    position: absolute;
+    left: 0px;
+    background: #eae4ea;
+    width: 100% !important;
+}
+
+a.nav-item.nav-link.cuisine.yeoooLogo {
+  padding: 0px !important;
+}
+a.nav-item.nav-link.cuisine {
+  padding: 0px 10px 0px 10px !important;
+}
 
   .updateButton {
     display: none !important;
@@ -721,7 +734,7 @@ display: block;
 
 html,
 body {
-    background: #30163cf5;
+    background: #e894e8ad;
     color: #fff;
     animation: fade .5s;
 }
@@ -768,21 +781,20 @@ a.btn.btn-lg.active.w-100 {
 
 .microMenu {
   position: absolute;
-  left: 50px;
+  left: 0px;
   background: #d8e3e4;
-  width: auto;
+  width: 20%;
 }
 
 .updateButton {
   position: absolute;
-  background: #35f308d6;
-  right: 74px;
+  background: #179e5a7d;
+  right: 0px;
   bottom: 0px;
   text-align: center;
-  color: #fff;
-  font-size: 38px;
+  font-size: 48px;
   line-height: 80px;
-  width: 33.3%;
+  width: 80%;
   text-transform: uppercase;
   box-shadow: 8px 8px 12px #06190333;
   font-weight: 900;
