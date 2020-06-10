@@ -8,7 +8,7 @@
                 <div style="display: flex; justify-content: space-between;">
                     <a style="text-align: left;margin-left: -10px; color: #96433fba; font-weight: 100; letter-spacing: 2px; "
                         class="nav-link " href="#"> <strong>📍 {{ service.location  }}</strong></a>
-                    <a class="nav-link " href="/services/{{ service.name | replace: " ", "_" }}">
+                    <a class="nav-link " href="/services/{{ service.name | replace: " ", "-" }}">
                         <strong>{{ service.emoji }}</strong> </a>
                 </div>
             </div>
@@ -18,7 +18,7 @@
             </div>
 
             <div class="card-body">
-                <a style="" href="/services/{{ service.name | replace: " ", "_" }}"
+                <a style="" href="/services/{{ service.name | replace: " ", "-" }}"
                     class="btn btn-primary btn-lg active w-100 m-0 serviceNameTag" role="button"
                     aria-pressed="true">{{ service.name }} </a>
             </div>
@@ -28,7 +28,7 @@
 
 
                 <div class="d-flex bd-highlight">
-                    <a href="/services/{{ service.name | replace: " ", "_" }}"
+                    <a href="/services/{{ service.name | replace: " ", "-" }}"
                         class="btn btn-primary btn-lg active w-100 moreinfo-btn " role="button"
                         aria-pressed="true">More</a>
                 </div>
