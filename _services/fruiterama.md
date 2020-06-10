@@ -1,12 +1,11 @@
 ---
-X: "-5.93455"
-Y: '54.59534'
 name: Fruiterama
+directory: fruiterama
+cuisine: "Fruit and Veg \U0001F966"
+emoji: "\U0001F966"
 location: Belfast
-cuisine: Fruit and Veg
 website: https://www.facebook.com/fruiteramabelfast/
-mainPicture: https://scontent.flhr4-1.fna.fbcdn.net/v/t1.0-9/14915353_917016368398485_659524482780205479_n.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=4K8-pNUfrW8AX8dZREk&_nc_ht=scontent.flhr4-1.fna&oh=c74f433cd3e6d9e448c8c705ea3e9eaa&oe=5EA0B592
-delivery: Delivery ✅
+'delivery ': Delivery ✅
 permalink: "/services/fruiterama.html"
 layout: page
 ---

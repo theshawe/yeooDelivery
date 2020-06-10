@@ -23,7 +23,7 @@ collections:
   services:
     output: true
     source: deliveryServices.csv
-    id_key: name
+    id_key: directory
     layout: page
   locations:
     output: true
