@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   font-style: normal;
   scroll-behavior: smooth;
-  background: #7d5cb2;
+  background: #21bd85ff;
   color: #fff;
   animation: fade .5s;
   padding: 0;
@@ -16,12 +16,15 @@ body {
 .maxWidth {
   max-width: 1666px;
 }
+
 .modal-dialog {
   max-width: 100%;
 }
+
 .text-muted {
   color: #ab972a !important;
 }
+
 h1.formName {
   display: none !important;
 }
@@ -29,30 +32,33 @@ h1.formName {
 /* Default */
 .headline {
   font-weight: 900;
- text-shadow: 2px 2px 2px #0604083d;
- background: #3b93ff6b;
- text-transform: uppercase;
- text-align: center;
- margin: 0 auto;
- padding: 1em 2em;
- line-height: 0.8em;
- font-size: 1.1em;
+  text-shadow: 2px 2px 2px #0604083d;
+  background: #3b93ff6b;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  line-height: 0.8em;
+  font-size: 1.1em;
 }
+
 /* Navigation */
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(245, 248, 252);
   text-transform: lowercase;
 }
+
 .nav-item {
   font-size: 22px;
 }
+
 .nav {
   background: linear-gradient(rgba(190, 34, 216, 0.23), rgba(125, 250, 250, 0.45)), url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: linear-gradient(90deg, #ffcfd5c7 0%, rgba(243, 243, 243, 0.88) 35%, rgba(221, 132, 247, 0.46) 100%);
   height: 120px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .card-header {
@@ -68,87 +74,75 @@ h1.formName {
   padding-top: 14px;
   text-transform: lowercase;
   background: #630e9842;
-  text-shadow: 2px 2px #000;  
 }
 */
 
 a.nav-item.nav-link.cuisine.fruit-and-veg:hover {
   background: #0c541c85;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.butchers:hover {
   background: #dc6cc994;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.farm-shop:hover {
   background: #a06060a6;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.groceries:hover {
   background: #c73535b5;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.pre-made-meals:hover {
   background: #c1bdbd75;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.milk:hover {
   background: #ffffff6b;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.bakery:hover {
   background: #e4e46a7d;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.fish:hover {
   background: #fcb1625e;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.potatos:hover {
   background: #a52a2a69;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.pharmacy:hover {
   background: #0080008c;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.coffee:hover {
   background: #e6e6e633;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 a.nav-item.nav-link.cuisine.beer:hover {
   background: #ffa5004d;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
+
 a.btn.btn-lg.active.w-100 {
   font-size: 40px;
 }
 
 .nav {
-  background:linear-gradient(90deg, #dae2eb 0%, rgba(243, 243, 243, 0.88) 35%, rgb(218, 226, 235) 100%);
+  background: linear-gradient(90deg, #dae2eb 0%, rgba(243, 243, 243, 0.88) 35%, rgb(218, 226, 235) 100%);
 }
 
 .nav-pills .nav-link.active,
@@ -236,8 +230,8 @@ a.nav-item.nav-link.cuisine {
 
 /* Cards */
 ul.card-deck.p-0.m-0.p-0 {
-  margin-top: 150px !important;
-  background: #efb6ef;
+  margin-top: 140px !important;
+  background: #45bb86;
 }
 
 /* Submit */
@@ -249,6 +243,7 @@ ul.card-deck.p-0.m-0.p-0 {
   border-radius: 0px;
   color: #fff;
 }
+
 .btn-submit:hover {
   background: #28f51ad1;
   color: #fff;
@@ -278,16 +273,17 @@ ul.card-deck.p-0.m-0.p-0 {
   .microMenu {
     position: absolute;
     left: 0px;
-    background: #eae4ea;
+    background: #591a71;
     width: 100% !important;
-}
+  }
 
-a.nav-item.nav-link.cuisine.yeoooLogo {
-  padding: 0px !important;
-}
-a.nav-item.nav-link.cuisine {
-  padding: 0px 10px 0px 10px !important;
-}
+  a.nav-item.nav-link.cuisine.yeoooLogo {
+    padding: 0px !important;
+  }
+
+  a.nav-item.nav-link.cuisine {
+    padding: 0px 10px 0px 10px !important;
+  }
 
   .updateButton {
     display: none !important;
@@ -355,13 +351,12 @@ a.nav-item.nav-link.cuisine {
   }
 
 
-  body > div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center > nav:nth-child(2) > a:nth-child(2) 
-  {
+  body>div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>nav:nth-child(2)>a:nth-child(2) {
     display: none;
   }
 
-  body > div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center > nav:nth-child(2) > a:nth-child(3) {
-    display:none;
+  body>div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>nav:nth-child(2)>a:nth-child(3) {
+    display: none;
   }
 
   .logoArea {
@@ -380,7 +375,7 @@ a.nav-item.nav-link.cuisine {
     font-size: 1.5em;
     padding: 45px 0px 0px 0px;
     margin: 0;
-}
+  }
 
   body>div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>div>div.col-md-2.sm-12.p-0.m-0.logoArea>a:nth-child(3) {
 
@@ -421,6 +416,7 @@ a.nav-item.nav-link.cuisine {
     width: 47%;
     margin: 5px 1.5% !important;
   }
+
   .locationList {
     display: none;
   }
@@ -571,7 +567,6 @@ a.nav-item.nav-link.cuisine {
   line-height: 1em;
   padding-top: 10px;
   padding-bottom: 0px;
-  text-shadow: 2px 2px #000;
 }
 
 .collectionBtn {
@@ -583,73 +578,61 @@ a.nav-item.nav-link.cuisine {
 .🥦 {
   background: #0c541c85;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🐮 {
   background: #dc6cc994;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🧺 {
   background: #a06060a6;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🥫 {
   background: #c73535b5;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🍴 {
   background: #c1bdbd75;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🥛 {
   background: #ffffff6b;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🍞 {
   background: #e4e46a7d;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🍣 {
   background: #fcb1625e;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🥔 {
   background: #a52a2a69;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🚛 {
   background: #0080008c;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .☕ {
   background: #e6e6e633;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 .🍺 {
   background: #ffa5004d;
   animation: fade .5s;
-  text-shadow: 2px 2px #000;
 }
 
 
@@ -659,7 +642,8 @@ h1.display-4.headline.pageTop {
   margin: 0 auto;
   text-transform: capitalize;
   line-height: 2em;
-  background: #ef25cc8c;;
+  background: #ef25cc8c;
+  ;
 }
 
 div#breadcrumbs {
@@ -667,8 +651,8 @@ div#breadcrumbs {
 }
 
 .list-group-item:first-child {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .card-deck .card {
@@ -702,16 +686,17 @@ a.nav-item.nav-link.cuisine.yeoooLogo strong {
 }
 
 .locationList {
-  list-style: none; margin-top: 35px;
+  list-style: none;
+  margin-top: 35px;
 }
 
 .locationList span {
-text-transform: capitalize; 
-font-weight: 900;
-padding-left: 10px;
-color: #fff;
-padding-bottom: 25px;
-display: block;
+  text-transform: capitalize;
+  font-weight: 900;
+  padding-left: 10px;
+  color: #fff;
+  padding-bottom: 25px;
+  display: block;
 }
 
 .locationList li {
@@ -719,14 +704,14 @@ display: block;
   padding-bottom: 20px;
 }
 
-.locationList li a  {
+.locationList li a {
   background: #674e8e;
-  padding: .15em 1em;     
-  line-height: 2em; 
+  padding: .15em 1em;
+  line-height: 2em;
   border-radius: 5px;
   color: #fff;
   font-size: 25px;
-  box-shadow: 2px 2px 2px #215463;     
+  box-shadow: 2px 2px 2px #215463;
 
 }
 
@@ -734,9 +719,9 @@ display: block;
 
 html,
 body {
-    background: #e894e8ad;
-    color: #fff;
-    animation: fade .5s;
+  background: #21bd85ff;
+  color: #fff;
+  animation: fade .5s;
 }
 
 
@@ -753,28 +738,29 @@ body {
 
 
 .orderBtn {
-    background: #37c316;
-    color: #fff;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: 2em;
-    width: 33.3%;
-    font-size: 2em;
-    text-align: center;
-    box-shadow: 8px 8px 12px #06190333;
+  background: #37c316;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 2em;
+  width: 33.3%;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 8px 8px 12px #06190333;
 }
 
 /* Footer */
 
 .fixedFooter {
   width: 100%;
-  background-color: #d8e3e4;
+  background-color: #520f93;
   height: 80px;
   z-index: 1000;
   position: fixed;
   bottom: 0;
 }
+
 a.btn.btn-lg.active.w-100 {
   box-shadow: none;
 }
@@ -782,13 +768,13 @@ a.btn.btn-lg.active.w-100 {
 .microMenu {
   position: absolute;
   left: 0px;
-  background: #d8e3e4;
+  background: #520f93;
   width: 20%;
 }
 
 .updateButton {
   position: absolute;
-  background: #179e5a7d;
+  background: #5a1a99ff;
   right: 0px;
   bottom: 0px;
   text-align: center;
@@ -833,7 +819,7 @@ a.nav-item.nav-link.cuisine.yeoooLogo {
   z-index: 100;
   top: 0;
   width: 100%;
-  background: #e8e7e8;
+  background: #4b077e;
   padding-left: 31px;
   padding-top: 0px;
   height: 70px;
@@ -845,6 +831,11 @@ nav.nav.nav-pills.nav-fill {
   top: 70px;
   z-index: 100;
   height: 70px;
-  background: #dedede;
+  background: #341173;
   width: 100%;
+}
+
+.container-fluid.text-center.pageBg {
+  padding-top: 150px !important;
+  background: rebeccapurple;
 }
