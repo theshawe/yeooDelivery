@@ -5,7 +5,8 @@ cuisine: "Groceries \U0001F96B"
 emoji: "\U0001F96B"
 location: Dungiven
 website: https://www.facebook.com/eurospar.dungiven/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: groceries
 permalink: "/services/eurospar-dungiven.html"
 layout: page
 ---

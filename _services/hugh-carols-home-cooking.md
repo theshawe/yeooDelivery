@@ -5,7 +5,8 @@ cuisine: "Pre Made Meals\U0001F374"
 emoji: "\U0001F374"
 location: Belfast
 website: https://www.facebook.com/hchomecooking/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: pre-made-meals
 permalink: "/services/hugh-carols-home-cooking.html"
 layout: page
 ---

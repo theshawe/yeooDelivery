@@ -5,7 +5,8 @@ cuisine: "Groceries \U0001F96B"
 emoji: "\U0001F96B"
 location: Banbridge
 website: https://www.facebook.com/quailsfinefoods/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: groceries
 permalink: "/services/quails-fine-foods.html"
 layout: page
 ---

@@ -5,7 +5,8 @@ cuisine: "Milk\U0001F95B"
 emoji: "\U0001F95B"
 location: Belfast
 website: https://mockfordmilk.co.uk/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: milk
 permalink: "/services/mockford-milk.html"
 layout: page
 ---

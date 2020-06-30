@@ -5,7 +5,8 @@ cuisine: "Groceries \U0001F96B"
 emoji: "\U0001F96B"
 location: Cloughmills
 website: https://www.facebook.com/CloghMills/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: groceries
 permalink: "/services/costcutter-cloughmills.html"
 layout: page
 ---

@@ -5,7 +5,8 @@ cuisine: "Fruit and Veg \U0001F966"
 emoji: "\U0001F966"
 location: Donaghadee
 website: https://www.facebook.com/Harvestfayredonaghadee/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: fruit-and-veg
 permalink: "/services/harvest-fayre.html"
 layout: page
 ---

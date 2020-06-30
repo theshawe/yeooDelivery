@@ -5,7 +5,8 @@ cuisine: "Wine \U0001F377"
 emoji: "\U0001F377"
 location: Belfast
 website: https://www.facebook.com/directwineshipments/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: wine
 permalink: "/services/direct-wine.html"
 layout: page
 ---

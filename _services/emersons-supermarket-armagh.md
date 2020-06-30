@@ -5,7 +5,8 @@ cuisine: "Groceries \U0001F96B"
 emoji: "\U0001F96B"
 location: Armagh
 website: https://www.facebook.com/emersonsarmagh/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: groceries
 permalink: "/services/emersons-supermarket-armagh.html"
 layout: page
 ---

@@ -5,7 +5,8 @@ cuisine: "Pharmacy \U0001F69B"
 emoji: " \U0001F69B"
 location: Poyntzpass
 website: https://www.facebook.com/Poyntzpass-Pharmacy-126660150820450/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: pharmacy
 permalink: "/services/poyntzpass-pharmacy.html"
 layout: page
 ---

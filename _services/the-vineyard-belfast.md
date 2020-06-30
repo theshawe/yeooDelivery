@@ -5,7 +5,8 @@ cuisine: "Beer \U0001F37A"
 emoji: "\U0001F37A"
 location: Belfast
 website: https://www.facebook.com/thevineyardbelfast/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: beer
 permalink: "/services/the-vineyard-belfast.html"
 layout: page
 ---

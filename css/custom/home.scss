@@ -192,18 +192,16 @@ a.btn.btn-primary.btn-lg.active.w-100.deliveryTag {
 
 
 a.btn.btn-primary.btn-lg.active.w-100.m-0.serviceNameTag {
-  background: #e6e6e652;
-  color: #202716bd;
-  border: none;
-  text-transform: uppercase;
-  font-size: 1em;
-  letter-spacing: 2px;
-  font-weight: 400;
-  box-shadow: none;
-  margin-left: -4px !important;
-  white-space: normal;
-  height: 50px;
-}
+background: #e1e9f3;
+    color: #37084abd;
+    border: none;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 100;
+    box-shadow: none;
+    white-space: normal;
+    line-height: 1.5em;
+    }
 
 
 
@@ -230,7 +228,7 @@ a.nav-item.nav-link.cuisine {
 
 /* Cards */
 ul.card-deck.p-0.m-0.p-0 {
-  margin-top: 140px !important;
+  /* margin-top: 140px !important; */
   background: #45bb86;
 }
 
@@ -774,18 +772,25 @@ a.btn.btn-lg.active.w-100 {
 
 .updateButton {
   position: absolute;
-  background: #5a1a99ff;
+  background: #0ac100;
   right: 0px;
   bottom: 0px;
   text-align: center;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 80px;
   width: 80%;
   text-transform: uppercase;
-  box-shadow: 8px 8px 12px #06190333;
+  box-shadow: 5px 7px 13px 4px #122b09;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
+
+/* .updateButton span {
+  padding-top: -2px;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 1px;
+}
+*/
 
 /* Submission Form */
 #submissionForm .modal-content {
@@ -838,4 +843,32 @@ nav.nav.nav-pills.nav-fill {
 .container-fluid.text-center.pageBg {
   padding-top: 150px !important;
   background: rebeccapurple;
+}
+
+
+div#related {
+    min-height: 100vh;
+}
+
+#related .list-group-item {
+  margin: 1em !important;
+}
+
+card-body {
+    flex: 1 1 auto;
+    min-height: 150px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.vertical-center {
+height: 100vh;
+    -webkit-box-align: center;
+    align-items: center;
+      justify-content: center;
+    min-height: 100%;
+    min-height: 100;
+    display: -webkit-box;
+    display: flex;
 }

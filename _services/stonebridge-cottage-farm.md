@@ -5,7 +5,8 @@ cuisine: "Farm Shop \U0001F9FA"
 emoji: "\U0001F9FA"
 location: Crossgar
 website: https://www.facebook.com/stonebridgecottagefarm/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: farm-shop
 permalink: "/services/stonebridge-cottage-farm.html"
 layout: page
 ---

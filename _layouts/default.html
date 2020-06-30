@@ -3,7 +3,8 @@
 {% include head.html %}
 
 <body>
-    <a class="nav-item nav-link cuisine yeoooLogo" style="" href="/delivery"> <strong style="padding-left: 5px;padding-right: 5px;font-size: 0.5em;">🚚</strong> yeooo</a>
+    
+    <a class="nav-item nav-link cuisine yeoooLogo" style="" href="{{ site.baseurl }}"> <strong style="padding-left: 5px;padding-right: 5px;font-size: 0.5em;">🚚</strong> yeooo</a>
     {%include cuisineSwitch.html %}
 
     {% if page.tag == "services" %}
@@ -13,13 +14,13 @@
     {% if page.type == "blog" %}
     <!-- empty -->
     {% elsif page.category == "cuisine" %}
-    <h1 style="display: none;" class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
+    <h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} delivery service in Northern Ireland and what services are offering click and collection.</strong></h1>
     {% else %}
-    <h1  style="display: none;" class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
+    <h1  class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
     {% endif %}
 
   
-    <div class="container-fluid m-0 p-0" style="background: #479a6c;"> 
+    <div class="container-fluid vertical-center"> 
         
         {% for service in site.data.yeooooooo %}
         {{ service.cuisine }}

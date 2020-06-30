@@ -5,7 +5,8 @@ cuisine: "Bakery \U0001F35E"
 emoji: " \U0001F35E"
 location: Bangor
 website: https://www.facebook.com/pages/True-Food-Cafe
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: bakery
 permalink: "/services/true-food-caf.html"
 layout: page
 ---

@@ -5,7 +5,8 @@ cuisine: "Groceries \U0001F96B"
 emoji: "\U0001F96B"
 location: Bangor
 website: https://www.facebook.com/worldfoodsgroup/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: groceries
 permalink: "/services/world-food-groups.html"
 layout: page
 ---

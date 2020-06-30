@@ -5,7 +5,8 @@ cuisine: "Milk\U0001F95B"
 emoji: "\U0001F95B"
 location: Bangor
 website: https://www.facebook.com/MarkMurphyMilk/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: milk
 permalink: "/services/windmill-dairies.html"
 layout: page
 ---

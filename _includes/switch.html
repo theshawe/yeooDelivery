@@ -1,6 +1,6 @@
 <nav class="nav nav-pills nav-fill">
 {% if page.type == "delivery" %}
-<a class="nav-item nav-link active" style="" href="/delivery"><span style="font-size: 11px;">111</span> delivery services to choose from in Northern Ireland</a>
+<a class="nav-item nav-link active" style="" href="{{ site.baseurl }}"><span style="font-size: 11px;">111</span> delivery services to choose from in Northern Ireland</a>
 <a class="nav-item nav-link disabled" href="/collection">Click and Collect 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
     background: #5d646bab;
@@ -10,7 +10,7 @@
     border-left: 1px solid #18035d52;
 ">About / Blog 🤔</a>
 {% elsif page.type == "collection" %}
-<a class="nav-item nav-link disabled" href="/delivery">yeooo.delivery 🚚</a>
+<a class="nav-item nav-link disabled" href="{{ site.baseurl }}">yeooo.delivery 🚚</a>
 <a class="nav-item nav-link collectionBtn active" href="/collection">Click and Collect 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
     background: #5d646bab;
@@ -22,7 +22,7 @@
 
 {% elsif page.category == "cuisine" %}
 
-<a class="nav-item nav-link disabled" href="/delivery">yeooo.delivery 🚚 | <span style="font-weight: 100;">{{page.type}}</span> </a>
+<a class="nav-item nav-link disabled" href="{{ site.baseurl }}">yeooo.delivery 🚚 | <span style="font-weight: 100;">{{page.type}}</span> </a>
 <a class="nav-item nav-link collectionBtn active" href="/collection">Click and Collect 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
     background: #5d646bab;
@@ -33,7 +33,7 @@
 ">About / Blog 🤔</a>
 
 {% elsif page.type == "blog" %}
-<a class="nav-item nav-link disabled" href="/delivery">Home 🚚</a>
+<a class="nav-item nav-link disabled" href="{{ site.baseurl }}">Home 🚚</a>
 <a class="nav-item nav-link collectionBtn active" href="/collection">Collection 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
     background: #5d646bab;
@@ -44,7 +44,7 @@
 ">About / Blog 🤔</a>
 
 {% else %}
-<a class="nav-item nav-link disabled" href="/delivery">Home 🚚</a>
+<a class="nav-item nav-link disabled" href="{{ site.baseurl }}">Home 🚚</a>
 <a class="nav-item nav-link collectionBtn active" href="/collection">Collection 🧰</a>
 <a class="nav-item nav-link disabled" href="/blog" style="
     background: #5d646bab;

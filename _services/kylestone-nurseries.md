@@ -5,7 +5,8 @@ cuisine: "Fruit and Veg \U0001F966"
 emoji: "\U0001F966"
 location: Bangor
 website: https://www.facebook.com/kylestonenurseries/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: fruit-and-veg
 permalink: "/services/kylestone-nurseries.html"
 layout: page
 ---

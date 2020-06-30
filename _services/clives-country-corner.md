@@ -5,7 +5,8 @@ cuisine: "Fruit and Veg \U0001F966"
 emoji: "\U0001F966"
 location: Newtownards
 website: https://www.facebook.com/clivesonline/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: fruit-and-veg
 permalink: "/services/clives-country-corner.html"
 layout: page
 ---

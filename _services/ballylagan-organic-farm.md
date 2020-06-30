@@ -5,7 +5,8 @@ cuisine: "Farm Shop \U0001F9FA"
 emoji: "\U0001F9FA"
 location: Ballyclare
 website: https://www.facebook.com/BallylaganOrganicFarm/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: farm-shop
 permalink: "/services/ballylagan-organic-farm.html"
 layout: page
 ---

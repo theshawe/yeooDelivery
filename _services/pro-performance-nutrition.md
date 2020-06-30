@@ -5,7 +5,8 @@ cuisine: "Pre Made Meals\U0001F374"
 emoji: "\U0001F374"
 location: Newry
 website: https://www.facebook.com/propernut/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: pre-made-meals
 permalink: "/services/pro-performance-nutrition.html"
 layout: page
 ---

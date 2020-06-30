@@ -5,7 +5,8 @@ cuisine: "Fruit and Veg \U0001F966"
 emoji: "\U0001F966"
 location: Lurgan
 website: https://www.facebook.com/hendersons.northstreet/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: fruit-and-veg
 permalink: "/services/hendersons-north-street.html"
 layout: page
 ---

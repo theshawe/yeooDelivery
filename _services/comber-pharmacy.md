@@ -5,7 +5,8 @@ cuisine: "Pharmacy \U0001F69B"
 emoji: " \U0001F69B"
 location: Comber
 website: https://www.facebook.com/ComberPharmacy
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: pharmacy
 permalink: "/services/comber-pharmacy.html"
 layout: page
 ---

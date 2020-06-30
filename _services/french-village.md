@@ -5,7 +5,8 @@ cuisine: "Bakery \U0001F35E"
 emoji: " \U0001F35E"
 location: Belfast
 website: https://www.facebook.com/frenchvillageBakery
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: bakery
 permalink: "/services/french-village.html"
 layout: page
 ---

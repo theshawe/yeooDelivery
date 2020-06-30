@@ -5,7 +5,8 @@ cuisine: "Milk\U0001F95B"
 emoji: "\U0001F95B"
 location: Donaghadee
 website: https://www.facebook.com/DONAGHADEEDAIRIES/
-'delivery ': Delivery ✅
+delivery: Delivery ✅
+type: milk
 permalink: "/services/donaghadee-dairies.html"
 layout: page
 ---
