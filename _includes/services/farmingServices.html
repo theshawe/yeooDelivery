@@ -1,13 +1,9 @@
-
-
-<ul class="card-deck randomizer">
-
-    {% for service in site.data.deliveryServices  %}
-    {% if service.cuisine contains "🍺" limit:2 %}
-     <li data-aos="zoom-up" data-aos-delay="50" class="list-group-item border-0 p-0 m-0 mb-3 mt-0">
-    <div class="card p-0 m-0">
-       
-
+<ul class="card-deck p-0 m-0 p-0">
+    {% for service in site.data.deliveryServices %}
+    {% if service.cuisine contains "🥔" %}
+     <li class="list-group-item border-0 p-0 m-0 mb-3 mt-0">
+    <div class="card p-0 m-0 ">
+    
         <div class="card-header">
             <div style="display: flex; justify-content: space-between;">
                 <a style="text-align: left;margin-left: -10px; color: #96433fba; font-weight: 100; letter-spacing: 2px; " class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
@@ -17,7 +13,6 @@
         <div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
         {{ service.emoji }}
         </div>
-    
     <div class="card-body">
     <a style="" href="/services/{{ service.name | replace: " ", "-" }}"  class="btn btn-primary btn-lg active w-100 m-0 serviceNameTag" role="button" aria-pressed="true">{{ service.name }} </a>
     </div>

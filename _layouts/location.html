@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+{% include meta/head.html %}
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -11,10 +11,10 @@
     crossorigin=""></script>
 
 <body>
-    {%include intro.html %}
-    {% include breadcrumbs.html %}
+    {%include nav/intro.html %}
+    {% include nav/breadcrumbs.html %}
     
-<div class="container-fluid m-0 p-0">
+<div class="container-fluid m-0 p-0" style="padding-bottom:150px !important;">
 
 
     <ul class="card-deck p-0 m-0 p-0">
@@ -83,7 +83,7 @@ style="background-image: url('{{ page.mainPicture }}');  height: 100vh; backgrou
 </div>
 
 
-{%include footer.html %}
+{%include footer/footer.html %}
 
     <style>
         html,
@@ -94,11 +94,11 @@ style="background-image: url('{{ page.mainPicture }}');  height: 100vh; backgrou
         }
     </style>
 
-    {% include randomize.html %}
+    {% include scripts/randomize.html %}
 
 </body>
 
-{% include scripts.html %}
+{% include scripts/scripts.html %}
 
 
 

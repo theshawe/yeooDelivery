@@ -82,12 +82,12 @@ a.nav-item.nav-link.cuisine.fruit-and-veg:hover {
   animation: fade .5s;
 }
 
-a.nav-item.nav-link.cuisine.butchers:hover {
+a.nav-item.nav-link.cuisine.clothing:hover {
   background: #dc6cc994;
   animation: fade .5s;
 }
 
-a.nav-item.nav-link.cuisine.farm-shop:hover {
+a.nav-item.nav-link.cuisine.farming:hover {
   background: #a06060a6;
   animation: fade .5s;
 }
@@ -102,7 +102,7 @@ a.nav-item.nav-link.cuisine.pre-made-meals:hover {
   animation: fade .5s;
 }
 
-a.nav-item.nav-link.cuisine.milk:hover {
+a.nav-item.nav-link.cuisine.fashion:hover {
   background: #ffffff6b;
   animation: fade .5s;
 }
@@ -112,12 +112,17 @@ a.nav-item.nav-link.cuisine.bakery:hover {
   animation: fade .5s;
 }
 
-a.nav-item.nav-link.cuisine.fish:hover {
+a.nav-item.nav-link.cuisine.takeout:hover {
   background: #fcb1625e;
   animation: fade .5s;
 }
 
-a.nav-item.nav-link.cuisine.potatos:hover {
+a.nav-item.nav-link.cuisine.ppe:hover {
+  background: #a52a2a69;
+  animation: fade .5s;
+}
+
+a.nav-item.nav-link.cuisine.wine:hover {
   background: #a52a2a69;
   animation: fade .5s;
 }
@@ -128,6 +133,12 @@ a.nav-item.nav-link.cuisine.pharmacy:hover {
 }
 
 a.nav-item.nav-link.cuisine.coffee:hover {
+
+  a.nav-item.nav-link.cuisine.sweets:hover {
+    background: pink;
+    animation: fade .5s;
+  }
+  
   background: #e6e6e633;
   animation: fade .5s;
 }
@@ -277,6 +288,33 @@ ul.card-deck.p-0.m-0.p-0 {
 
   a.nav-item.nav-link.cuisine.yeoooLogo {
     padding: 0px !important;
+    -webkit-animation-name: yeoooAnimate;
+    animation-name: yeoooAnimate;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  @keyframes yeoooAnimate {
+    0% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    50% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+ 
+  
+    100% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
   }
 
   a.nav-item.nav-link.cuisine {
@@ -871,4 +909,18 @@ height: 100vh;
     min-height: 100;
     display: -webkit-box;
     display: flex;
+}
+
+h1.display-4.headline {
+    background: #22bd85;
+    text-transform: capitalize;
+    line-height: 1em;
+    padding-top: 175px;
+}
+
+.headline {
+  padding: 1em 2em;
+  line-height: 0.8em;
+  font-size: 1.1em;
+  text-align: center;
 }

@@ -1,0 +1,39 @@
+{% if page.category == "cuisine" %}
+<h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} service in Northern Ireland.</strong></h1>
+{% else %}
+<h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
+{% endif %}
+
+{% if page.type == "delivery" %}
+{%include servicelist/deliveryServices.html %}
+{% elsif page.type == "bakery" %}
+{%include services/bakeryServices.html %}
+{% elsif page.type == "beer" %}
+{%include services/beerServices.html %}
+{% elsif page.type == "coffee" %}
+{%include services/coffeeServices.html %}
+{% elsif page.type == "farming" %}
+{%include services/farmingServices.html %}
+{% elsif page.type == "fruit-and-veg" %}
+{%include services/fruitAndVegServices.html %}
+{% elsif page.type == "clothing" %}
+{%include services/clothingServices.html %}
+{% elsif page.type == "groceries" %}
+{%include services/groceryServices.html %}
+{% elsif page.type == "resturants" %}
+{%include services/resturantServices.html %}
+{% elsif page.type == "takeout" %}
+{%include services/takeoutServices.html %}
+{% elsif page.type == "ppe" %}
+{%include services/ppeServices.html %}
+{% elsif page.type == "pharmacy" %}
+{%include services/pharmacyServices.html %}
+{% elsif page.type == "sports" %}
+{%include services/sportServices.html %}
+{% elsif page.type == "vegan" %}
+{%include services/veganServices.html %}
+{% elsif page.type == "wine" %}
+{%include services/wineServices.html %}
+{% endif %}
+
+
