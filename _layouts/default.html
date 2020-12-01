@@ -2,7 +2,16 @@
 <html lang="en">
 {% include meta/head.html %}
 <body>
-<a class="nav-item nav-link cuisine yeoooLogo animate yeoooAnimate" href="{{ site.baseurl }}"> <strong style="padding-left: 5px;padding-right: 5px;font-size: 0.5em;">🚚</strong> yeooo <i style="position: absolute; right: 25px; top: 16px; font-style: normal; letter-spacing: 1px; color: #fff; text-transform: lowercase; text-shadow: 2px 2px 2px #000102;">{% include specfic/pageType.html%}</i></a>
+
+<a class="nav-item nav-link cuisine yeoooLogo animate yeoooAnimate" href="{{ site.url }}"> <strong style="padding-left: 5px;padding-right: 5px;font-size: 0.5em;">🚚</strong> yeooo <i style="position: absolute; right: 25px; top: 16px; font-style: normal; letter-spacing: 1px; color: #fff; text-transform: lowercase; text-shadow: 2px 2px 2px #000102;">{% include specfic/pageType.html%}</i></a>
+
+{% if page.category == "cuisine" %}
+<h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} service in Northern Ireland.</strong></h1>
+{% else %}
+<h1 style="display: none;" class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
+{% endif %}
+
+
 {%include nav/cuisineSwitch.html %}
 {% if page.tag == "services" %}
 {% include nav/breadcrumbs.html %}
@@ -11,6 +20,8 @@
 {% for service in site.data.yeooooooo %}
 {{ service.cuisine }}
 {% endfor %}
+
+
 {{ content }}
 
 {% include footer/footer.html %}
@@ -19,3 +30,4 @@
 </body>
 {% include scripts/scripts.html %}
 </html>
+
