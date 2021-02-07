@@ -1,17 +1,9 @@
+$(document).ready(function(){
+  $("#displayPosts li:nth-child(n1)").css("background-color", "rgb(102 96 105)");
+  $("#displayPosts li:nth-child(2n)").css("background-color", "rgb(114 110 117))");
+  $("#displayPosts li:nth-child(3n)").css("background-color", "rgb(115 115 121)");
+  $("#displayPosts li:nth-child(4n)").css("background-color", "rgb(88 83 88)");
+  $("#displayPosts li:nth-child(5n)").css("background-color", "rgb(117 113 117)");
+  $("#displayPosts li:nth-child(6n)").css("background-color", "rgb(82 82 82)");
+});
 
-var wow = new WOW(
-  {
-    boxClass:     'wow',      // animated element css class (default is wow)
-    animateClass: 'animated', // animation css class (default is animated)
-    offset:       0,          // distance to the element when triggering the animation (default is 0)
-    mobile:       true,       // trigger animations on mobile devices (default is true)
-    live:         true,       // act on asynchronously loaded content (default is true)
-    callback:     function(box) {
-      // the callback is fired every time an animation is started
-      // the argument that is passed in is the DOM node being animated
-    },
-    scrollContainer: null,    // optional scroll container selector, otherwise use window,
-    resetAnimation: true,     // reset animation on end (default is true)
-  }
-);
-wow.init();

@@ -1,19 +1,9 @@
-<ul id="displayPosts" class="card-deck randomizer p-0 m-0">
+<ul id="displayPosts" class="card-deck randomize p-0 m-0">
 
 {% for service in site.data.deliveryServices %}
 <li class="list-group-item border-0 p-0 m-2">
-<a class="" style="   
-    width: 100%;
-    display: flex;
-    text-align: center;
-    height: 200px;
-    justify-content: center;
-    align-content: center;
-    flex-direction: inherit;
-    line-height: 200px;
-    text-decoration: none;
-    color: #fff;" href="/services/{{ service.name | replace: " ", "-" }}" >
-   {{ service.name }}
+<a class="{{ service.cuisine | downcase |  replace: " ", "-" }}"  href="/services/{{ service.name |  replace: " ", "-" }} " >
+{{ service.name }}
 </a>
 </li>
 {% endfor %}

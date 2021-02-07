@@ -508,6 +508,66 @@ footer ul.social-icons li a {
   animation: fade .5s;
 }
 
+.fruit-and-veg {
+  background: #0c541c85;
+  animation: fade .5s;
+}
+
+.butchers {
+  background: #dc6cc994;
+  animation: fade .5s;
+}
+
+.farm-shop {
+  background: #a06060a6;
+  animation: fade .5s;
+}
+
+.groceries {
+  background: #c73535b5;
+  animation: fade .5s;
+}
+
+.resturants {
+  background: #c1bdbd75;
+  animation: fade .5s;
+}
+
+.milk {
+  background: #ffffff6b;
+  animation: fade .5s;
+}
+
+.bakery {
+  background: #e4e46a7d;
+  animation: fade .5s;
+}
+
+.fish {
+  background: #fcb1625e;
+  animation: fade .5s;
+}
+
+.potato {
+  background: #a52a2a69;
+  animation: fade .5s;
+}
+
+.pharmacy {
+  background: #0080008c;
+  animation: fade .5s;
+}
+
+.coffee {
+  background: #e6e6e633;
+  animation: fade .5s;
+}
+
+.beer {
+  background: #ffa5004d;
+  animation: fade .5s;
+}
+
 
 
 
@@ -692,7 +752,6 @@ a.nav-item.nav-link.cuisine.yeoooLogo {
 }
 
 nav.nav.nav-pills.nav-fill {
-  position: fixed;
   z-index: 100;
   height: 100px;
   background: #757575;
@@ -832,9 +891,18 @@ a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn, .btn-group-lg > a.btn.btn-pr
   }
 
 
-
-
-
+ul#displayPosts li a {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: inherit;
+    line-height: 200px;
+    text-decoration: none;
+    color: #fff;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -1075,4 +1143,16 @@ footer {
 
 
 }
+
+
+
+.cuisine span {
+    font-size: 70px;
+}
+
+.nav-text {
+  display: none !important;
+}
+
+
 
