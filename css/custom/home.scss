@@ -42,7 +42,7 @@ h1.formName {
   padding: 0;
   font-size: 42px;
   color: #f7f7f7;
-  margin: 170px 0px 40px 0px;
+  margin: 35px 0px 20px 82px;
   text-align: center;
 }
 
@@ -865,10 +865,6 @@ ul.card-deck.p-0.m-0 {
 
 
 
-#related ul {
-  margin-left: -20px !important;
-}
-
 
 
 #related ul.card-deck.p-0.m-0 {
@@ -1124,9 +1120,10 @@ footer {
 
 }
 
+
 @media (min-width: 576px) {
   .list-group-item {
-    width: 47%;
+    width: 50%;
   }
 
   .locationList {
@@ -1137,7 +1134,6 @@ footer {
 @media (min-width: 768px) {
   .list-group-item {
     background: transparent;
-    width: 333px;
   }
 
 
@@ -1145,6 +1141,9 @@ footer {
 }
 
 
+li.list-group-item.border-0.p-0.m-2 {
+    width: 333px;
+}
 
 .cuisine span {
     font-size: 70px;
@@ -1154,5 +1153,14 @@ footer {
   display: none !important;
 }
 
+
+#servicelist .list-group-item {
+    width: 50% !important;
+}
+
+
+#related .list-group-item {
+    width: 25%;
+}
 
 
