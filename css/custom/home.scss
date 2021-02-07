@@ -526,7 +526,7 @@ div#breadcrumbs {
   flex-direction: column;
   background: #dadadaa6;
   overflow: hidden;
-  border-radius: 30px 30px;
+  border-radius: 1px 2px;
 }
 
 
@@ -591,18 +591,17 @@ a.nav-item.nav-link.cuisine.yeoooLogo strong {
 
 /* Page Design */
 
-
 .orderBtn {
-  background: #d4263c;
-  color: #fff;
-  border: none;
-  text-transform: uppercase;
-  font-weight: 900;
-  line-height: 1em;
-  width: auto;
-  font-size: 1em;
-  box-shadow: 8px 8px 12px #06190333;
-  padding: 1em 2em;
+    background: #d4263c;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.5em;
+    width: auto;
+    font-size: 2em;
+    box-shadow: 8px 8px 12px #06190333;
+    padding: .35em 2em;
 }
 
 /* Footer */
@@ -771,8 +770,21 @@ height: 100vh;
 
 
 .pageBg {
-  max-width: 50%;
-  margin: 180px 0px 0px 50px;
+    max-width: 100%;
+    margin: 21px 0px 10px 0px;
+    font-size: 22px;
+    background: linear-gradient( 77deg , #513b3b30, #4d4750, #443d48);
+    padding: 70px 0px 5px 0px;
+    text-align: center;
+    box-shadow: 3px 2px 3px 0px #00000021;
+}
+
+.pageBg .h1 {
+    font-size: 60px;
+    padding: 35px 0px 60px 0px;
+    letter-spacing: -1px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .nav-item h2 {
