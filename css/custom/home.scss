@@ -1,7 +1,7 @@
 html,
 body {
-  font-family: futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 300;
+  font-family: imperial-urw, futura-pt, Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 400;
   font-style: normal;
   scroll-behavior: smooth;
   background: rebeccapurple;
@@ -13,6 +13,8 @@ body {
 
   background: #4c4450;
   padding-top: 35px;
+
+
 }
 
 
@@ -227,7 +229,7 @@ background: #e1e9f3;
 
 /* Cards */
 #related {
-      margin-left: 50px;
+
 }
 
 #related h2 {
@@ -271,188 +273,41 @@ background: #e1e9f3;
 
 
 
-@media screen and (max-width: 600px) {
-  .microMenu {
-    position: absolute;
-    left: 0px;
-    background: #591a71;
-    width: 100% !important;
-  }
 
-  a.nav-item.nav-link.cuisine.yeoooLogo {
-    padding: 0px !important;
-    -webkit-animation-name: yeoooAnimate;
-    animation-name: yeoooAnimate;
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
-  }
+/* footer */
 
-  @keyframes yeoooAnimate {
-    0% {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  
-    50% {
-      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-      -webkit-transform: translate3d(0, -30px, 0);
-      transform: translate3d(0, -30px, 0);
-    }
-  
- 
-  
-    100% {
-      -webkit-transform: translate3d(0, -4px, 0);
-      transform: translate3d(0, -4px, 0);
-    }
-  }
+footer {
+    height: 420px;
+    background: #d8831b;
+    padding: 2em;
+    font-size: 22px;
+}
 
-  
-  .updateButton {
-    display: none !important;
-  }
+footer ul li {
+  list-style: none;
+}
 
-  .locationList {
-    display: none;
-  }
+footer ul.social-icons {
+    display: block;
+    padding-top: 27px;
+}
 
-  .introText {
-    font-size: 2em;
-  }
+footer ul.social-icons li {
+    display: inline-block;
+}
 
-  .btn-submit {
-    font-size: 14px;
-    line-height: 6em;
-  }
-
-  .btnSubmit i {
-    padding-right: 8px;
-  }
-
-  button.btn.btn-primary.btn-light {
-    font-size: 1em;
-    padding: 1em;
-    width: 100%;
-    text-align: center;
-  }
-
-  footer.footer.mt-auto.p-0 {
-    z-index: 1000;
-  }
-
-
-
-  a.nav-item.nav-link {
-    font-size: 1.5em;
-  }
-
-
-
-
-  .introPage .introTextTwo {
-    font-style: italic;
+footer ul.social-icons li a {
     color: #fff;
-    background: #92289ec4;
-    font-size: 1em;
-    padding: 1em 0em 1em 0em;
-    text-align: center;
-    box-shadow: none !important;
-    margin-top: 40px !important;
-  }
-
-  .introPage .browseText {
-    font-size: 1em;
-    background: #b962bddb;
-    text-align: center;
-    box-shadow: none;
-    border: none;
-  }
-
-
-  body>button>i {
-    padding-right: 0px !important;
-  }
-
-
-  body>div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>nav:nth-child(2)>a:nth-child(2) {
-    display: none;
-  }
-
-  body>div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>nav:nth-child(2)>a:nth-child(3) {
-    display: none;
-  }
-
-  .logoArea {
-    padding-bottom: 20px !important;
-  }
-
-  .logoAreaText {
-    display: none;
-  }
-
-  .yeoooDelivery {
-    font-size: 45px;
-  }
-
-
-  body>div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>div>div.col-md-2.sm-12.p-0.m-0.logoArea>a:nth-child(3) {
-
-    color: #fff;
-    text-decoration: underline;
-    line-height: 2em;
-    font-size: .8em;
-    position: fixed;
-    top: 94.5vh;
-    background: #48ff00ed;
-    width: 100%;
-    left: 0;
-    text-transform: uppercase;
-  }
-
-  body>button {
-    position: fixed;
-    bottom: 31px;
-    z-index: 1000;
-    text-align: center;
-    background: #46cb7ff2;
-    text-shadow: none;
-    letter-spacing: 3px;
-    box-shadow: 0px -18px 30px #12224a52;
-  }
-
-
-
-  div#experience {
-    margin-bottom: 10px !important;
-  }
-
-
+    text-transform: lowercase;
+    width: 200px;
+    background: #443d48;
+    padding: 5px 25px;
+    font-weight: 900;
 }
 
-@media (min-width: 576px) {
-  .list-group-item {
-    width: 47%;
-  }
-
-  .locationList {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .list-group-item {
-    background: transparent;
-    width: 333px;
-  }
 
 
 
-}
-
-@media (min-width: 992px) {}
 
 
 
@@ -841,9 +696,9 @@ nav.nav.nav-pills.nav-fill {
   position: fixed;
   z-index: 100;
   height: 100px;
-  background: #4d505270;
+  background: #757575;
   width: 100%;
-  top: 90px;
+  bottom: 0px;
 }
 
 
@@ -897,19 +752,21 @@ height: 100vh;
   font-size: 60px;
   margin-top: -45px;
   margin: 0 auto;
-  line-height: 70px;
-  padding: 1em 0em;
-  font-weight: 400;
+  line-height: 60px;
+  padding: .5em 0em;
+  font-weight: 900;
 }
 
 .jumbotron a.btn.btn-primary.btn-lg {
-    background: #0bc101;
+
     text-transform: uppercase;
     font-weight: 900;
     padding: .5em 2em;
     font-size: 30px;
     width: 420px;
     margin: 0 auto;
+    border: none;
+    background: #e45454;
 }
 
 
@@ -920,9 +777,9 @@ height: 100vh;
 
 .nav-item h2 {
   font-size: 26px;
-  line-height: 50px;
+  line-height: 60px;
   margin-right: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 0px;
 }
 
 
@@ -932,6 +789,7 @@ ul.card-deck.p-0.m-0 {
   align-content: center;
   flex-direction: inherit;
   width: 100%;
+  overflow: overlay;
 }
 
 
@@ -944,7 +802,7 @@ ul.card-deck.p-0.m-0 {
 
 #related ul.card-deck.p-0.m-0 {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-content: center;
   flex-direction: inherit;
   width: 100%;
@@ -960,3 +818,249 @@ a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn, .btn-group-lg > a.btn.btn-pr
   box-shadow: 8px 8px 12px #06190333;
   padding: 1em 2em;
   }
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.mc-banner {
+    display: none !important;
+}
+
+a.btn.btn-primary.btn-lg {
+    font-size: 20px !important;
+    width: auto !important;
+}
+
+.jumbotron p {
+    font-size: 25px;
+    line-height: 23px;
+    padding: 35px ​20px;
+}
+
+
+ul#displayPosts {
+    margin-bottom: 4px !important;
+    margin-top: 4px !important;
+}
+
+
+.nav-item h2 {
+    font-size: 16px;
+    line-height: 60px;
+    margin-right: 20px;
+    letter-spacing: 0px;
+}
+
+ul#displayPosts li a {
+    width: 222px !important;
+    height: 193px !important;
+}
+
+nav a strong {
+    display: none;
+}
+
+.cuisine span {
+    font-size: 1.6em;
+    display: block;
+    line-height: 1em;
+    padding: 0.125em 0.135em;
+}
+
+nav.nav.nav-pills.nav-fill {
+    background: #403746;
+}
+
+
+footer {
+    padding: 35px 0px;
+    background: linear-gradient(
+226deg
+, #d78a16, #ff7b30, #ff7950, #ffc317);
+}
+
+
+  .microMenu {
+    position: absolute;
+    left: 0px;
+    background: #591a71;
+    width: 100% !important;
+  }
+
+  a.nav-item.nav-link.cuisine.yeoooLogo {
+    padding: 0px !important;
+    -webkit-animation-name: yeoooAnimate;
+    animation-name: yeoooAnimate;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  @keyframes yeoooAnimate {
+    0% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    50% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+ 
+  
+    100% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
+  
+  .updateButton {
+    display: none !important;
+  }
+
+  .locationList {
+    display: none;
+  }
+
+  .introText {
+    font-size: 2em;
+  }
+
+  .btn-submit {
+    font-size: 14px;
+    line-height: 6em;
+  }
+
+  .btnSubmit i {
+    padding-right: 8px;
+  }
+
+  button.btn.btn-primary.btn-light {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer.footer.mt-auto.p-0 {
+    z-index: 1000;
+  }
+
+
+
+  a.nav-item.nav-link {
+    font-size: 1.5em;
+  }
+
+
+
+
+  .introPage .introTextTwo {
+    font-style: italic;
+    color: #fff;
+    background: #92289ec4;
+    font-size: 1em;
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+    box-shadow: none !important;
+    margin-top: 40px !important;
+  }
+
+  .introPage .browseText {
+    font-size: 1em;
+    background: #b962bddb;
+    text-align: center;
+    box-shadow: none;
+    border: none;
+  }
+
+
+  body>button>i {
+    padding-right: 0px !important;
+  }
+
+
+  body>div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>nav:nth-child(2)>a:nth-child(2) {
+    display: none;
+  }
+
+  body>div.container-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>nav:nth-child(2)>a:nth-child(3) {
+    display: none;
+  }
+
+  .logoArea {
+    padding-bottom: 20px !important;
+  }
+
+  .logoAreaText {
+    display: none;
+  }
+
+  .yeoooDelivery {
+    font-size: 45px;
+  }
+
+
+  body>div.jumbotron.jumbotron-fluid.yeoIntro.p-0.m-0.rounded-0.text-center>div>div.col-md-2.sm-12.p-0.m-0.logoArea>a:nth-child(3) {
+
+    color: #fff;
+    text-decoration: underline;
+    line-height: 2em;
+    font-size: .8em;
+    position: fixed;
+    top: 94.5vh;
+    background: #48ff00ed;
+    width: 100%;
+    left: 0;
+    text-transform: uppercase;
+  }
+
+  body>button {
+    position: fixed;
+    bottom: 31px;
+    z-index: 1000;
+    text-align: center;
+    background: #46cb7ff2;
+    text-shadow: none;
+    letter-spacing: 3px;
+    box-shadow: 0px -18px 30px #12224a52;
+  }
+
+
+
+  div#experience {
+    margin-bottom: 10px !important;
+  }
+
+
+}
+
+@media (min-width: 576px) {
+  .list-group-item {
+    width: 47%;
+  }
+
+  .locationList {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-group-item {
+    background: transparent;
+    width: 333px;
+  }
+
+
+
+}
+
