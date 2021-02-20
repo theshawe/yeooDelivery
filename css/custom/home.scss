@@ -81,7 +81,7 @@ a.nav-item.nav-link.cuisine {
 }
 
 a.nav-item.nav-link.cuisine.fruit-and-veg:hover {
-  background: #0c541c85;
+  background: #43d86485;
   animation: fade .5s;
 }
 
@@ -509,12 +509,12 @@ footer ul.social-icons li a {
 }
 
 .fruit-and-veg {
-  background: #0c541c85;
+  background: #43d86485;
   animation: fade .5s;
 }
 
 .butchers {
-  background: #dc6cc994;
+  background: #f683e39e;
   animation: fade .5s;
 }
 
@@ -524,7 +524,7 @@ footer ul.social-icons li a {
 }
 
 .groceries {
-  background: #c73535b5;
+  background: #d53030b5;
   animation: fade .5s;
 }
 
@@ -554,7 +554,7 @@ footer ul.social-icons li a {
 }
 
 .pharmacy {
-  background: #0080008c;
+  background: #06b6bf8c;
   animation: fade .5s;
 }
 
@@ -593,7 +593,7 @@ div#breadcrumbs {
 a.nav-item.nav-link.cuisine.yeoooLogo {
   padding-left: 0px;
   font-weight: 500;
-  color: #65d84a;
+  color: #FFFFFF;
   letter-spacing: -3px;
   text-transform: lowercase;
   font-style: normal;
@@ -741,7 +741,7 @@ a.nav-item.nav-link.cuisine.yeoooLogo {
   z-index: 100;
   top: 0;
   width: 100%;
-  background: #443d48;
+  background: #CE87A0;
   padding-left: 40px;
   padding-top: 0px;
   height: 90px;
@@ -754,7 +754,7 @@ a.nav-item.nav-link.cuisine.yeoooLogo {
 nav.nav.nav-pills.nav-fill {
   z-index: 100;
   height: 100px;
-  background: #757575;
+  background: #4B2E90;
   width: 100%;
   bottom: 0px;
 }
@@ -788,12 +788,14 @@ height: 100vh;
     display: flex;
 }
 
-
+div#serviceList {
+    background: #4b2e90;
+}
 
 
 
 .jumbotron {
-  background: #403746;
+  background: #CE87A0;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -824,7 +826,7 @@ height: 100vh;
     width: 420px;
     margin: 0 auto;
     border: none;
-    background: #e45454;
+    background: #4b2e90;
 }
 
 
@@ -898,6 +900,8 @@ ul#displayPosts li a {
     line-height: 200px;
     text-decoration: none;
     color: #fff;
+    font-size: 28px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -1141,8 +1145,11 @@ footer {
 }
 
 
+
+
 li.list-group-item.border-0.p-0.m-2 {
     width: 333px;
+    border-radius: 10px;
 }
 
 .cuisine span {
