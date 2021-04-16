@@ -11,7 +11,7 @@ body {
   margin: 0;
   /*background: #5e3c95; */
 
-  background: #4c4450;
+  background: #ef98b7;
   padding-top: 35px;
 
 
@@ -42,8 +42,10 @@ h1.formName {
   padding: 0;
   font-size: 42px;
   color: #f7f7f7;
-  margin: 35px 0px 20px 82px;
+  padding: 35px 0px 20px 82px;
   text-align: center;
+    background: #ef98b7;
+        display: none;
 }
 
 /* Navigation */
@@ -229,7 +231,7 @@ background: #e1e9f3;
 
 /* Cards */
 #related {
-
+    padding-top: 30px;
 }
 
 #related h2 {
@@ -741,7 +743,7 @@ a.nav-item.nav-link.cuisine.yeoooLogo {
   z-index: 100;
   top: 0;
   width: 100%;
-  background: #CE87A0;
+  background: #ef98b7;
   padding-left: 40px;
   padding-top: 0px;
   height: 90px;
@@ -789,13 +791,16 @@ height: 100vh;
 }
 
 div#serviceList {
-    background: #4b2e90;
+    /* background: #4b2e90; */
+    background: #ef98b7;
+        margin-top: 20px;
 }
 
 
 
+
 .jumbotron {
-  background: #CE87A0;
+  background: #ef98b7;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -834,18 +839,17 @@ div#serviceList {
     max-width: 100%;
     margin: 21px 0px 10px 0px;
     font-size: 22px;
-    background: linear-gradient( 77deg , #513b3b30, #4d4750, #443d48);
     padding: 70px 0px 5px 0px;
     text-align: center;
     box-shadow: 3px 2px 3px 0px #00000021;
 }
 
-.pageBg .h1 {
+.pageBg h1 {
     font-size: 60px;
-    padding: 35px 0px 60px 0px;
-    letter-spacing: -1px;
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 25px 0px 80px 0px;
+    letter-spacing: -1px;
 }
 
 .nav-item h2 {
@@ -855,6 +859,9 @@ div#serviceList {
   letter-spacing: 0px;
 }
 
+.home-category {
+    display: none;
+}
 
 ul.card-deck.p-0.m-0 {
   display: flex;
@@ -902,6 +909,7 @@ ul#displayPosts li a {
     color: #fff;
     font-size: 28px;
     border-radius: 10px;
+    overflow:hidden;
 }
 
 @media screen and (max-width: 600px) {
@@ -925,6 +933,7 @@ a.btn.btn-primary.btn-lg {
 ul#displayPosts {
     margin-bottom: 4px !important;
     margin-top: 4px !important;
+        height: 222px;
 }
 
 
@@ -938,6 +947,7 @@ ul#displayPosts {
 ul#displayPosts li a {
     width: 222px !important;
     height: 193px !important;
+     overflow:hidden;
 }
 
 nav a strong {
@@ -953,6 +963,7 @@ nav a strong {
 
 nav.nav.nav-pills.nav-fill {
     background: #403746;
+        height: 96px;
 }
 
 
