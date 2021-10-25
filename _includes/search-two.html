@@ -54,14 +54,14 @@ span.nav-text {
 
 }
 
-html {
+/* html {
 	background: red;
 }
 
  body {
 	display: none;
 }
-
+*/
 
 @media (min-device-width:320px) and (max-device-width:768px) {
 
@@ -121,6 +121,40 @@ span.nav-text {
 
 
 
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #ef98b7;
+    height: 100vh;
 }
 
+.card-deck .card {
+    display: flex;
+    flex: 1 0 0%;
+    flex-direction: column;
+    background: #ffb8d1f0;
+    overflow: hidden;
+    height: 95vh;
+    width: 95vw;
+    border-radius: 12px;
+}
+
+}
+
+
+{% if page.category == "cuisine" %}
+
+#search-google {
+  padding-left: 50px !important;
+    background: #ef98b7 url(https://img.icons8.com/ios-filled/50/000000/left.png) no-repeat scroll 11px 28px;
+    background-size: 31px;
+}
+
+
+
+
+
+{% endif %}
 </style>
