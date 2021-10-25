@@ -13,8 +13,7 @@ gem "minima", "~> 2.5"
 
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
-
-gem 'jekyll-airtable'
+gem "kramdown-parser-gfm"
 
 gem 'dotenv'
 
