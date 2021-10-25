@@ -7,7 +7,7 @@
         <div class="card-header">
             <div style="display: flex; justify-content: space-between;">
                 <a style= class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
-                <a class="nav-link " href="/services/{{ service.name | replace: " ", "-" }}"> <strong>{{ service.emoji }}</strong> </a>
+               <!-- <a class="nav-link " href="/services/{{ service.name | replace: " ", "-" }}"> <strong>{{ service.emoji }}</strong> </a> -->
             </div>
         </div>
         <div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
