@@ -1,9 +1,3 @@
-{% if page.category == "cuisine" %}
-<h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} service in Northern Ireland.</strong></h1>
-{% else %}
-<h1 class="display-4 headline"><strong style="font-style: italic;">{{site.description}}</strong></h1>
-{% endif %}
-
 {% if page.type == "delivery" %}
 {%include servicelist/deliveryServices.html %}
 {% elsif page.type == "bakery" %}
@@ -35,5 +29,3 @@
 {% elsif page.type == "wine" %}
 {%include services/wineServices.html %}
 {% endif %}
-
-

@@ -1,4 +1,4 @@
-name,directory,cuisine,emoji,location,website,delivery 
+name,directory,cuisine,emoji,location,website,delivery
 True Food Café,true-food-café,Bakery 🍞, 🍞,Bangor,https://www.facebook.com/pages/True-Food-Cafe,Delivery ✅
 Cherry Orchard Cafe,cherry-orchard-cafe,Bakery 🍞, 🍞,Belfast,https://www.facebook.com/cherryorchardcoffeeshop/,Delivery ✅
 French Village,french-village,Bakery 🍞, 🍞,Belfast,https://www.facebook.com/frenchvillageBakery,Delivery ✅
@@ -129,3 +129,132 @@ The Sipster,the-sipster,Beer 🍺,🍺,Belfast,https://thesipster.co.uk,Delivery
 Brewdog,brewdog,Beer 🍺,🍺,Northern Ireland,https://www.brewdog.com/uk/shop/fast-track-orders,Delivery ✅
 Hatfield House,hatfield-house,Beer 🍺,🍺,Belfast,https://www.facebook.com/The.Hatfield.House,Delivery ✅
 Sugar Crave,sugar-crave,Sweets 🍬,🍬,Birmingham,https://sugarcrave.co.uk,Delivery ✅
+name,directory,cuisine,emoji,location,website,delivery ,type
+The Village Kitchen,the-village-kitchen,Groceries,🥫,Ards,https://www.facebook.com/thevillagekitchenni/,Delivery ✅,groceries
+Emerson's Supermarket Armagh,emersons-supermarket-armagh,Groceries,🥫,Armagh,https://www.facebook.com/emersonsarmagh/,Delivery ✅,groceries
+McAnerneys supermarket,mcanerneys-supermarket,Groceries,🥫,Armagh,https://www.facebook.com/McAnerneys/,Delivery ✅,groceries
+Ballylagan Organic Farm,ballylagan-organic-farm,Farming,🧺,Ballyclare,https://www.facebook.com/BallylaganOrganicFarm/,Delivery ✅,farm-shop
+Costcutter Ballygowan,costcutter-ballygowan,Groceries,🥫,Ballygowan,https://www.facebook.com/CostcutterBallygowanNI/,Delivery ✅,groceries
+Spar Frys Road,spar-frys-road,Groceries,🥫,Ballymena,https://www.facebook.com/Spar-Frys-Road-103914333149115/,Delivery ✅,groceries
+Carlisles fresh foods,carlisles-fresh-foods,Groceries,🥫,Ballynahinch,https://www.facebook.com/CarlislesFreshFoodsBallynahinch/,Delivery ✅,groceries
+Morrison's ViVOXTRA,morrisons-vivoxtra,Groceries,🥫,Ballynahinch,https://www.facebook.com/MorrisonsVivoxtra/,Delivery ✅,groceries
+The New Orchard,the-new-orchard,Fruit and Veg,🥦,Banbridge,https://www.facebook.com/theneworchard/,Delivery ✅,fruit-and-veg
+Quails Fine Foods,quails-fine-foods,Groceries,🥫,Banbridge,https://www.facebook.com/quailsfinefoods/,Delivery ✅,groceries
+Kylestone Nurseries,kylestone-nurseries,Fruit and Veg,🥦,Bangor,https://www.facebook.com/kylestonenurseries/,Delivery ✅,fruit-and-veg
+Ramsay's Fine Food,ramsays-fine-food,Pre Made Meals,🍴,Bangor,https://www.facebook.com/ramsaysfinefoods/,Delivery ✅,pre-made-meals
+The Pit Stop Bangor,the-pit-stop-bangor,Pre Made Meals,🍴,Bangor,https://www.facebook.com/The-Pit-Stop-Bangor-2342506262686075/,Delivery ✅,pre-made-meals
+Windmill Dairies,windmill-dairies,Milk,🥛,Bangor,https://www.facebook.com/MarkMurphyMilk/,Delivery ✅,milk
+True Food Café,true-food-café,Bakery, 🍞,Bangor,https://www.facebook.com/pages/True-Food-Cafe,Delivery ✅,bakery
+Castel Farm Fresh Produce,castel-farm-fresh-produce,Farming,🧺,Belfast,https://www.facebook.com/Castle-Farm-Fresh-Produce-242196215812519/,Delivery ✅,farm-shop
+Catering by Anna Hasiuk,catering-by-anna-hasiuk,Pre Made Meals,🍴,Belfast,https://www.facebook.com/cateringannahasiuk/,Delivery ✅,pre-made-meals
+Cherry Orchard Cafe,cherry-orchard-cafe,Bakery, 🍞,Belfast,https://www.facebook.com/cherryorchardcoffeeshop/,Delivery ✅,bakery
+Ewings Seafoods,ewings-seafoods,Fish, 🍣,Belfast,https://www.facebook.com/ewingseafoods/,Delivery ✅,fish
+Framewerk,framewerk,Pre Made Meals,🍴,Belfast,https://www.facebook.com/framewerkbelfast/,Delivery ✅,pre-made-meals
+French Village,french-village,Bakery, 🍞,Belfast,https://www.facebook.com/frenchvillageBakery,Delivery ✅,bakery
+Fruiterama,fruiterama,Fruit and Veg,🥦,Belfast,https://www.facebook.com/fruiteramabelfast/,Delivery ✅,fruit-and-veg
+Halo Healthy Kitchen,halo-healthy-kitchen,Pre Made Meals,🍴,Belfast,https://www.facebook.com/halohealthykitchen/,Delivery ✅,pre-made-meals
+Hugh Carol's Home Cooking,hugh-carols-home-cooking,Pre Made Meals,🍴,Belfast,https://www.facebook.com/hchomecooking/,Delivery ✅,pre-made-meals
+Michels,michels,Fruit and Veg,🥦,Belfast,https://www.facebook.com/Michels-Fresh-Fruit-and-Vegetables-114930325220883/,Delivery ✅,fruit-and-veg
+Mikes Fancy Cheese,mikes-fancy-cheese,Groceries,🥫,Belfast,https://www.facebook.com/mfcheese/,Delivery ✅,groceries
+Mockford Milk,mockford-milk,Milk,🥛,Belfast,https://mockfordmilk.co.uk/,Delivery ✅,milk
+Sawerss Belfast,sawerss-belfast,Groceries,🥫,Belfast,https://www.facebook.com/sawers.belfast/,Delivery ✅,groceries
+The Morning Star,the-morning-star,Pre Made Meals,🍴,Belfast,https://www.facebook.com/themorningstarbar/,Delivery ✅,pre-made-meals
+Two Sisters,two-sisters,Groceries,🥫,Belfast,https://www.facebook.com/TwoSistersNI/,Delivery ✅,groceries
+Whitten's,whittens,Fruit and Veg,🥦,belfast,https://www.facebook.com/whittensfruitshop/,Delivery ✅,fruit-and-veg
+Piper Fruit & Veg,piper-fruit-&-veg,Fruit and Veg,🥦,Belfast,https://www.facebook.com/mpipergreengrocer/,Delivery ✅,fruit-and-veg
+Hilltop Dairy Farm,hilltop-dairy-farm,Groceries,🥫,Carryduff,https://www.facebook.com/hilltopdairyfarm/,Delivery ✅,groceries
+Woodhill Farm Organic,woodhill-farm-organic,Farming,🧺,Castlewellan,https://www.facebook.com/woodhillfarmorganics/,Delivery ✅,farm-shop
+Woodhill Farm Organics,woodhill-farm-organics,Farming,🧺,Castlewellan,https://www.facebook.com/woodhillfarmorganics/,Delivery ✅,farm-shop
+Costcutter (Cloughmills),costcutter-(cloughmills),Groceries,🥫,Cloughmills,https://www.facebook.com/CloghMills/,Delivery ✅,groceries
+Springisland Supermarket,springisland-supermarket,Groceries,🥫,Coalisland,https://www.facebook.com/springisland.supermarket/,Delivery ✅,groceries
+Sydney B Scotts,sydney-b-scotts,Groceries,🥫,Coleraine,https://www.facebook.com/sydneybscott/,Delivery ✅,groceries
+Indie Füde,indie-fude,Groceries,🥫,Comber,https://www.facebook.com/indiefude/,Delivery ✅,groceries
+The Farm Shop Comber,the-farm-shop-comber,Farming,🧺,Comber,https://www.facebook.com/thefarmshopcomber/,Delivery ✅,farm-shop
+Comber Pharmacy,comber-pharmacy,Pharmacy, 🚛,Comber,https://www.facebook.com/ComberPharmacy,Delivery ✅,pharmacy
+Glasswater Vegetables,glasswater-vegetables,Fruit and Veg,🥦,Crossgar,https://www.facebook.com/Gavinsveg/,Delivery ✅,fruit-and-veg
+Stonebridge Cottage Farm,stonebridge-cottage-farm,Farming,🧺,Crossgar,https://www.facebook.com/stonebridgecottagefarm/,Delivery ✅,farm-shop
+Casey's Spar Culloville,caseys-spar-culloville,Groceries,🥫,Crossmaglen,https://www.facebook.com/caseyssparculloville/,Delivery ✅,groceries
+Down Wholesale,down-wholesale,Fruit and Veg,🥦,Donaghadee,https://www.facebook.com/downwholesale/,Delivery ✅,fruit-and-veg
+Harvest Fayre,harvest-fayre,Fruit and Veg,🥦,Donaghadee,https://www.facebook.com/Harvestfayredonaghadee/,Delivery ✅,fruit-and-veg
+Donaghadee Dairies,donaghadee-dairies,Milk,🥛,Donaghadee,https://www.facebook.com/DONAGHADEEDAIRIES/,Delivery ✅,milk
+Connoisseur Vegetables,connoisseur-vegetables,Fruit and Veg,🥦,Downpatrick,https://www.facebook.com/Connoisseurvegetables/,Delivery ✅,fruit-and-veg
+Eastcoast Seafoods,eastcoast-seafoods,Fish, 🍣,Downpatrick,https://www.facebook.com/eastcoastseafoods/,Delivery ✅,fish
+Fodder NI,fodder-ni,Farming,🧺,Downpatrick,https://www.facebook.com/fodderni/,Delivery ✅,farm-shop
+Cordners Spar,cordners-spar,Groceries,🥫,Dundonald,https://www.facebook.com/pages/Cordners-Spar/1463163433931304,Delivery ✅,groceries
+Eurospar Dungiven,eurospar-dungiven,Groceries,🥫,Dungiven,https://www.facebook.com/eurospar.dungiven/,Delivery ✅,groceries
+Refill Quarter,refill-quarter,Groceries,🥫,Ballyhackamore,https://www.facebook.com/refillquarter/,Delivery ✅,groceries
+Newtown Coffee House,newtown-coffee-house,Groceries,🥫,Carryduff,https://www.facebook.com/newtoncoffeehouse/,Delivery ✅,groceries
+Kenny's Spar,kennys-spar,Groceries,🥫,Garvagh,https://www.facebook.com/kennysconveniencestores/,Delivery ✅,groceries
+McAtamney's Butchers,mcatamneys-butchers,Butchers, 🐮,Garvagh,https://www.facebook.com/McAtamneys/,Delivery ✅,butchers
+Maginn's Centra Gilford,maginns-centra-gilford,Groceries,🥫,Gilford,https://www.facebook.com/CentraGilford/,Delivery ✅,groceries
+Helen's Bay Organic,helens-bay-organic,Groceries,🥫,Helen's Bay,https://www.facebook.com/helensbayorganic/,Delivery ✅,groceries
+Azora Co-op,azora-co-op,Fruit and Veg,🥦,Hillsborough,https://www.facebook.com/azoracoop/,Delivery ✅,fruit-and-veg
+Carnreagh Cottage Farm,carnreagh-cottage-farm,Farming,🧺,Hillsborough,https://www.facebook.com/Carnreagh-Cottage-Farm-602099326666003/,Delivery ✅,farm-shop
+Alexander’s,alexander’s,Pre Made Meals,🍴,Holywood,https://www.facebook.com/Alexandersholywood/,Delivery ✅,pre-made-meals
+Camphill,camphill,Farming,🧺,Holywood,https://www.facebook.com/CamphillCommunityHolywood/,Delivery ✅,farm-shop
+Knotts Bakery,knotts-bakery,Bakery, 🍞,Holywood,https://www.facebook.com/knottsBakery,Delivery ✅,bakery
+Spar,spar,Groceries,🥫,Killyleagh,https://www.facebook.com/SPARKillyleagh/,Delivery ✅,groceries
+Marshall Howe,marshall-howe,Fruit and Veg,🥦,Limavady,https://www.facebook.com/marshallhowe.greengrocers,Delivery ✅,fruit-and-veg
+Ashvale Farming,ashvale-farm-shop,Farming,🧺,Lisburn,https://www.facebook.com/ashvalefarmshop/,Delivery ✅,farm-shop
+Kens Raw Jersey Cow Milk,kens-raw-jersey-cow-milk,Milk,🥛,Lisburn,https://www.facebook.com/kensmilk/,Delivery ✅,milk
+Knotts Bakery,knotts-bakery,Bakery, 🍞,Belfast,https://www.facebook.com/knottsBakery,Delivery ✅,bakery
+Moutray's Costcutter,moutrays-costcutter,Groceries,🥫,Lurgan,https://www.facebook.com/MoutraysCostcutterLurgan/,Delivery ✅,groceries
+Lurgan Costcutter,lurgan-costcutter,Groceries,🥫,Lurgan,https://www.facebook.com/MoutraysCostcutterLurgan/,Delivery ✅,groceries
+Dollingstown Costcutter,dollingstown-costcutter,Groceries,🥫,Lurgan,https://www.facebook.com/MoutraysCostcutterLurgan/,Delivery ✅,groceries
+Hendersons North Street,hendersons-north-street,Fruit and Veg,🥦,Lurgan,https://www.facebook.com/hendersons.northstreet/,Delivery ✅,fruit-and-veg
+Eurospar Lurgan,eurospar-lurgan,Groceries,🥫,Lurgan,https://www.facebook.com/SparLurgan/,Delivery ✅,groceries
+Bradleys Centra,bradleys-centra,Groceries,🥫,Maghera,https://www.facebook.com/bradleyscentra/,Delivery ✅,groceries
+McKee's Butchers ,mckees-butchers-,Butchers, 🐮,Maghera,https://www.facebook.com/mckeespies/,Delivery ✅,butchers
+Crawfords Maghera,crawfords-maghera,Groceries,🥫,Maghera,https://www.facebook.com/crawfords.maghera/,Delivery ✅,groceries
+Mourne Manor Organics,mourne-manor-organics,Fruit and Veg,🥦,Newcastle,https://www.facebook.com/mournemanororganics/,Delivery ✅,fruit-and-veg
+Pro-Performance Nutrition,pro-performance-nutrition,Pre Made Meals,🍴,Newry,https://www.facebook.com/propernut/,Delivery ✅,pre-made-meals
+Clives Country Corner,clives-country-corner,Fruit and Veg,🥦,Newtownards,https://www.facebook.com/clivesonline/,Delivery ✅,fruit-and-veg
+Knotts Bakery ,knotts-bakery,Bakery, 🍞,Newtownards,https://www.facebook.com/knottsBakery ,Delivery ✅,bakery
+Farm Next Door,farm-next-door,Farming,🧺,Northern Ireland,https://farmnextdoor.uk/,Delivery ✅,farm-shop
+Keenan Seafood,keenan-seafood,Fish, 🍣,Northern Ireland,https://www.facebook.com/keenanseafoods/,Delivery ✅,fish
+Mourne Seafood,mourne-seafood,Fish, 🍣,Northern Ireland,https://www.facebook.com/mourneFishbox/,Delivery ✅,fish
+Oh So Lean,oh-so-lean,Pre Made Meals,🍴,Northern Ireland,https://www.facebook.com/OhSoLean/,Delivery ✅,pre-made-meals
+Reubens Gourmet Meals,reubens-gourmet-meals,Pre Made Meals,🍴,Northern Ireland,https://www.facebook.com/Reubenshealthymeals/,Delivery ✅,pre-made-meals
+Railway Cottage Farming,railway-cottage-farm-shop,Farming,🧺,Omagh,https://www.facebook.com/railwaycottagefarmshop/,Delivery ✅,farm-shop
+The mini market,the-mini-market,Groceries,🥫,Eastside,https://www.facebook.com/Orangefield-Mini-Market-1375533009196789/,Delivery ✅,groceries
+Chapmans Farm Fresh,chapmans-farm-fresh,Farming,🧺,Portadown,https://www.facebook.com/Chapmans-Farm-Fresh-412124342265051/,Delivery ✅,farm-shop
+Karri Kitchen,karri-kitchen,Pre Made Meals,🍴,Portadown,https://www.facebook.com/karrikitchen/,Delivery ✅,pre-made-meals
+Rosemount Cottage Farm Meats,rosemount-cottage-farm-meats,Farming,🧺,Portadown,https://www.facebook.com/rosemountcottagefarmmeats/,Delivery ✅,farm-shop
+Weir's Organic Raw Milk,weirs-organic-raw-milk,Milk,🥛,Portadown,https://www.facebook.com/Weirs-Organic-Raw-Milk-422591707846805/,Delivery ✅,milk
+Rices,rices,Pre Made Meals,🍴,Poyntzpass,https://www.facebook.com/rices.poyntzpass/,Delivery ✅,pre-made-meals
+O'Malley's Farming,omalleys-farm-shop,Farming,🧺,Poyntzpass,https://www.facebook.com/omalleysfarmshop/,Delivery ✅,farm-shop
+Poyntzpass Pharmacy,poyntzpass-pharmacy,Pharmacy, 🚛,Poyntzpass,https://www.facebook.com/Poyntzpass-Pharmacy-126660150820450/,Delivery ✅,pharmacy
+Trainors Spar,trainors-spar,Groceries,🥫,Poyntzpass,https://www.facebook.com/SPARPoyntzpass/,Delivery ✅,groceries
+Fruitfield Foodhall,fruitfield-foodhall,Groceries,🥫,Richhill,https://www.facebook.com/fruitfieldfoodhall/,Delivery ✅,groceries
+Jacksons of Saintfield,jacksons-of-saintfield,Groceries,🥫,Saintfield,https://www.facebook.com/jacksonsofsaintfield/,Delivery ✅,groceries
+Weir's Organic Raw Milk ,weirs-organic-raw-milk ,Milk,🥛,Tandragee ,https://www.facebook.com/Weirs-Organic-Raw-Milk-422591707846805/,Delivery ✅,milk
+J.D. Hunter and Co Supermarket,j-d.-hunter-and-co-supermarket,Groceries,🥫,Armagh,https://www.facebook.com/hunterssupermarket/,Delivery ✅,groceries
+McAnerneys,mcanerneys,Groceries,🥫,Armagh,https://www.facebook.com/McAnerneys/,Delivery ✅,groceries
+Kearney Milk,kearney-milk,Milk,🥛,Armagh,https://www.facebook.com/Kearney-Milk-Delivery-103307577981911/,Delivery ✅,milk
+Mash Direct,mash-direct,Potatos,🥔,Northern Ireland,https://www.facebook.com/MashDirect/,Delivery ✅,potatos
+Krazi Baker,krazi-baker,Bakery,🍞,Northern Ireland,https://www.facebook.com/krazibaker/,Delivery ✅,bakery
+Established,established,Coffee,☕,Belfast,https://www.facebook.com/establishedcoffee/,Delivery ✅,coffee
+Amarc Catering,amarc-catering,Pre Made Meals,🍴,Belfast,https://www.facebook.com/AmarcCatering,Delivery ✅,pre-made-meals
+Jumon Belfast,jumon-belfast,Pre Made Meals,🍴,Belfast,https://www.facebook.com/jumonbelfast/,Delivery ✅,pre-made-meals
+The Vineyard Belfast,the-vineyard-belfast,Beer,🍺,Belfast,https://www.facebook.com/thevineyardbelfast/,Delivery ✅,Beer
+The Violet Rose Home Bakery,the-violet-rose-home-bakery,Bakery, 🍞,Belfast,https://facebook.com/TheVioletRoseHomeBakery/,Delivery ✅,bakery
+French Village,french-village,Bakery, 🍞,Belfast,https://www.facebook.com/frenchvillageBakery,Delivery ✅,bakery
+Zen,zen,Takeout,🥡,Belfast,https://www.facebook.com/zenbelfast,Delivery ✅,Takeout
+Yügo Belfast,yugo-belfast,Takeout,🥡,Belfast,https://www.facebook.com/Y%C3%BCgo-Belfast-1198161290243518,Delivery ✅,Takeout
+World Food Groups,world-food-groups,Groceries,🥫,Bangor,https://www.facebook.com/worldfoodsgroup/,Delivery ✅,groceries
+Wine With Stories,wine-with-stories,Wine,🍷,Belfast,https://www.facebook.com/Wineswithstories/,Delivery ✅,wine
+Whittens Fruit Shop,whittens-fruit-shop,Fruit and Veg,🥦,Belfast,https://www.facebook.com/whittensfruitshop/,Delivery ✅,fruit-and-veg
+Warke's Deli,warkes-deli,Groceries,🥫,Portstewart,https://www.facebook.com/warkesdeli/,Delivery ✅,groceries
+Walled City Brewery,walled-city-brewery,Beer,🍺,Derry,https://www.facebook.com/walledcitybrewery/,Delivery ✅,beer
+AJ Fresh Foods ,aj-fresh-foods-,Fruit and Veg,🥦,Newry,https://www.facebook.com/ajfreshfoods/,Delivery ✅,fruit-and-veg
+Alexander's,alexanders,Takeout,🥡,Holywood,https://www.facebook.com/Alexandersholywood/,Delivery ✅,Takeout
+Azora Coop,azora-coop,Fruit and Veg,🥦,Hillsborough,https://www.facebook.com/azoracoop/,Delivery ✅,fruit-and-veg
+DC Wines,dc-wines,Wine,🍷,Belfast,https://www.facebook.com/dcwinesboucher,Delivery ✅,wine
+Direct Wine,direct-wine,Wine,🍷,Belfast,https://www.facebook.com/directwineshipments/,Delivery ✅,wine
+Down Wholesale,down-wholesale,Fruit and Veg,🥦,Belfast,https://www.facebook.com/downwholesale/,Delivery ✅,fruit-and-veg
+Bullhouse Brewing Company,bullhouse-brewing-company,Beer,🍺,Belfast,https://www.facebook.com/bullhousebeer/,Delivery ✅,beer
+Boundary Brewing,boundary-brewing,Beer,🍺,Belfast,https://www.facebook.com/boundarybrewingcoop/,Delivery ✅,beer
+The Sipster,the-sipster,Beer,🍺,Belfast,https://thesipster.co.uk,Delivery ✅,beer
+Brewdog,brewdog,Beer,🍺,Northern Ireland,https://www.brewdog.com/uk/shop/fast-track-orders,Delivery ✅,beer
+Hatfield House,hatfield-house,Beer,🍺,Belfast,https://www.facebook.com/The.Hatfield.House,Delivery ✅,beer
+Pure Running,pure-running,Sports,🤼,Belfast,https://en-gb.facebook.com/purerunningshop/,Delivery ✅,sports

@@ -3,36 +3,61 @@ layout: default
 type: delivery
 ---
 
-
+<div class="jumbotron">
+<p class="px-2 pb-4 mb-2">Who is delivering in Northern Ireland?</p>
+<a class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#submissionForm" role="button">Add your business</a>
+</div>
  
-<div class="container-fluid p-0 m-0 pt-5" style="">
+<div class="container-fluid p-0 m-0" style="">
+{%include nav/cuisineSwitch.html %}	
 
-   <div class="row m-0 p-0">
-       <div class="col m-0 p-0 d-flex text-center align-items-center" style="height: 100vh;
-       background: linear-gradient(rgba(190, 34, 216, 0.23), rgba(125, 250, 250, 0.45)), url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
-       background-repeat: no-repeat; background-size: cover;">
-      
+
+
+<div class="col m-0 p-0 d-flex text-center align-items-center" style="height: 20vh background: linear-gradient(rgba(190, 34, 216, 0.23), rgba(125, 250, 250, 0.45)); background-repeat: no-repeat; background-size: cover;">
+
+<div class="home-category">
+   <a class="category" href="/bakery"><span> 🍞</span><span>Bakery</span></a>
+    <a class="category" href="/beer"><span>🍺</span><span>Beer</span></a>
+    <a class="category" href="/clothing"><span>👚</span><span>Clothing </span></a>
+    <a class="category" href="/coffee"><span>☕ </span><span>Coffee</span></a>
+    <a class="category" href="/farming"><span>🥔</span><span>Farming </span></a>
+    <a class="category" href="/fruit-and-veg"><span>🥦</span><span> Fruit and Veg </span></a>
+    <a class="category" href="/groceries"><span>🥫</span><span>Groceries</span></a>
+    <a class="category" href="/takeout"><span>🥡</span><span>Takeout</span></a>
+    <a class="category" href="/ppe"><span>😷</span><span>PPE</span></a>
+    <a class="category" href="/pharmacy"><span> 👩🏾‍⚕️</span><span>Pharmacy</span></a>
+    <a class="category" href="/resturants"><span>🍴</span><span>Resturants</span></a>
+    <a class="category" href="/sports"><span>🤼</span><span>Sports Equipment</span></a>
+    <a class="category" href="/sweets"><span>🍬</span><span> Sweets</span></a>
+    <a class="category" href="/vegan"><span>🥗 </span><span>Vegan </span></a>
+    <a class="category" href="/wine"><span>🍷 </span><span>Wine</span></a>
+</div>
 
        {%include servicelist/displayPosts.html %}
-      </div>
-     </div>
+</div>
+</div>
 
 
 </div>
 
 
-
-
-
-
-
-
-
-
 </div>
 
+{% if page.url != "/" %}
 
-   <!-- <span class="nav-item nav-link active px-0 mx-0 logoAreaText" href="/delivery">kudos for the data from by our Facebook friends  <a style="color: #fff;text-decoration: underline;" href="https://www.facebook.com/groups/WhoIsDeliveringNI/">WhoIsDeliveringNI</a></span>--> 
+
+
+<style>
+    div#serviceList {
+    background: #4b2e90 !important;
+        margin-top: 20px;
+}
+
+  </style>
+
+{% endif %}
+
+
 
 
 

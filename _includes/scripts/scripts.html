@@ -14,14 +14,6 @@
     crossorigin="anonymous"
   ></script>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-  crossorigin="" />
-<!-- Make sure you put this AFTER Leaflet's CSS -->
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-  crossorigin=""></script>
-
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161398717-1"></script>
@@ -33,24 +25,7 @@
   gtag('config', 'UA-161398717-1');
 </script>
 
-<!-- Map Box-->
-<script>
-  var mymap = L.map('mapid').setView([54.5, -6.94], 8);
-  var marker = L.marker([{{ page.Y }}, {{ page.X }}]).addTo(mymap);
-  marker.bindPopup("<b>{{ page.name }}</b> | <i>{{ page.cuisine }}</i> <br>{{ page.location }}")
-      .openPopup();
 
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-      maxZoom: 18,
-      id: 'mapbox/streets-v11',
-      tileSize: 512,
-      zoomOffset: -1,
-      accessToken: 'pk.eyJ1IjoidGhlc2hhd2UiLCJhIjoiY2s5NGc5aHIwMDUwZzNmb2JvajVhZnp5ciJ9.Luckw7X9TU9n99kMR7QUFw'
-
-
-  }).addTo(mymap);
-</script>
 
 
 <!-- Mailchimp -->
@@ -68,8 +43,65 @@
 </script>
 
 
+<script type="text/javascript">
+  
+$(document).ready(function(){
+  $("#displayPosts li:nth-child(n1)").css("background-color", "rgb(102 96 105)");
+  $("#displayPosts li:nth-child(2n)").css("background-color", "rgb(114 110 117))");
+  $("#displayPosts li:nth-child(3n)").css("background-color", "rgb(115 115 121)");
+  $("#displayPosts li:nth-child(4n)").css("background-color", "rgb(88 83 88)");
+  $("#displayPosts li:nth-child(5n)").css("background-color", "rgb(117 113 117)");
+  $("#displayPosts li:nth-child(6n)").css("background-color", "rgb(82 82 82)");
+});
+
+
+</script>
+
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
   AOS.init();
+</script>
+
+
+
+<script>
+
+function isvisible(obj) {
+  return obj.offsetWidth > 0 && obj.offsetHeight > 0;
+}
+var shuffle = function() {
+      elements = document.querySelectorAll('.randomize');
+      Array.prototype.forEach.call(elements, function(parentel, i){
+        var children = parentel.children;
+        children = Array.prototype.slice.call(children, 0);
+        children = Array.prototype.sort.call(children, function(a, b) {
+            return Math.random() - 0.5;
+        });
+        for(var i = 0, l = children.length; i < l; i++) parentel.append(children[i]);
+      });
+};
+shuffle();
+
+elements = document.querySelectorAll('.randomize');
+Array.prototype.forEach.call(elements, function(parentel, i){
+    children = parentel.children;
+    Array.prototype.forEach.call(children, function(el, j){
+        if(isvisible(el)) {
+            if(el.getAttribute('data-src')) el.setAttribute('src',el.getAttribute('data-src'));
+            if(el.querySelector('img')) {
+                Array.prototype.forEach.call(el.querySelectorAll('img'), function(imgel, j){
+                    imgel.setAttribute('src',imgel.getAttribute('data-src'));
+                });
+            }
+            if(el.querySelector('*')) {
+                Array.prototype.forEach.call(el.querySelectorAll('*'), function(subel, j){
+                    subel.setAttribute('style',imgel.getAttribute('data-style'));
+                });
+            }
+        }
+    });
+});
+
 </script>
