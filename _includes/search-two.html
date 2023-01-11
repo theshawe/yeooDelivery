@@ -1,4 +1,4 @@
-<form method="get" id="search-google" action="https://www.google.com/search" target="_blank"><input type="hidden" name="sitesearch" value="yeooo.delivery" /><input type="text" name="q" maxlength="255" value="" placeholder="Search yeooo.io" class="form-control" /></form>
+<form method="get" id="search-google" action="https://www.google.com/search" target="_blank"><input type="hidden" name="sitesearch" value="yeooo.delivery" /><input type="text" name="q" maxlength="255" value="" placeholder="" class="form-control" /></form>
 
 
 
@@ -6,6 +6,25 @@
 <style type="text/css">
 
 
+
+
+header {
+    display: flex;
+    height: 85px;
+    background: #037a76;
+    border-top: 5px solid #f44786;
+}
+
+header h1 {
+    width: auto;
+    height: 80px;
+    content: 'yeooo';
+    font-size: 50px;
+    line-height: 21px;
+    padding: 27px 2px 16px 18px;
+    padding-bottom: 0px;
+    margin: 0;
+}
 
 #search-google input {
     background: #fff url(https://img.icons8.com/material-outlined/24/000000/search--v1.png) no-repeat scroll 7px 7px;
@@ -22,15 +41,27 @@ a.nav-item.nav-link.cuisine.yeoooLogo.animate.yeoooAnimate {
 
 
 form#search-google {
-    position: absolute;
-    top: 0;
+    margin: 0;
+    border: 0;
     width: 100%;
-    padding: 25px;
+    padding-top: 24px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+nav.nav.nav-pills.nav-fill.lightNav {
+    max-width: 273px;
+    padding-top: 31px;
+    padding-right: 0px;
+    padding-left: 3px;
 }
 
-.jumbotron {
-    display: none;
+nav.nav.nav-pills.nav-fill.lightNav a {
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+    margin: 0;
+    text-transform: capitalize;
 }
+
 
 
 @media screen and (max-width: 600px) {
@@ -77,36 +108,29 @@ form#search-google {
     margin-top: -5px;
 }
 
-  html, body {
-	display: block;
 
-}
 
 .cuisine span {
-    font-size: 70px;
-    display: block;
-    line-height: 1em;
-    padding: 0.125em 0.135em;
+    font-size: 30px;
 }
 
 a.nav-item.nav-link.cuisine {
-    width: 95px;
-    height: 15vh;
-    margin: 9px 9px 0px 12px;
-    border-radius: 8px;
-    background: linear-gradient( 
-45deg, #fff3f7, #ffeff4, #efefef);
+    font-weight: 100;
+    text-transform: lowercase;
+    color: #fff;
+    letter-spacing: 0px;
+    text-shadow: none;
+    padding: 0px;
+    display: contents;
 }
 
 nav.nav.nav-pills.nav-fill {
-    background: linear-gradient( 
-45deg, #f5c9d9, #ff9abe, #ef98b7);
-    height: 60vh;
-    padding: 5px;
-    margin-left: -5px;
+    z-index: 100;
+    height: auto;
+    background: #4B2E90;
     width: 100%;
-    overflow: overlay;
-    margin-top: -25px;
+    bottom: 0px;
+    padding-top: 25px;
 }
 
 span.nav-text {
@@ -146,21 +170,15 @@ span.nav-text {
 
 {% if page.category == "cuisine" %}
 
-#search-google {
-  padding-left: 50px !important;
-    background: #ef98b7 url(https://img.icons8.com/ios-filled/50/000000/left.png) no-repeat scroll 11px 28px;
-    background-size: 31px;
-}
 
-  html, body {
-	padding-top: 20px;
 
-}
 
+/*
 .container-fluid.m-0.p-0 {
     margin-left: -20vh !important;
     width: 265vw !important;
 }
+
 
 ul.card-deck.p-0.m-0 {
     display: flex;
@@ -222,6 +240,6 @@ a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn {
 	    background: #fdfbfb;
 }
 
-
+*/
 {% endif %}
 </style>

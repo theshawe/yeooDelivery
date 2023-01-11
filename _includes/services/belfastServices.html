@@ -5,18 +5,16 @@
     <div class="card p-0 m-0 ">
     
         <div class="card-header">
-            <div style="display: flex; justify-content: space-between;">
-                <a style= class="nav-link " href="#">    <strong>📍 {{ service.location }}</strong></a>
-                <a class="nav-link " href="/services/{{ service.name | replace: " ", "-" }}"> <strong>{{ service.emoji }}</strong> </a>
+            <div class="{{ service.cuisine  }}">
+                <a class="nav-link " href="#">    <strong>{{ service.emoji  }} {{ service.location }}</strong></a>
+                <strong>{{ service.emoji }}</strong> </a>
             </div>
         </div>
         <div class="hovereffect {{ service.emoji }}" style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
         {{ service.emoji }}
         </div>
     
-    <div class="card-body">
-    <a style="" href="/services/{{ service.name | replace: " ", "-" }}"  class="btn btn-primary btn-lg active w-100 m-0 serviceNameTag" role="button" aria-pressed="true">{{ service.name }} </a>
-    </div>
+   
     
     <div class="card-footer text-muted">
     <div class="d-flex bd-highlight">
@@ -25,7 +23,7 @@
     
     
     <div class="d-flex bd-highlight">
-    <a  href="/services/{{ service.name | replace: " ", "-" }}" class="btn btn-primary btn-lg active w-100 moreinfo-btn " role="button" aria-pressed="true">More Info</a>
+    <a href="/services/{{ service.name | replace: " ", "-" }}" class="btn btn-primary btn-lg active w-100 moreinfo-btn " role="button" aria-pressed="true">{{ service.location }}</a>
     </div>
     
     

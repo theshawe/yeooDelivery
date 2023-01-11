@@ -6,9 +6,38 @@
 {% include scripts/scripts.html %}
 
 
-{% include search-two.html %}
+<header>
 
-<a class="nav-item nav-link cuisine yeoooLogo animate yeoooAnimate" href="{{ site.url }}"> <strong style="padding-left: 5px;padding-right: 5px;font-size: 0.5em;">🚚</strong> yeooo <i style="position: absolute; right: 25px; top: 16px; font-style: normal; letter-spacing: 1px; color: #fff; text-transform: lowercase;">{% include specfic/pageType.html%}</i></a>
+<h1><a href="{{ site.url }}/index.html">Yeooo</a></h1>
+
+<nav class="nav nav-pills nav-fill lightNav">
+    <a class="nav-item nav-link cuisine" href="/services">Services</a>
+    <a class="nav-item nav-link cuisine" href="/delivery">Delivery</a>
+    <a class="nav-item nav-link cuisine" href="/deals">Deals</a>
+    <a class="nav-item nav-link cuisine" href="/deals">Jobs</a>
+    </nav>    
+
+{% include search-two.html %}
+{%include nav/cuisineSwitch.html %}	
+
+</header>
+
+
+<div class="jumbotron">
+
+    {% if page.category == "cuisine" %}
+    <p class="px-2 pb-4 mb-2">Find a {{page.type}} service in Northern Ireland</p>
+
+    {% else %}
+    <p class="px-2 pb-4 mb-2">Who is delivering in Northern Ireland?</p>
+    <!--<a class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#submissionForm" role="button">Add your business</a>-->
+    {% endif %}
+    
+
+</div>
+
+
+<a class="nav-item nav-link cuisine yeoooLogo animate yeoooAnimate" href="{{ site.url }}/index.html"> <strong style="padding-left: 5px;padding-right: 5px;font-size: 0.5em;">🚚</strong> yeooo <i style="position: absolute; right: 25px; top: 16px; font-style: normal; letter-spacing: 1px; color: #fff; text-transform: lowercase;">{% include specfic/pageType.html%}</i></a>
 
 {% if page.category == "cuisine" %}
 <h1 class="display-4 headline"><strong style="font-style: italic;">Find a {{page.type}} service in Northern Ireland.</strong></h1>

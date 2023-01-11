@@ -4,17 +4,21 @@ body {
   font-weight: 400;
   font-style: normal;
   scroll-behavior: smooth;
-  background: rebeccapurple;
   color: #fff;
   animation: fade .5s;
   padding: 0;
   margin: 0;
-  /*background: #5e3c95; */
-
-  background: #ef98b7;
-  padding-top: 35px;
+  background: #249f9c;
+}
 
 
+header h1 a {
+  color: #fff;
+}
+
+header h1 a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 
@@ -58,12 +62,13 @@ h1.formName {
   font-size: 22px;
 }
 
-.nav {
-  background: linear-gradient(rgba(190, 34, 216, 0.23), rgba(125, 250, 250, 0.45)), url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+/*background: linear-gradient(rgba(190, 34, 216, 0.23), rgba(125, 250, 250, 0.45)), url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: linear-gradient(90deg, #ffcfd5c7 0%, rgba(243, 243, 243, 0.88) 35%, rgba(221, 132, 247, 0.46) 100%);
-  height: 120px;
+  */
+
+.nav {
   overflow: hidden;
 }
 
@@ -157,9 +162,6 @@ a.btn.btn-lg.active.w-100 {
   font-size: 40px;
 }
 
-.nav {
-  background: linear-gradient(90deg, #dae2eb 0%, rgba(243, 243, 243, 0.88) 35%, rgb(218, 226, 235) 100%);
-}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
@@ -280,7 +282,7 @@ background: #e1e9f3;
 
 footer {
     height: 420px;
-    background: #d8831b;
+    background: #f44786;
     padding: 2em;
     font-size: 22px;
 }
@@ -436,19 +438,14 @@ footer ul.social-icons li a {
   border: none;
 }
 
-.cuisine span {
-  font-size: 2em;
-  display: block;
-  line-height: 1em;
-  padding-top: 10px;
-  padding-bottom: 0px;
-}
+
 
 .collectionBtn {
   font-weight: 500 !important;
   letter-spacing: 1px !important;
 }
 
+/*
 
 .🥦 {
   background: #0c541c85;
@@ -509,6 +506,7 @@ footer ul.social-icons li a {
   background: #ffa5004d;
   animation: fade .5s;
 }
+*/
 
 .fruit-and-veg {
   background: #43d86485;
@@ -588,7 +586,7 @@ div#breadcrumbs {
   flex-direction: column;
   background: #dadadaa6;
   overflow: hidden;
-  border-radius: 1px 2px;
+  border-radius: 10px;
 }
 
 
@@ -654,16 +652,21 @@ a.nav-item.nav-link.cuisine.yeoooLogo strong {
 /* Page Design */
 
 .orderBtn {
-    background: #d4263c;
-    color: #fff;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: 1.5em;
-    width: auto;
-    font-size: 2em;
-    box-shadow: 8px 8px 12px #06190333;
-    padding: .35em 2em;
+  background: #ed1b76;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1em;
+  width: auto;
+  font-size: 1.5em;
+  box-shadow: 8px 8px 12px #06190333;
+  padding: 0.35em 2em;
+}
+
+.orderBtn:hover {
+  background: #f34786;
+  color: #fff !important;
 }
 
 /* Footer */
@@ -711,6 +714,19 @@ a.btn.btn-lg.active.w-100 {
 }
 */
 
+.Groceries {
+  display: flex;
+}
+
+a.serviceNameTag {
+  position: absolute;
+  right: 20px;
+}
+
+.Groceries a {
+  color: #047a75;
+}
+
 /* Submission Form */
 #submissionForm .modal-content {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
@@ -755,10 +771,10 @@ a.nav-item.nav-link.cuisine.yeoooLogo {
 
 nav.nav.nav-pills.nav-fill {
   z-index: 100;
-  height: 100px;
-  background: #4B2E90;
+  height: auto;
   width: 100%;
   bottom: 0px;
+  padding-top: 25px;
 }
 
 
@@ -771,7 +787,7 @@ div#related {
 
 
 
-card-body {
+.card-body {
     flex: 1 1 auto;
     min-height: 150px;
     display: flex;
@@ -791,16 +807,14 @@ height: 100vh;
 }
 
 div#serviceList {
-    /* background: #4b2e90; */
-    background: #ef98b7;
-        margin-top: 20px;
+  background: #047a75;
 }
 
 
 
 
 .jumbotron {
-  background: #ef98b7;
+  background: #f44786;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -831,7 +845,6 @@ div#serviceList {
     width: 420px;
     margin: 0 auto;
     border: none;
-    background: #4b2e90;
 }
 
 
@@ -887,14 +900,32 @@ ul.card-deck.p-0.m-0 {
 a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn, .btn-group-lg > a.btn.btn-primary.active.w-100.moreinfo-btn {
   text-transform: uppercase;
   font-size: 1em;
-  background: #d4263c;
+  background: #047a74;
   border: none;
   color: #ffffff;
   font-weight: 900;
-  box-shadow: 8px 8px 12px #06190333;
-  padding: 1em 2em;
+  padding: 1em;
+  border-radius: 0px;
+  margin: 0 !important;
   }
 
+
+  .moreinfo-btn {
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.serviceTab span {
+  position: absolute;
+  right: 0px;
+  font-size: 50px;
+  background: #047a74;
+  padding-top: 17px;
+  top: 0px;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 14px;
+}
 
 ul#displayPosts li a {
     width: 100%;
@@ -954,12 +985,7 @@ nav a strong {
     display: none;
 }
 
-.cuisine span {
-    font-size: 1.6em;
-    display: block;
-    line-height: 1em;
-    padding: 0.125em 0.135em;
-}
+
 
 nav.nav.nav-pills.nav-fill {
     background: #403746;
@@ -1151,6 +1177,15 @@ footer {
     background: transparent;
   }
 
+  .card-deck .card {
+    display: flex;
+    flex: 1 0 0%;
+    flex-direction: column;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    border-radius: 0px;
+}
 
 
 }
@@ -1163,9 +1198,7 @@ li.list-group-item.border-0.p-0.m-2 {
     border-radius: 10px;
 }
 
-.cuisine span {
-    font-size: 70px;
-}
+
 
 .nav-text {
   display: none !important;
@@ -1178,7 +1211,7 @@ li.list-group-item.border-0.p-0.m-2 {
 
 
 #related .list-group-item {
-    width: 25%;
+    width: 21%;
 }
 
 
