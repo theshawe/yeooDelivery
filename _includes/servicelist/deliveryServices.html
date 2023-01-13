@@ -1,42 +1,44 @@
-<ul class="card-deck randomize vertical-center p-0 m-0">
+<div class="randomize p-0 m-0">
     {% for service in site.data.deliveryServices %}
     {% if service.cuisine contains "🥫" %}
-    <li data-aos="zoom-up" data-aos-delay="50" class="list-group-item border-0 p-0 m-0 mb3">
-        <div class="card p-0 m-0">
-
-            <div class="card-header">
-                <div style="display: flex; justify-content: space-between;">
-                    <a class="nav-link " href="#"> <strong>{{ service.emoji }} {{ service.location  }}</strong></a>
-                   
-                 
-                </div>
-            </div>
-            <div class="hovereffect {{ service.emoji }}"
-                style="height: 200px; line-height: 200px; font-size: 111px; background-image: url({{ service.mainPicture}});">
+    <div data-aos="zoom-up" data-aos-delay="50" class=" border-0 p-0 m-0 mb3">
+      
+    
        <a href="/services/{{ service.name | replace: " ", "-" }}"
                         class="btn btn-primary btn-lg active w-100 m-0 serviceNameTag" role="button"
                         aria-pressed="true">{{ service.name }} </a>
-            </div> 
-
-           
-
-            <div class="card-footer text-muted">
 
 
+           <style>
 
-                <div class="d-flex bd-highlight">
-                    <a href="/services/{{ service.name | replace: " ", "-" }}"
-                        class="btn btn-primary btn-lg active w-100 moreinfo-btn " role="button"
-                        aria-pressed="true">More</a>
-                </div>
+#serviceList {
+    background: #249f9c !important;
+    margin-top: 20px;
+}
+.border-0.p-0.m-0.mb3.aos-init.aos-animate {
+    padding: 15px !important;
+}
+            a.serviceNameTag {
+    position: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+a.btn.btn-primary.btn-lg.active.w-100.m-0.serviceNameTag {
+    padding: 15px 0px;
+    line-height: 52px;
+    text-transform: uppercase;
+    border: 2px solid #249f9c;
+    border-radius: 0px;
+    background: #e7447f;
+    color: #fff;
+}
+           </style>
 
 
-            </div>
 
-        </div>
-    </li>
+    </div>
     {% elsif service.delivery  contains "📮" %}
     <!-- none -->
     {% endif %}
     {% endfor %}
-</ul>
+</div>
