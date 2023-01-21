@@ -1,7 +1,7 @@
-<ul id="displayPosts" class="card-deck randomize p-0 m-0">
+<ul id="displayPosts" class="card-deck randomize p-0 m-0 slider-container">
 
 {% for service in site.data.deliveryServices %}
-<li class="list-group-item border-0 p-0 m-2">
+<li class="list-group-item border-0 p-0 m-2 slide slider ">
 <a class="{{ service.cuisine | downcase |  replace: " ", "-" }}"  href="/services/{{ service.name |  replace: " ", "-" }} " >
 {{ service.name }}
 </a>
@@ -10,3 +10,24 @@
 
 
 </ul>
+
+
+<script>
+
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+    
+    
+    </script>

@@ -77,6 +77,7 @@ h1.formName {
 }
 
 
+
 a.nav-item.nav-link.cuisine {
     font-weight: 100;
     text-transform: lowercase;
@@ -181,7 +182,7 @@ a.nav-item.nav-link {
 a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn {
   text-transform: uppercase;
   font-size: 1em;
-  background: #aae8a961;
+  background: #f1b5cc;
   border: none;
   box-shadow: none;
   color: #070621;
@@ -273,6 +274,7 @@ background: #e1e9f3;
 .bg-footer {
   bottom: 0;
   background-color: #d8e3e4 !important;
+  margin-top: 210px;
 }
 
 
@@ -781,10 +783,6 @@ nav.nav.nav-pills.nav-fill {
 
 
 
-div#related {
-    min-height: 100vh;
-}
-
 
 
 .card-body {
@@ -883,6 +881,7 @@ ul.card-deck.p-0.m-0 {
   flex-direction: inherit;
   width: 100%;
   overflow: overlay;
+  margin-top: -22px !important;
 }
 
 
@@ -900,7 +899,7 @@ ul.card-deck.p-0.m-0 {
 a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn, .btn-group-lg > a.btn.btn-primary.active.w-100.moreinfo-btn {
   text-transform: uppercase;
   font-size: 1em;
-  background: #047a74;
+  background: #edb1c8;
   border: none;
   color: #ffffff;
   font-weight: 900;
@@ -919,13 +918,15 @@ a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn, .btn-group-lg > a.btn.btn-pr
   position: absolute;
   right: 0px;
   font-size: 50px;
-  background: #047a74;
-  padding-top: 17px;
+  background: #f4b6ce;
+  padding-top: 44px;
   top: 0px;
   height: 100%;
   padding-left: 15px;
   padding-right: 14px;
 }
+
+/*
 
 ul#displayPosts li a {
     width: 100%;
@@ -942,8 +943,10 @@ ul#displayPosts li a {
     border-radius: 10px;
     overflow:hidden;
 }
+*/
 
 @media screen and (max-width: 600px) {
+
 
 .mc-banner {
     display: none !important;
@@ -955,18 +958,18 @@ a.btn.btn-primary.btn-lg {
 }
 
 .jumbotron p {
-    font-size: 25px;
-    line-height: 23px;
-    padding: 35px ​20px;
+  font-size: 34px;
+  line-height: 31px;
 }
 
+/*
 
 ul#displayPosts {
     margin-bottom: 4px !important;
     margin-top: 4px !important;
         height: 222px;
 }
-
+*/
 
 .nav-item h2 {
     font-size: 16px;
@@ -975,11 +978,13 @@ ul#displayPosts {
     letter-spacing: 0px;
 }
 
+/*
 ul#displayPosts li a {
     width: 222px !important;
     height: 193px !important;
      overflow:hidden;
 }
+*/
 
 nav a strong {
     display: none;
@@ -994,10 +999,9 @@ nav.nav.nav-pills.nav-fill {
 
 
 footer {
-    padding: 35px 0px;
-    background: linear-gradient(
-226deg
-, #d78a16, #ff7b30, #ff7950, #ffc317);
+  padding: 35px 0px;
+  background: linear-gradient(226deg, #d78a16, #ff7b30, #ff7950, #ffc317);
+  margin-top: 202px !important;
 }
 
 
@@ -1194,8 +1198,10 @@ footer {
 
 
 li.list-group-item.border-0.p-0.m-2 {
-    width: 333px;
-    border-radius: 10px;
+  border-radius: 0px;
+  position: absolute;
+  line-height: 26vh;
+  width: 100%;
 }
 
 
@@ -1205,6 +1211,7 @@ li.list-group-item.border-0.p-0.m-2 {
 }
 
 
+
 #servicelist .list-group-item {
     width: 50% !important;
 }
@@ -1212,3 +1219,19 @@ li.list-group-item.border-0.p-0.m-2 {
 
 
 
+
+
+a.btn.btn-primary.btn-lg.active.w-100.moreinfo-btn {
+  background: #edb1c8 !important; 
+}
+
+
+#displayPosts li a {
+  height: 100px;
+  display: inline-table;
+  width: 100%;
+}
+
+li.list-group-item.border-0.p-0.m-2.slide.slider {
+  background: transparent !important;
+}

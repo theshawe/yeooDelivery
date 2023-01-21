@@ -1,31 +1,10 @@
+
+
 <ul class="card-deck p-0 m-0 p-0 randomize">
     {% for service in site.data.deliveryServices %}
     {% if service.cuisine contains "Groceries" %}
      <li class="list-group-item border-0">
-    <div class="card p-0 m-0 ">
-    
-        <div class="card-header">
-            <div class="serviceTab {{ service.location  }}">
-                <a class="nav-link " href="/services/{{ service.name | replace: " ", "-" }}" role="button" aria-pressed="true">  <span>{{ service.emoji  }}</span> <strong class="serviceNameTag" >{{ service.name }}</strong></a>
-            </div>
-        </div>
-    
-   
-    
-    <div class="card-footer text-muted">
-    <div class="d-flex bd-highlight">
-    <!-- <a style="" href="/services/{{ service.name | replace: " ", "-" }}" class="btn btn-primary btn-lg active w-100 deliveryTag" role="button" aria-pressed="true">{{ service.delivery }}</a> -->
-    </div>
-    
-    
-    <div class="d-flex bd-highlight">
-    <a href="/services/{{ service.name | replace: " ", "-" }}" class="btn btn-primary btn-lg active w-100 moreinfo-btn " role="button" aria-pressed="true">{{ service.location }}</a>
-    </div>
-    
-    
-    </div>
-    
-    </div>
+<a class="nav-link " href="/services/{{ service.name | replace: " ", "-" }}" role="button" aria-pressed="true">  <strong class="serviceNameTag" >{{ service.name }}</strong></a>
     </li>
     {% endif %}
     {% endfor %}
